@@ -1,0 +1,1124 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Air WordPress Theme Documentation</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="SeaTheme">
+	<meta name="copyright" content="SeaTheme"> 
+	<meta property="og:title" content="Air WordPress Theme Documentation" />
+    <meta property="og:description" content="Air WordPress Theme Documentation, SeaTheme" />
+    <meta property="og:url" content="https://doc.seatheme.net/static/air/" />
+    <meta property="og:site_name" content="Air WordPress Theme Documentation" />
+    <meta property="og:image" content="https://html5.seatheme.net/air/entry/01-cover.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+    <link rel="stylesheet" href="assets/lightbox/themes/default/jquery.lightbox.css" media="screen"> 
+	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+	
+	<style>
+		html{background-color:#fff;color:#666;}
+        img{max-width: 100%;}
+        h1,h2,h3,h4,h5,h6{ color:#28282e;}
+        ::-moz-selection{background:#204E5E;color:#ccc;}
+        ::selection{background:#204E5E;color:#ccc;}
+        .btn {color:#666; border-color:#ddd; }
+        hr{border-top:1px solid #111111;border-bottom:1px solid #313139;}
+        #documenter_sidebar, #documenter_sidebar ul a{ background-color:#313139;color: }
+        #documenter_sidebar ul{ }
+        #documenter_sidebar ul a{ font-weight:300; border-bottom:1px solid #313139; border-top:none; color:#ccc;}
+        #documenter_sidebar ul a:hover,
+        #documenter_sidebar ul li.active > a , a, a:hover, a:focus, a:active { color:#ea735f; }
+        #documenter_copyright{display:block !important;visibility:visible !important; color:#ccc;}
+        .red { color: #ff8571; }
+        .right,.right a{ margin-top:0; font-size:10px; color:#666; }
+        #documenter_content section{ font-size:14px; font-weight: 300;}
+        .ima-wrap { 
+            position: relative; display: inline-block; 
+            -webkit-transform: opacity .5s;
+            -moz-transform: opacity .5s;
+            transform: opacity .5s;
+        }
+        .lightbox { display: block; width: 100%; height: 100%; }
+        .lightbox:before { content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.3); opacity: 0; }
+        .lightbox:hover:before{ opacity: 1; } 
+        #documenter_content {padding-bottom: 1200px;}
+        #documenter_cover {height: 1200px;}
+        .image-border {border: 1px solid #eee; }
+        ul,ol { padding-left: 0; }
+        ol li { list-style:none;}
+        a { text-decoration: none;}
+        #documenter_content ul li { list-style: square; margin-left: 36px; }
+        .prettyprint { white-space: inherit; }
+        blockquote {border: 1px solid #999; padding: 20px 40px;  background: #f0f0f0;line-height: 2; margin: 4px;  border-radius: 2px; font-size: 17px;}
+        pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 20px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+#documenter_sidebar #documenter_logo { display: none; position: relative; z-index: 9; width: 40px; height: 40px; background-size: contain; margin-top: 10px; border-radius: 50%; }
+.nav-icon { display: none; }
+@media(max-width: 767px) {
+    #documenter_sidebar { width: auto; height: 60px; left: 0; right: 0; }
+    #documenter_content { margin-left: 0; padding-right: 0; }
+    #documenter_sidebar #documenter_logo { display: block; margin-left: 10px; background-image: url(assets/logo.png); }
+    #documenter_copyright { display: none!important; }
+    #documenter_cover { height: auto; min-height: 80vh; }
+    #documenter_cover h1 { margin-top: 10px; text-align: center; }
+    .notice { margin-top: 120px; text-align: center; }
+    #documenter_buttons { position: static; margin: 20px 0 80px; text-align: center; }
+    #documenter_sidebar ul { width: 100%; min-height: 0; top: 0; transform: translateY(-56px); -webkit-transform: translateY(-56px); background-color: #313139; }
+    .nav-icon { display: block; height:50px; margin-right: 5px; background-position: 100% 50%; background-repeat: no-repeat; background-size:30px; background-image: url(assets/menu.png); }
+    .navbar .nav > li { display: none; }
+    .nav-icon.show ~ li { display: block; }
+    #documenter_sidebar ul a { padding-right: 10px; }
+    #documenter_content ul li,
+    #documenter_content ol li { margin-left: 20px!important; }
+    #documenter_content p { margin-left: 10px!important; padding-left: 0!important; }
+    blockquote {padding: 10px;}
+    iframe { height: 56vw; } 
+}
+	</style>
+	
+</head>
+<body data-spy="scroll" data-target="#documenter_sidebar" id="top">
+    <div id="documenter_sidebar" class="navbar" >
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="nav" class="nav">
+            <span id="navi-icon" class="nav-icon"></span>
+			<li><a class="current" href="#documenter_cover">Start up</a></li>
+			<li><a href="#installation">Installation</a></li>	
+			<li><a href="#setting_up" title="Setting Up">Setting Up</a></li>
+            <li><a href="#theme_options" title="Theme Options">Theme Options</a></li>
+			<li><a href="#posts" title="Posts">Posts</a></li>
+			<li><a href="#pages" title="Pages">Pages</a></li>
+            <li><a href="#bmslider" title="Pages">BM Slider</a></li>
+			<li><a href="#page_builder" title="Page Builder">Work With Page Builder</a></li>
+			<li><a href="#short_code" title="Short Code">Short Code</a></li>
+			<li><a href="#Translation" title="Translation">Translation</a></li>
+            <li><a href="#optimization" title="Speed Optimization">Speed Optimization</a></li>
+            <li><a href="#included_files" title="Included Files: js css">Included Files</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright <a href="https://seatheme.net" title="SeaTheme">SeaTheme</a> <p class="right">
+		made with the <a href="http://rxa.li/documenter" target="_blank" rel="noopener noreferrer nofollow">Documenter v2.0</a></p>
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+
+        <p style="color:red" class="notice">Important Notice:  <br>WordPress 5.0.x UPDATE (<a href="#wordpress5" style="color:red; text-decoration: underline;">learn more</a>)
+</p>
+	<h1>Air WordPress Theme Documentation</h1>
+	
+	<div id="documenter_buttons">
+		<a href="https://seatheme.net/forums" class="btn btn-primary btn-large">Support Forum</a> <a href="https://seatheme.net/portfolio-wordpress-theme-air/" class="btn btn-large">Explore Air</a> 
+	</div>
+	<hr>
+	<ul style="color:#999;">
+	<li>Created: 10/01/2016</li>
+	<li>Latest Update: 4/14/2020</li>
+	<li>By: SeaTheme - seatheme.net</li> 
+	
+	</ul>
+	<p>Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to publish your question <a href="https://seatheme.net/forums">here</a>. <br>Thanks so much!</p>
+
+    <p>To help us with theme FREE updates with new features please take 1 min to leave stars rating for this theme on ThemeForest if you like it, we'll appreciate it:
+    </p>
+    <ol>
+        <li>Please go to <a rel="nofollow" href="https://1.envato.market/zBWmW" title="ThemeForest">Themeforest</a> login and navigate to your account.</li>
+        <li>Click <strong>Downloads</strong> link and you will see your purchases list: <br><br>
+            <img src="assets/tf-download.jpg" width="200" alt="Themeforest"><br><br>
+        </li>
+
+        <li>Click stars around our theme to leave stars rating: <br><br>
+            <img src="assets/rating.jpg" width="500" alt="Rating"><br><br>
+        </li>
+        <li><strong>Thanks!</strong> This little thing will help us to release new theme updates!</li>
+        <li>If you don't like something in our theme or have some problems. Please <a href="mailto:uiueux@gmail.com" title="contact">contact us</a> and we will fix your issue and will help you! We are always welcome for your advices how to improve our theme.</li>
+    </ol>
+
+    <p><br><br><br></p>
+
+
+    <div id="quick_links">
+      <!--<h3>Quick Links</h3><hr class="notop">-->
+      <div class="quick_links_container">
+        <h3>Quick Link and FAQs:</h3>
+
+         
+        <ul>
+            
+            <li><a href="https://seatheme.net/forums/topic/how-to-find-purchase-code-on-themeforest/" target="_blank" rel="noopener noreferrer">How to find purchase code on Themeforest?</a></li>
+            <li><a href="#installation">Install The Theme</a></li>
+            <li><a href="https://seatheme.net/forums/topic/cant-import-demo/#post-12345" target="_blank" rel="noopener noreferrer">Import Demo Data</a></li>
+            <li><a href="https://seatheme.net/forums/topic/how-to-update-air-wordpress-theme-and-bm-pagebuilder-plugin/" target="_blank" rel="noopener noreferrer">How to update Air theme and BM Pagebuilder plugin</a></li>
+            <li><a href="#frontpage">How do I set up the homepage</a></li>
+            <li><a href="#logo">Upload my logo image</a></li>
+            <li><a href="#pages">How to build a portfolio page?</a></li>
+            <li><a href="#gallery-post">How to create a project item?</a></li>
+            <li><a href="https://seatheme.net/forums/topic/air-wordpress-theme-faqs/#post-15240" target="_blank" rel="noopener noreferrer">The MUST-READ for Portfolio, Category and Filter…</a></li>
+
+            <li><a href="https://seatheme.net/forums/topic/air-wordpress-theme-faqs/#post-14837" target="_blank" rel="noopener noreferrer">More FAQs</a></li>
+        </ul>
+      </div>
+    </div>
+
+        <p><br></p>
+
+
+	</section>
+
+    
+	
+	<section id="installation">
+	<h3>Installation</h3><hr class="notop">
+
+<p> To use a WordPress theme you must have a working version of WordPress already installed. For information in regard to installing the WordPress platform, please refer to the WordPress Codex <a rel="nofollow" href="http://codex.wordpress.org/Installing%20WordPress">here</a></p>
+
+<p>Video Guide: <i>coming soon...</i></p>
+    
+		
+<ol>
+    <li><strong>Extract the package file</strong></li>
+    
+    <p style="margin-left:35px;">After extract the main zip file, you'll see these folders and files:</p>
+        <ul style="margin-left:35px;">
+            <li><strong>air-theme folder</strong> - Air theme folder</li>
+		    <li><strong>air-theme.zip</strong> - Air themem installable file</li>
+            <li><strong>Documentation folder</strong> - help file</li>
+            <li><strong>air-child.zip</strong> - Child theme installable file</li>
+            <li><strong>plugins folder</strong> - The plugins installable file</li>
+            <li><strong>Log folder</strong></li>
+	    </ul>
+
+    <li><strong>Install theme file</strong></li>
+    <p style="margin-left:35px;">This template works well for WordPress 4.5.x - 5.0.x, update yours if needed.
+<br>
+Installing the theme can be done in 3 ways. You can upload the theme ZIP file using the built in WordPress theme upload, or copy the files through an FTP client.</p>
+        <ul style="margin-left:35px;">
+            <li><span class="bold_text"><strong>Using the Envato WordPress Toolkit plugin</strong>:</span> 
+                Please <a rel="nofollow" href="http://premium.wpmudev.org/blog/how-to-update-themeforest-themes-with-the-envato-wordpress-toolkit/">refer this post</a>. <br>
+                Note: How to get the API Key of themeforest(new version)? <a href="http://seatheme.net/forums/topic/how-to-get-the-apikey-of-themeforet-net/">Refer this post</a>. <p></p>
+            </li>
+            <li><strong>Using WordPress Theme Upload: </strong> <br><span class="red">Be sure to extract the file "air-theme.zip" from the ThemeForest download before uploading. Using the ThemeForest ZIP file directly will result in a "Missing Style Sheet" error.</span>
+				<ul>
+					<li>Login to your WordPress admin.</li>
+					<li>In the "Appearance > Themes" menu click the tab "Install Themes".</li>
+					<li>At the top of the page click, "Upload", then click the file input to select a file.</li>
+                    <li>Select the zipped theme file, "air-theme.zip", and click "Install Now".</li>
+					<li>After installation you will receive a success message confirming your new install.</li>
+					<li>Click the link "Activate".</li>
+				</ul>
+            </li>
+		    <li><strong>Using FTP: </strong>
+				<ul>
+					<li>Login to your FTP server and navigate to your WordPress themes directory. </li>
+					<li>Normally this would be "wp-content/themes".</li>
+					<li>Extract folder "air-theme" from the zipped theme.</li>
+                    <li>Copy the folder "air-theme" to your themes directory.</li>
+					<li>After the files finish uploading, login to your WordPress admin.</li>
+					<li>In the "Appearance" menu click "Themes".</li>
+                    <li>Click "Activate" for the theme "Air Lightweight Portfolio WordPress Theme".</li>
+				</ul>
+            </li>
+	    </ul>
+
+    <li id="plugin"><strong>Plugins Installation</strong>
+
+        <p style="margin-left:20px;">After activating the theme, you would notice the message box on the top of admin  pages to ask you install/activate some plugins, you could use them for free or cancel the messages. Include: BM Pagebuilder, BM Shortcodes, Contact Form 7 ... </p>
+        <p style="margin-left:20px;"><img src="assets/plugins.png" width="600" alt="plugins"></p>
+        <ul>
+            <li>Click Begin installing plugins in this message.</li>
+
+            <li>You could check all <strong>required</strong> plugins, if you don't use Twitter/Contacct Form module, you could not insltall Contact Form 7 and Rotating Tweets: <br><br>
+            <img src="assets/plugin-install.jpg" width="200" alt="Plugins" /><br><br>
+            </li>
+        </ul>
+        Note: Please <strong>install/activate the BM Pagebuilder plugin</strong> before import demo data.<br>
+        
+        <p><br></p>
+
+    </li>
+
+    <li><strong>Import Demo Data</strong>
+        <ul>
+            <li>Go to Appearance > Theme Options > Import Demo Data, click "Import Demo Data". After importing data, you'll find the images of demo data are placeholder, you could replace them as yours later. <br><br>
+                <img src="assets/import-demo.jpg" width="400" alt="Import Demo Data" /><br><br>
+            </li>
+
+            <li id="woocommerce-demo">For WooCommerce demo data, please install the "Product Import Export for WooCommerce" plugin(get it <a rel="nofollow" href="https://wordpress.org/plugins/product-import-export-for-woo/" title="Product Import Export for WooCommerce">here</a>), go to WooCommerce > Product Im-Ex, click "Import Projucts". Choose the "woocommerce-product.csv"(get it <a href="https://seatheme.net/documentation/air/assets/woocommerce-product.csv" title="Air Theme WooCommerce Demo File">here</a>).<br><br>
+            </li>
+
+            <li>When you finish the demo data importing, please enter the Google Key update the google font data(Appearance > Theme Options > Font Settings), check the <a href="https://seatheme.net/forums/topic/update-to-new-google-font-data-fails/#post-20760" title="How to enter the Google Key update the google font data">step by step tutorials</a>. 
+                <br><br>
+                <img src="assets/fonts-update.jpg" width="400" alt="Google Font Key" /><br><br>
+            </li>
+
+        </ul>
+    </li>
+
+    <li><strong>Video tutorial</strong>
+    <p style="margin-left:20px;"><iframe width="640" height="394" src="https://www.youtube.com/embed/U4PV2Ivc2yM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    <section style="margin-top:0; margin-left:20px; ">
+        <h6 style="font-size:1em; color:#666;">Video Content</h6>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=U4PV2Ivc2yM&t=1s" target="_blank" rel="noopener noreferrer nofollow">00:01</a> - Download from the https://themeforest.net/downloads</li>
+        <li><a href="https://www.youtube.com/watch?v=U4PV2Ivc2yM&t=14s" target="_blank" rel="noopener noreferrer nofollow">00:14</a> - Find and upload the installable file "air-theme.zip"</li>
+        <li><a href="https://www.youtube.com/watch?v=U4PV2Ivc2yM&t=65s" target="_blank" rel="noopener noreferrer nofollow">01:05</a> - Install and activate the required plugin</li>
+        <li><a href="https://www.youtube.com/watch?v=U4PV2Ivc2yM&t=69s" target="_blank" rel="noopener noreferrer nofollow">01:09</a> - Import the demo data</li>
+        <li><a href="https://www.youtube.com/watch?v=U4PV2Ivc2yM&t=96s" target="_blank" rel="noopener noreferrer nofollow">01:36</a> - Replace the placeholder(gray boxes)</li>
+    </ul>
+</section>
+    </li>
+
+     
+</ol>
+</section>
+	
+    
+    
+<section id="setting_up">
+	<div class="page-header"><h3>Setting Up</h3><hr class="notop"></div>
+	
+ 
+	
+	<h4 id="logo">1. Logo</h4>
+	<p style="margin-left:20px;">To set up logo for your website, you need to:
+        <ol>
+            <li>Go to the WordPress Admin Dashboard.</li>
+            <li>Go to "Appearance > Theme Options" (on left sidebar).</li>
+            <li>Go to <strong>Theme Options > General Settings > Logo</strong> section, here you could upload a logo image or input logo text.</li>
+        </ol>
+    </p>
+    <p style="margin-left:20px;">The recommended logo image size is less than 240px(width) * 120px(hight) in on header, this is the container size. If you want the logo be displayed clearly on retina screens, you need to upload a double size image logo(e.g. 480px x 320px). 
+    <p><br></p>
+
+    
+    <h4>2. Skin</h4>
+    <p style="margin-left:20px;">The predefined colour scheme for your website, please go to <strong>ThemeOptions > Schemes</strong></p>
+    <p style="margin-left:20px;"><img width="300" class="image-border" src="assets/color_scheme.png" ></p>
+    <p style="margin-left:20px;">There are many detail colour setting options for every scheme, you could define your own style base on the given scheme setting. Click on the small icon "?" on the right side description for every item to learn detail explanation for the option.</p>
+    <p><br></p>
+    
+    <h4 id="frontpage">3. Frontpage</h4>
+	<p style="margin-left:20px;">To set up the homepage, you need to create a page which you want to use it as homepage, after that, go to <strong>Settings > Reading </strong>, <strong>activate A static page (select below) </strong>, select the page from <strong>Front page:</strong> drop-down menu.</p>
+    <p style="margin-left:20px;"><img src="assets/frontpage.png" width="400" alt="set frontpage"></p>
+    <p><br></p>
+
+    <h4>4. Generate New Thumbs for This Theme</h4>
+    <p style="margin-left:20px;">If there have been some images in your site already, please click the button. It will generate the right size thumbs for the images.</p>
+    <p style="margin-left:20px;"><img src="assets/thumbnails-crop.jpg" ></p> 
+    
+    <h4 id="menu">5. Menu</h4>
+	<p style="margin-left:20px;">Before building your custom menu, you need to create your pages first, then navigate to <strong>Appearance > Menus</strong>, it is recommended to create you menu from Pages or Links.</p>
+
+    <h4 id="frontpage">6. Theme Custom</h4>
+    <p style="margin-left:20px;">If you want to change style of theme, please go to <strong>ThemeOptions > General Settings</strong>, put your css code to Cutom Css box. <br>
+    You could also use Child theme also, put the cutom css to custom.css file. Refer more about <a rel="nofollow" href="https://codex.wordpress.org/Child_Themes" title="CHild theme">child theme</a></p>
+    
+    
+</section>
+
+
+
+<section id="theme_options">
+    <div class="page-header"><h3>Theme Options</h3><hr class="notop"></div>
+        <p>On admin panel the left hand, click "Appearance > Theme Options" to enter Theme Options</p>
+        <p><img src="assets/theme_option.png"></p>
+        <p>From Theme Options, you could:</p>
+        <ul>
+            <li><strong>Import Demo Data to your website</strong> - Theme Options > Import Demo Data<br>
+                Please <strong>install/activate the BM Pagebuilder plugin</strong> before import demo data. <br>
+              
+                </li>
+            <li><strong>Export Demo Data</strong> - Theme Options > Export Current Data</li>
+            <p style="padding-left:40px;"><img src="assets/themeoption1.jpg" width="600" alt="Theme Option"></p>
+            <li><strong>Setup Website Logo</strong> - Theme Options > General Settings > Logo</li>
+            <li><strong>Set Placehold Text</strong> - Theme Options > General Settings > Descriptions </li>
+            <li><strong>Set Copyright</strong> - Theme Options > General Settings > Copyright</li>
+            <li><strong>Set Icon</strong> - Theme Options > General Settings > Icon</li>
+           
+            <p style="padding-left:40px;"><img src="assets/themeoption2.jpg" width="600" alt="Theme Option - General settings"></p>
+            <li><strong>Setup Social Media</strong> - Theme Options > Social Networks, set social medial icons on header and share button.</li>
+            <p style="padding-left:40px;"><img src="assets/themeoption2-1.jpg" width="600" alt="Theme Option - General settings"></p>
+            <li><strong>Setup the Colour and background for Website</strong> - Theme Options > Schemes</li>
+
+            <p style="padding-left:40px;"><img src="assets/themeoption2-2.jpg" width="600" alt="Theme Option - Schemes settings"></p>
+            <p style="padding-left:40px;"></p> 
+
+            <li><strong>Setup the fonts for Website</strong> - Theme Options > Font Settings, if there is not fonts in selector, please click the "Update to new Google Font Data" button, it'll load the latest fonts from Google's servers.</li>
+            <p style="padding-left:40px;"><img src="assets/themeoption2-3.jpg" width="600" alt="Theme Option - Fonts settings"></p> 
+
+            <li><strong>Upload the custom icons</strong> - Theme Options > Icons, you could upload custom PNG format icons from here, they could be used in social media links on header and Some modules in Page Builder(like Icon Box).</li>
+            <p style="padding-left:40px;"><img src="assets/themeoption2-4.jpg" width="600" alt="Theme Option - Custom Image Icons"></p>
+            
+           
+            <li id="container-width"><strong>Main Container Width</strong> - Theme Options > Layout > General > Main Container Width, set main container width </li>
+            <li><strong>Border</strong> - Theme Options > Layout > General > Enable Border, Enable Bordered layout</li>
+            <li><strong>Page Loader</strong> - Theme Options > Layout > General >  Page Loader, Enable Page loading</li> 
+            <li><strong>Enable Image LazyLoad</strong> - Theme Options > Layout > Image LazyLoad<br>
+                It is for the page loading speed. Normally(disable this option), the webpage will be shown when all images are loaded. It will take a long time to wait. Image Lazy Load means loading images on websites asynchronously — that is, after the above-the-fold content is fully loaded, or even conditionally, only when they appear in the browser’s viewport. <br>
+                <b>Notice:</b>  Please stop the lazyload option (like <a href="https://doc.seatheme.net/wp-content/uploads/2020/06/smush-lazy.jpg" rel="noopener noreferrer" target="_blank">Smush</a>, <a href="https://jetpack.com/support/lazy-images/" rel="noopener noreferrer nofollow" target="_blank">Jetpack</a>) in the 3rd plugin. It will be in conflict with ours.</li>
+            <li><strong>Disable Scrolled Animation of Portfolio</strong> - You could disable the portfolio grid animation by enable this option </li>
+            <li><strong>Original Images for Portfolio</strong> - Theme Options > Layout > General >  Enable Original Images for Portfolio, the uploaded Images would be scaled automatically in order to optimize the web page loading speed. The original images will be shown if this option is activated</li> 
+            <li><strong>Menu Style</strong> - Theme Options > Layout > Header > Menu Style, set header layout </li>
+            <li><strong>Show Social Links</strong> - Theme Options > Layout > Header > Show Social Links  </li>
+            <li><strong>Show Search Button On Expanded Menu Panel</strong> - Theme Options > Layout > Header > Show Search Button On Expanded Menu Panel  </li>
+            <li><strong>Enable WPML & Show Multi Language Links On Expanded Menu Panel</strong> - Theme Options > Layout > Header > Enable WPML & Show Multi Language Links On Expanded Menu Panel</li>
+
+            <li><strong>Setup Footer Elements</strong> - Theme Options > Layout > Footer > Footer Elements. You could set 1 Set or 2 Sets for the footer elements. The copyright, logo, Social, WPML switcher, footer menu could set as the footer elements. </li>
+
+            <li><strong>Setup Footer Widget</strong> - Theme Options > Layout > Footer > Enable Footer Widget for Posts, Enable Footer Widget for Pages, Choose Widget( To set widget, you need go to Wordpess Admin Panle: Appearance > Widgets > Footer 1-5 for Post/Page. It displays up to 3 widgets). You could enable the widget to show on all Posts or ohter pages. The footer widgets will be shown above the footer elements. </li>
+            
+            <li><strong>Setup the meta infomation</strong> - Theme Options > Layout > Page/Post > Show Meta On Post Content Page</li>
+            <li><strong>Hide Category infomation</strong> - Theme Options > Layout > Page/Post > Category to Hide on Page/Post, you could hide some category on posts/pages: <br><img src="assets/category-hide.jpg" width="300" class="image-border"></li> 
+            <li><strong>Enable Post Navigation on content page</strong> - Theme Options > Layout > Page/Post > Show Post (Previous/Next) Navigation On Project Item Page（Gallery Post）</li>
+            <li><strong>Enable Share Buttons</strong> - Theme Options > Layout > Enable Share Buttons for Project(Gallery Post)</li>
+            <li><strong>Category for More Project Button On The Bottom of Gallery Post</strong> - Theme Options > Layout > Page/Post > Category for More Project Button On The Bottom of Gallery Post</li>
+            <li><strong>Items Number for More Project Button On The Bottom of Gallery Post (3 Columns)</strong> - Theme Options > Layout > Page/Post > Items Number for More Project Button On The Bottom of Gallery Post (3 Columns)</li>
+            <p style="padding-left:40px;"><img src="assets/themeoption3.jpg" width="600" alt="Theme Option - Layout"></p>
+            <li><strong>Use Original Images for Thumbnails</strong> - Usually, in a portfolio, the original images(Featured image) are compressed for page speed. If you are very concerned about picture quality, please  turn on this option, it will show the original images</li>
+            <li><strong>Activate Mobile layout in mobile device</strong> - Theme Options > Mobile > Enable Mobile Layout</li>
+            <li><strong>Featured Colors</strong> - Theme Options > Featured Colors,  set the featured colors for BM PageBuilder</li>
+        </ul>
+</section>
+
+
+
+<section id="posts">
+	<div class="page-header"><h3>Posts</h3><hr class="notop"></div>
+
+    <p>To create a new post, go to Posts > Add New from the admin panel. (<a rel="nofollow" href="https://codex.wordpress.org/Writing_Posts" title="Writing Posts">refer to this article</a>) </p>
+    <img width="300" src="assets/post-addnew.png" alt="Post/add new" class="image-border"><br>
+
+    <p>Each post should be set one category at least. You could set category to organize your posts. For the feature of this theme - "Page Template" (Portfolio List), it should list the posts within which category.</p>
+    <img width="200" src="assets/post-cate.png" alt="Post/Category" class="image-border"><br>
+
+    <p>You could set "Featrued Image" for posts, the featured image could be shown on top of gallery post(part of templtes):</p>
+    <img width="300" src="assets/featured-images-post.jpg" alt="Post/Featured Image" class="image-border"><br>
+    <p>Or in Portfolio list:</p>
+    <img width="300" src="assets/featured-images-block.jpg" alt="Post in List/Featured Image" class="image-border"><br>
+	
+	<h4>7 Post Formats</h4>
+        <p style="margin-left:20px;">The theme provide 7 formats for your post, theses formats would affect the layout of your post in list and content page. You need the to click on the radio button to change the format for a post:</p>
+        <p style="margin-left:20px;"><img width="200" src="assets/post_format.png"  alt="Post Formats"></p>
+        <ul>
+
+            <li id="gallery-post"><strong>Gallery Format Post</strong> 
+            You could create the project item page by "Gallery Format Post", there are 5 templates built-in.
+
+                <ul>
+                    <li>Upload the image or pick up the existed image in media library:<p><img width="400" src="assets/gallery-post-select.jpg" class="image-border" alt="Images Selector"></p> </li>
+
+                    <li>Set template:<p><img width="400" src="assets/gallery-template.jpg" class="image-border" alt="Gallery Template"></p> </li>
+
+                    <li>Set List Layout:<p><img width="300" src="assets/gallery-listlayout.jpg" class="image-border" alt="List Layout"></p> <p>Tips: There is not the option on slider template</p> </li>
+
+                    <li>Set Title Masking: If enable this option, the title looks like: <p><img width="300" src="assets/gallery-titlemasking.jpg" class="image-border" alt="Title Masking"></p></li>
+                </ul>
+
+                <p style="padding-left:40px;">Pleae check video guide:<br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RIRGSHgqpXY" frameborder="0" allowfullscreen></iframe></p>
+                <br><br>
+            
+            </li>
+
+            <li><strong>Standard Format Post / Image Format Post</strong>: The standard format will show the title, content and featured image. It looks like:<p><img width="300" src="assets/post-standard.png" class="image-border" alt="Standard Format Post"></p>
+            </li>
+
+            <li><strong>Audio Format Post</strong>: The audio format is supported hosted mp3 files and soundcloud embed code. 
+                <p><img width="300" src="assets/audio-option.png" class="image-border"></p>
+
+                The Hosted type looks like:<p><img width="300" src="assets/post-audio.png" class="image-border" alt="Audio Format Post"></p>
+            </li>
+
+            <li><strong>Video Format Post</strong>: The video format is supported Youtube and Vimeo embed code. You could set ratio for video, it will help to remove the dark padding in single post page as possible.
+                <p><img width="300" src="assets/video-option.png" class="image-border" alt="Video Format Post"></p></li>
+
+            <li><strong>Link Format Post<p></p></strong>You could set one or more text links within the link format post.
+                <p><img width="300" src="assets/post-link-option.jpg" class="image-border" alt="Link Format Post Option"></p>
+                It looks like:
+                <p><img width="300" src="assets/post-link.jpg" class="image-border" alt="Link Format Post"></p>
+
+                You could redirect the link url by the link format post with <a href="#bmslider">BM Slider</a>/<a href="#pages">Portfolio Template</a> also. <br><br>
+
+            </li>
+
+            <li><strong>Quote Format Post<p></p></strong>You could set the quote text within the quote format post.
+                <p><img width="300" src="assets/post-quote-option.jpg" class="image-border" alt="Quote Format Post Option"></p>
+                It looks like:
+                <p><img width="300" src="assets/post-quote.jpg" class="image-border" alt="Quote Format Post"></p>
+
+                
+            </li>
+ 
+            <li>
+                <strong>Excerpt</strong>:
+                <p style="padding-left:40px"><img width="300" src="assets/excerpt.jpg" class="image-border"></p>
+                Please edit it here: <br>
+                <p style="padding-left:40px" class="ima-wrap"><a href="assets/excerpt-edit.jpg" class="lightbox"><img width="300" src="assets/excerpt-edit.jpg" class="image-border"></a></p>
+            </li>
+
+        </ul>
+
+</section>
+
+
+
+
+<section id="pages">
+	<div class="page-header"><h3>Pages</h3><hr class="notop"></div>
+
+        <p>Go to Pages / Add New, you could build all kind of pages you like.</p>
+        <img width="200" src="assets/page-addnew.jpg" alt="Page/add new" class="image-border">
+        <p>There are 4 options for page template:</p>
+        <img width="500" src="assets/page-template.jpg" alt="Page Template" class="image-border">
+         
+        
+        <br><br>
+
+        <h4 id="pages">Portfolio Page</h4>
+        <ul>
+            <li><strong>Templates</strong>: There are 3 general tempaltes: 
+                <ul>
+                    <li>Introduction Above List
+                        <p><img width="200" src="assets/portfolio-list-1.jpg" class="image-border" alt="Introduction Above List"></p>
+                    </li>
+                    <li>Left Introduction & Right Filter
+                        <p><img width="200" src="assets/portfolio-list-2.jpg" class="image-border" alt="Left Introduction Right Filter"></p>
+                    </li>
+                    <li>Introduction In List
+                        <p><img width="200" src="assets/portfolio-list-3.jpg" class="image-border" alt="Introduction In List"></p>
+                    </li>
+                      
+                </ul> 
+            </li>
+            <li><strong>List Types</strong>: There are 4 types of portfolio list, you should pick up a category for portfolio list, the posts(Gallery format post and Link format post) belonged this category will be shown on list. The portfolio list types included:  
+                <p style="margin-left:30px;"><img width="500" src="assets/portfolio-type-selector.jpg" class="image-border" alt="Portfolio List Type"></p>    
+                <ul>
+                    <li>Masonry Grid 
+                        <p><img width="200" src="assets/portfolio-type-1.jpg" class="image-border" alt="Masonry Grid"></p>
+                        <p>You could set the grid layout on each gallery post.</p>
+                        <p><img width="200" src="assets/shape-masonry-grid.jpg" class="image-border" alt="Masonry Grid"></p>
+                        <p>You can set mouseover effect, if you want to change transparency of mask. plase use the custom css(“Appearance > Customize : Additional CSS”):
+                        </p>
+<pre class="prettyprint lang-css linenums">.no-touchevents .grid-mask-filled-left .grid-item-con:hover:after, .no-touchevents .grid-mask-filled-center .grid-item-con:hover:after, .touchevents .grid-mask-filled-left .grid-item-con.air-hover:after, .touchevents .grid-mask-filled-center .grid-item-con.air-hover:after {
+    opacity: 0.1;
+}</pre><p>You can set it 0.1 - 1</pre>
+                    </li>
+                    <li>Masonry
+                        <p><img width="200" src="assets/portfolio-type-masonry.jpg" class="image-border" alt="Masonry"></p>
+                    </li>
+                    <li>Grid(Thumbnail)
+                        <p><img width="200" src="assets/portfolio-type-grid.jpg" class="image-border" alt="Grid(Thumbnail)"></p>
+                    </li>
+                    <li>Grid(Thumbnail + Title)
+                        <p><img width="200" src="assets/portfolio-type-grid-tit.jpg" class="image-border" alt="Grid(Thumbnail)"></p>
+                    </li>
+                </ul>
+            </li>
+            <li id="introduction"><strong>Introduction</strong>: If you want to show the simple description above the images, please enter text into Introduction box:<br><br>
+            <img src="assets/intro-edit.jpg" alt="Edit Introduction" width="500" class="image-border"><br>
+            <img src="assets/intro.jpg" alt="Introduction section" width="500" class="image-border"><br><br>
+            </li>
+            <li id="filter"><strong>Filter</strong>: If you want to show filter for the portfolio list, please enable the "Filter" option. Make sure there are sub-categories in the category of the portfolio list. The category structure looks like:  
+                <p><img width="400" src="assets/filter-cate.jpg" class="image-border" alt="category tree"></p>
+                <strong>Click filter item to show the sub-category description:</strong>(From Air Theme v1.9.6)<br><br>
+                <img src="assets/filter-cat-des2.gif" alt="" width="300"><br><br>
+                <ul>
+                <li>It is available with the "Introduction Above List", "Left Introduction & Right Filter", and "Introduction In List" templates</li>
+                <li>Please add(edit) the category(filter items) Description of the sub-categories(Posts > Categories) was set the Description. <br><br>
+                <img src="assets/category-des-edit.jpg" alt="" width="500"><br><br></li>
+                 <li>Please don't add the Description for the parent category. The default description should be edited in the <a href="#introduction">Introduction.</a></li> 
+                <li>The Description only supports part of HTML. If you want to use more HTML codes, please install the <a href="https://wordpress.org/plugins/allow-html-in-category-descriptions/" rel="nofollow">plugin</a>.</li>
+                </ul><br><br>
+                
+            </li>
+            <li><strong>What Thumbnail Does</strong>: 
+                <ul>
+                    <li>Open The Portfolio Item: when you click one item, the gallery post page would be linked. If this item is a Link format post, the first url set within link post would be linked.</li>
+                    <li>Open Lightbox: when you click one item, the full size thumbnail will be opened in lightbox.</li>
+                </ul>
+            </li>
+            <li id="item-spacing"><strong>Item Spacing</strong>: 
+                <ul>
+                    <li>No Spacing: there is zero spacing between the items</li>
+                    <li>Narrow: there is 10px between the items. 
+                    </li>
+                    <li>Normal: there is 40px between the items</li>
+                </ul>
+            </li>
+            <li id="list-width"><strong>List Width</strong>: 
+                <ul>
+                    <li>Normal(Main Container Width): It means that the portfolio list width is the same as the website main contianer(set in the <a href="#container-width">Theme Options</a>)</li>
+                    <li>Fullwidth: It's not literally fullwidth. It means that the padding on the left/right is the same as the "<a href="#item-spacing">Item Spacing</a>". It looks like:<br> 
+                        <img src="assets/list-fullwidth.jpg" width="500" class="image-border" alt="List width - Fullwidth" /><br><br></li>
+                    <li>Fullwidth Filled: It's totally fullwidth. It means that the padding on the left/right is zero. It looks like:<br> 
+                        <img src="assets/list-fullwidth-filled.jpg" width="500" class="image-border" alt="List width - Fullwidth Filled" /></li>
+
+                </ul>
+            </li>
+        </ul><br>
+        <p style="padding-left:40px;">Pleae check video guide:<br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JBeEQjp8lKw" frameborder="0" allowfullscreen></iframe></p>
+        <br><br>
+
+        <h4>Static Page</h4> 
+        You could create a static page (such as Contact, About ...) by "No Template" option, we suggest you use the Page Builder to build this kind of page if you need a little complex layout(refer to <a href="#page_builder">Page Builder</a>).
+
+        <ul>
+            <li><strong>Sidebar Layout</strong>, you could set the sidebar layout or fullwidth layout, in sidebar layout, you could choose widget. To set widget, you need go to Wordpess Admin Panle: Appearance > Widgets > Sidebar 1-10 for Post/Page.
+                <p><img width="300" src="assets/sidebar-layout.jpg" class="image-border" alt="Sidebar layout"></p>
+            </li>
+
+            <li><strong>Title Option</strong>: You could set the option to hide/show title wrap:
+            <p><img width="300" src="assets/title-option.jpg" class="image-border" alt="Title option"></p>
+            <p><img width="300" src="assets/title.png" class="image-border" alt="title on page"></p></li>
+
+            <li><strong>From Page Top</strong><p> Enable this option, the page would looks like: </p>
+                <p><img width="300" src="assets/page-from-top.jpg" class="image-border" alt="From Page Top"></p></li>
+
+            <li><strong>Spacer above Content</strong><p> If you enable this option, there is a spacer on content area: </p>
+                <p><img width="300" src="assets/page-top-spacer.jpg" class="image-border" alt="Spacer above Content"></p></li>
+
+             <li><strong>Show Featured Image</strong><p>You could create a image cover by this option, you need to set a Featured Image for the page. If this Featured Image is dark, you could set the light logo</p>
+                <p><img width="300" src="assets/page-featured-img.jpg" class="image-border" alt="Featured Image"></p>
+                <p><img width="300" src="assets/page-featured-img-front.jpg" class="image-border" alt="Featured Image"></p></li>   
+            
+        </ul>
+        <p></p>
+
+</section>
+
+<section id="bmslider">
+    <div class="page-header"><h3>BM Slider</h3><hr class="notop"></div>
+     Please go to WordPress Admin Panel:  BM Slider > Add New.  If you don't see the optoin, please go to Appearance / Install Plugins to install BM Slider plugin(<a href="#plugin" title="Install plugins">refer</a>).
+    <ul>
+        <li>
+            <strong>Post Slider</strong>: 
+            <p>You need to pickup a category(or several categories), all the posts belong to this category would be shown in your slider. Each Post in this category should be set <a title="Featured images" href="https://en.support.wordpress.com/featured-images/">Featured image</a>. If you click one slide in BM slider, the Post page(shown on this slide) will be linked. If you want to use external link, please use Link Post, input the external URL into the first "Link" box. 
+            You could also edit the Order, Auto play by default ... <br><br></p>
+        </li>
+        <li>
+            <strong>Text Slider</strong>: 
+            <p>You need input header text and content text. If you want to the text masking effect, please set "Heading Background".<br>
+            Tips: The text masking effect only works for webkit browser, like Chrome, Safari.<br><br></p>
+        </li>
+    </ul>
+   
+    
+    
+
+
+<p></p>
+
+</section>
+
+
+<section id="page_builder">
+	<div class="page-header"><h3>Work With Page Builder</h3><hr class="notop"></div>
+
+    <p>The theme provide drag &amp; drop page builder for your pages, press the button "Switch to Page Builder" to enable it. Following is a brief introduction for the page builder:</p>
+     <img width="300" src="assets/activate-pagebuild.jpg" alt="Activate Page builder" class="image-border">
+    <h5 id="wraps">1. Wraps</h5>
+        <p style="margin-left:20px;">The modules could be placed directly into the panel or be dragged into a wrap, depending on your layout. A standard wrap have the same width with page content.</p>
+        <p style="margin-left:20px;"><img src="assets/wraps.png" class="image-border" width="400"></p>
+		<h6>Fullwidth Wrap</h6>
+        <p style="margin-left:20px;">A fullwidth wrap have the following features: </p>
+        <ul style="">
+			<li>A wider width than the page content, such as to be full-width to outer container, it could be used for your full-width sections.</li>
+			<li>Support background color/image/video, IE 8/9 and touch devices do not support the video background, you need to upload a Atl Image for them.</li>
+			<li>Parallax effect for image background/Foreground, the effect do not support touch devices.</li>
+			<li>Support tabs.</li>
+            <li>If you set the dark background color, please active the "Shift Text Color for Dark Background", the  font color of this fullwidth wrap is set as white forcibly.</li>
+            <li>If you want the content of fullwith wrap filled to full width of screen(no left/right padding), please active the "Fit Content to Fullwidth".</li>
+             
+        </ul>
+        <p>&nbsp; </p>
+
+        
+        
+    <h5>2. Modules</h5>
+		<ul>
+ 
+
+            <li>Text Block
+                <p>You could set up a background color for the text block, leave it empty if you don't want to show any background color.</p>
+                <p><img src="assets/text_block.png" width="400"></p>
+                <p>&nbsp; </p>
+            </li> 
+            
+			<li>Icon Box
+                <p>Icon on Left</p>
+                <p><img src="assets/iconbox_icon_left.png" width="300" class="image-border"></p>
+                <p>Icon on Top</p>
+                <p><img src="assets/iconbox_icon_top.png" width="300" class="image-border"></p>
+                <p>&nbsp; </p>
+            </li>
+            
+            
+			<li>Image Box
+                <p><img src="assets/image_box.png"></p>
+                <p>&nbsp; </p>
+            </li>
+            
+            
+            <li>Text List
+                <p>You could set a bullet icon for every item</p>
+                <p><img src="assets/textlist.png"></p>
+                <p>&nbsp; </p>
+            </li>
+            
+            
+            <li>Button
+                <p>You could create a button and customise the size and colour.</p>
+                <p><img src="assets/button.png"></p>
+                <p>&nbsp; </p>
+            </li>
+          
+             
+            
+            <li>Single Image
+                <p>Single Image module is to enter a single image to your post/page.</p>
+                <p><img src="assets/singleimage.png"></p>
+                <p>&nbsp; </p>
+            </li>
+            
+            <li>Message Box
+                <p>This module could create 4 types of message box: Success, Warning, Error, Information</p>
+                <p><img src="assets/messagebox.png"></p>
+                <p>&nbsp; </p>
+            </li>
+            
+            <li>Accordion / Toggle
+                <p>Accordion and Toggle has the same style in front end, you could expand only one item in Accordion mode and could expand multiple items in Toggle mode.</p>
+                <p><img src="assets/toggle.png"></p>
+                <p>&nbsp; </p>
+            </li>
+            
+            <li>Tabs
+                <p>Horizontal Tabs</p>
+                <p><img src="assets/tabs1.png"></p>
+                <p>Vertical Tabs</p>
+                <p><img src="assets/tabs2.png"></p>
+                <p>&nbsp; </p>
+            </li>
+            
+            <!--[client]"> 
+            <li>Client
+                <p>The usage is similar with Testimonial module</p>
+                <p><img src="assets/client.png" width="595" height="65"></p>
+                <p>&nbsp; </p>
+            </li><![client]-->
+            
+            <li>Divider
+                <p>Divider module is to place a spacer or lines in the vertical dimension. </p>
+                <p><img src="assets/devider.png"></p>
+                <p>&nbsp;</p>
+            </li>
+            
+            
+            <li>Contact Form
+                <p>The theme support the famous plugin "Contact Form 7", once you install it to your WordPress, the Contact Form 7 option would appear in the Form Type drop-down menu. Following image is the standard Contact Form module looks like in front end.</p>
+                <p><img src="assets/contact.png"></p>
+                <p>&nbsp; </p>
+            </li>
+            
+            <li>Video
+                <p>To enter a video to the page, you need to copy and paste the embeded code of the video, a example with Vimeo video:</p>
+               
+                <p><img src="assets/vimeo2.png" width="540" height="359"></p>
+              <p>Supported video:</p>
+                <ul>
+                    <li>Vimeo</li>
+                    <li>Youtube</li>
+                    <li>and other embeded videos from video sites</li>
+                </ul>
+              <p>For Vimeo and Youtube video, you could directly copy/paste the link of the video:</p>
+              <p><img src="assets/vimeo3.png" width="537" height="352" alt="Vimoe"></p>
+              <p>&nbsp; </p>
+            </li>
+            
+            <li>Promote
+                <p>It is a section to place a slogan or other words with a mouseover background color and link.</p>
+                <p><img src="assets/promote.png" alt="Promote"></p>
+                <p>&nbsp; </p>
+            </li>
+             
+            
+            <li>Google Map
+                <p>You need set the Google Maps ApiKey firstly:
+                    <ul>
+                        <li>Get the Google Map Api Key <a rel="noopener noreferrer nofollow" href="https://developers.google.com/maps/documentation/javascript/" title="Get Google Maps ApiKey" target="_blank">here</a>. </li> 
+                        <li>Login wp-admin, go to "BM PageBuilder" on left bar, Paste the key <br><br>
+                            <img src="assets/google-apikey.jpg" alt="Google ApiKey" width="440"></li>
+                    </ul>
+                </p>
+
+                <p>The Google Map module need you provide the name of your location.</p>
+                <p><img src="assets/map1.png"></p>
+                
+                <p>If you want to use Google Map Style, please go to <a rel="noopener noreferrer nofollow" target="_blank" href="https://mapstyle.withgoogle.com/">this page</a> to edit the map style.</p>
+                <p><img src="assets/map-edit-1.jpg"></p>
+            </li>
+            
+            <li>Price
+                <p>Build your price block by Price module, by now it support not more than 4 price blocks, and it is recommended to make the module fullwidth(1/1).</p>
+                <p><img src="assets/price.png"></p>
+                <p>&nbsp; </p>
+            </li>
+            
+            <li>Slider
+               
+                <p><img src="assets/slider.jpg"></p>
+                <p>&nbsp; </p>
+            </li>
+            
+            <li>Infographic
+                <p>Progress bar:</p>
+                <p><img src="assets/infographic-bar.png"></p>
+                <p>Pictorial:</p>
+                <p><img src="assets/pictorial.png"></p>
+                <p>Pie:</p>
+                <p><img src="assets/pie-doughnut.png"></p>
+                <p>Column:</p>
+                <p><img src="assets/column.png"></p>
+                <p>Big Number:</p>
+                <p><img src="assets/bignumber.png"></p>
+                <p>&nbsp; </p>
+            </li>
+		 
+            <li>Count Down
+                <p>The Count Down module allow you assign a deadline and to create a timer automatically on front-end. </p>
+                <p><img src="assets/count-down.png"></p>
+                <p>&nbsp; </p>
+            </li>
+          </ul>
+		
+		
+        
+    
+    <h5>3. Save and Load templates</h5>
+        <p style="margin-left:20px;">Once you have build a layout via the page builder, and you want to clone them to other page/posts, you could save the current layout to a template and load then in the other page/post page builder section.</p>
+        <p style="margin-left:20px;"><img src="assets/template.png"></p>
+    
+    
+</section>
+
+
+
+<section id="short_code">
+	<div class="page-header"><h3>Short Code</h3><hr class="notop"></div>
+    <p>The Shortcode is assistant for article editing. You could add the shortcodes into WordPress editor or Text module of the Pagebuilder.<br>
+        Please activate the <a href="#setting_up">BM Shortcode plugin</a>.</p>
+    
+    <h4>1. Button</h4>
+    <div style="margin-left:20px;">
+        
+        <p>The button looks like: </p>
+        <p><img src="assets/shortcode-button.jpg" alt="Shortcode button"></p>
+    <pre class="pre"><code>[button link="button URL" color="btn-dark"] Button Text [/button]
+[button link="button URL" color="btn-light"] Button Text [/button]</code></pre>
+    </div>
+
+    <h4>2. Line</h4>
+    <div style="margin-left:20px;">
+        <img src="assets/shortcode-line.jpg" alt="Shortcode line" width="400">
+        <p>You could define width, color, and style for line.</p>
+    <pre class="pre"><code>[line width="100%" color="blue" style="solid"]
+[line width="20px" color="red" style="dot"]
+[line width="100%" color="pink" style="dashed"]
+[line width="100%" color="green" style="dashed"]
+[line width="90%" color="brown" style="dashed"]
+[line width="80%" color="grey" style="dashed"]
+[line width="70%" color="dark" style="dashed"]
+[line width="60%" color="black" style="dashed"]</code></pre>
+    </div>
+
+    <h4>3. Highlight Text</h4>
+    <div style="margin-left:20px;">
+        <p> </p>
+    <pre class="pre"><code>Dictumst non sociis [highlight]highlight text[/highlight] purus purus duis.</code></pre>
+    </div>
+
+    <h4>4. Blank</h4>
+    <div style="margin-left:20px;">
+        <p>Blank is used to insert a blank row spacer into your content.</p>
+    <pre class="pre"><code>[blank]</code></pre>
+    </div>
+
+    <h4>5. Image</h4>
+    <div style="margin-left:20px;">
+        <p>The style could be set "fullwidth" also.</p>
+    <pre class="pre"><code>[image style="standard" name="on" link="" target="off" caption="The cation of this image"]The image URL[/image]</code></pre>
+    </div>
+
+    <h4>6. Gallery</h4>
+    <div style="margin-left:20px;">
+        <img src="assets/shortcode-gallery.jpg" alt="Shortcode gallery" width="400"><br><br>
+    <pre class="pre"><code>[ux_gallery name="on"]196,195,194,193,192[/ux_gallery]</code></pre>
+    <p>The numbers are ID of images. Please check how to find the image(media library) ID?<br>
+        1) Log into WordPress admin panel, navigate to Media click on Library.<br>
+2) Switch from Grid View to List View, then mouse over the image, you will see an image ID in the bottom.<br>
+3) Open the image, and copy this image ID from the URL in your browser address bar.
+</p>
+    </div>
+
+    <h4>7. Dropcap</h4>
+    <div style="margin-left:20px;">
+        <img src="assets/shortcode-dropcap.jpg" alt="Shortcode dropcap" width="400"><br><br>
+    <pre class="pre"><code>[dropcap]S[/dropcap]celerisque sit sit sociis augue hac in, sit, enim amet ut lectus. Eu in? Mauris dis, et scelerisque? Adipiscing purus.</code></pre>
+    </div>
+
+    <h4>8. Column</h4>
+    <div style="margin-left:20px;">
+        <p><img src="assets/shortcode-column.jpg" alt="Shortcode column" width="400"><br><br>
+            The Column shortcode support multiple witdh options between 1/6 to 1/2. Please add <code>_last</code> for the last colunm of each row</p>
+    1/2 + 1/2
+    <pre class="pre"><code>[one_half]This is a one/half column. Eu denique fierent postulant pro, ea est audiam neglegentur. Mel ne dictas tacimates corrumpit, in erat iisque detraxit mea. Sea ex sonet salutatus. Eu sed idque dolorum, te erant tempor eum, nam movet ornatus ad. Ne sit probo cotidieque, et vel sonet dicam officiis, ex odio clita pro. [/one_half][one_half_last] This is a one/half column. Duo cotidieque efficiantur an. [/one_half_last]</code></pre>
+    2/3 + 1/3 
+    <pre class="pre"><code>[two_third]This is a two/third column. Eu denique fierent postulant pro, ea est audiam neglegentur. Mel ne dictas tacimates corrumpit, in erat iisque detraxit mea. Sea ex sonet salutatus. Eu sed idque dolorum, te erant tempor eum, nam movet ornatus ad. Ne sit probo cotidieque, et vel sonet dicam officiis, ex odio clita pro. [/two_third][one_third_last] This is a one/third column. Duo cotidieque efficiantur an. [/one_third_last]</code></pre>
+    
+    1/3 + 2/3
+    <pre class="pre"><code>[one_third] This is a one/third column. Duo cotidieque efficiantur an. [/one_third][two_third_last]This is a two/third column. Eu denique fierent postulant pro, ea est audiam neglegentur. Mel ne dictas tacimates corrumpit, in erat iisque detraxit mea. Sea ex sonet salutatus. Eu sed idque dolorum, te erant tempor eum, nam movet ornatus ad. Ne sit probo cotidieque, et vel sonet dicam officiis, ex odio clita pro. [/two_third_last]</code></pre>
+     
+     1/4 + 3/4
+    <pre class="pre"><code>[one_fourth] This is a one/fourth column. Duo cotidieque efficiantur an. [/one_fourth][three_fourth_last]This is a three/fourth column. Eu denique fierent postulant pro, ea est audiam neglegentur. Mel ne dictas tacimates corrumpit, in erat iisque detraxit mea. Sea ex sonet salutatus. Eu sed idque dolorum, te erant tempor eum, nam movet ornatus ad. Ne sit probo cotidieque, et vel sonet dicam officiis, ex odio clita pro. [/three_fourth_last]</code></pre>
+
+    1/5 + 4/5
+    <pre class="pre"><code>[one_fifth] This is a one/fifth column. Duo cotidieque efficiantur an. [/one_fifth][four_fifth_last]This is a four/fifth column. Eu denique fierent postulant pro, ea est audiam neglegentur. Mel ne dictas tacimates corrumpit, in erat iisque detraxit mea. Sea ex sonet salutatus. Eu sed idque dolorum, te erant tempor eum, nam movet ornatus ad. Ne sit probo cotidieque, et vel sonet dicam officiis, ex odio clita pro. [/four_fifth_last]</code></pre>
+
+    2/5 + 3/5
+    <pre class="pre"><code>[two_fifth] This is a two/fifth column. Duo cotidieque efficiantur an. [/two_fifth][three_fifth_last]This is a three/fifth column. Eu denique fierent postulant pro, ea est audiam neglegentur. Mel ne dictas tacimates corrumpit, in erat iisque detraxit mea. Sea ex sonet salutatus. Eu sed idque dolorum, te erant tempor eum, nam movet ornatus ad. Ne sit probo cotidieque, et vel sonet dicam officiis, ex odio clita pro. [/three_fifth_last]</code></pre>
+
+    1/6 + 5/6
+    <pre class="pre"><code>[one_sixth] This is a one/sixth column. Duo cotidieque efficiantur an. [/one_sixth][five_sixth_last]This is a five/sixth column. Eu denique fierent postulant pro, ea est audiam neglegentur. Mel ne dictas tacimates corrumpit, in erat iisque detraxit mea. Sea ex sonet salutatus. Eu sed idque dolorum, te erant tempor eum, nam movet ornatus ad. Ne sit probo cotidieque, et vel sonet dicam officiis, ex odio clita pro. [/five_sixth_last]</code></pre>
+    </div>
+
+    <h4>9. Fixed Width Column</h4>
+    <div style="margin-left:20px;">
+        <p><img src="assets/shortcode-fixed_column.jpg" alt="Shortcode fixed column" width="400"><br><br> </p>
+    <pre class="pre"><code>[fixed_column margin_top="0px" margin_right="0px" margin_bottom="0px" margin_left="0px" width="600px"][height_light]This is a example of 600px Fixed Width Column.[/height_light] Mel ne dictas tacimates corrumpit, in erat iisque detraxit mea. Sea ex sonet salutatus. Eu sed idque dolorum, te erant tempor eum, nam movet ornatus ad. [/fixed_column]</code></pre>
+    </div>
+
+
+    <h4>10. Icon</h4>
+    <div style="margin-left:20px;">
+        <p><img src="assets/shortcode-icon.jpg" alt="Shortcode icon" width=""><br><br> 
+            The icons are supported with Font Awesome 4.7. 
+            The "fa-<i>music</i>" is icon name, you will find the icon name <a rel="noopener noreferrer nofollow" href="https://fontawesome.com/v4.7.0/icons/">here</a>. </p>
+    Small Icon    
+    <pre class="pre"><code>[icon size="fa-lg"]fa-music[/icon]</code></pre>
+    Medium Icon
+    <pre class="pre"><code>[icon size="fa-2x"]fa-heart[/icon]</code></pre>
+
+    Large Icon
+    <pre class="pre"><code>[icon size="fa-3x"]fa-plane[/icon]</code></pre>
+    </div>
+
+    <h4>11. Text with size</h4>
+    <div style="margin-left:20px;">
+        <p> </p>
+    <pre class="pre"><code>[text size="12px"]The text font size is customisable.[/text]</code></pre>
+    </div>
+
+    <h4>12. Text list</h4>
+    <div style="margin-left:20px;">
+        <p><img src="assets/shortcode-text_list.jpg" alt="Shortcode text list" width=""><br><br> 
+            The style is bullet of text list. The bullet icon is supported with Font Awesome 4.7. 
+            The "fa-<i>map-marker</i>" is icon name, you will find the icon name <a rel="nofollow" href="https://fontawesome.com/v4.7.0/icons/">here</a>. </p>
+    <pre class="pre"><code>[list style="fa-map-marker"] Item 01 [/list][list style="fa-paper-plane"] The Text List support FontAwesome. [/list]</code></pre>
+    </div>
+
+    <h4>13. Switching Words</h4>
+    <div style="margin-left:20px;">
+        <p><img src="assets/shortcode-switch.gif" alt="Shortcode Switching Words" width="260"><br><br> </p>
+    <pre class="pre"><code>[switching_word size="h4" word1="Awesome" word2="Untouchable" word3="Foodful" word4="" word5=""]The Za theme is [/switching_word]</code></pre>
+    </div>
+
+</section>
+
+
+<section id="Translation">
+	<div class="page-header"><h3>Translation</h3><hr class="notop"></div>
+    
+    <h4>1. Tranlate </h4>
+
+     <p>To translate the static strings of theme, it is recommended to install the free Loco Translate WordPress plugin <a href="https://wordpress.org/plugins/loco-translate/" rel="nofollow">here</a>(check the <a rel="nofollow" href="https://localise.biz/wordpress/plugin/beginners" title="doc">DOC</a>). The default pot file "air-theme.pot" is in /air-theme/languages/ folder. Please refer the <a rel="nofollow" href="https://www.youtube.com/watch?v=wKfY8VgLubs&t=8s" title="How to translate WordPress Theme">video tutorials(click)</a> to translate with the Loco Translate plugin.</p>
+
+     <p>There are the 5 translated(the strings in frontend pages) po files including: Japanese, German，French，Spanish，Simplified Chinese. If your language is one of them. The po files would be linked by default. If you want to edit them, please refer this <a rel="nofollow" href="https://www.youtube.com/watch?v=Psij53Y8Vu4" title="How to edit the po file from the existed po file - Air WordPress Theme">video tutorials(click) </a>.</p>
+
+    
+
+    <p><br></p>
+
+    <h4>2. WPML</h4>
+
+    <p>It is recommend to use the popular <a rel="nofollow" href="https://wpml.org/?aid=190161&affiliate_key=t1g0QyZtnihu">WPML wp plugin</a> if you want to make a multi-languages site:</p>
+
+
+    <h5>2.1  Translate the Pagebuilder </h5>
+
+    <ol>
+    <li>Install the plugin Translation-Management. Go to WPML/Translation-Management”, make sure “Translation manualy” selected</li>
+
+    <li>Created a new page(make sure under default language), set to Pagebuilder editor, put in some Pagebuilder modules, click publish</li>
+
+    <li>Check ‘Duplicate’ checkbox and click on “Duplicate” button (see the screenshot below) at the right sidebar. “Duplicate” button will be displayed after checking of checkbox. Click the pencil icon to translate the page
+    <p><img src="assets/pagebuilder-wpml-pb3.jpg" alt="ZA wordpress theme - translate the Pagebuilder" width="150"> 
+     <img src="assets/pagebuilder-wpml-pb3-2.jpg" alt="ZA wordpress theme - translate the Pagebuilder" width="150"></p>
+    </li>
+    <li> When you edit the the page on non-default language, plz click “Translate independently” button at the right sidebar. Otherwise all your translations can be replaced by default content
+    <p><img src="assets/pagebuilder-wpml-pb4.jpg" alt="ZA wordpress theme - translate the Pagebuilder" width="150"></p>
+    </li>
+    <li>Please don't use orgin modules, please clone or create new one module to edit for copied pages. (refer <a href="https://www.dropbox.com/s/dwl5cc9ckdctrcz/pb-wpml.mp4?dl=0">video guide</a>)</li>
+    </ol>
+
+    <h5>2.2  To translate the copyright information, Comment title and so on, please:</h5>
+
+    <ol>
+    <li>Install the plugin <a rel="nofollow" href="https://wpml.org/download/wpml-string-translation/?aid=190161&affiliate_key=t1g0QyZtnihu">WPML String Translation</a>.</li>
+    <li>Go to left menu: WPML/String translation</li>
+    <li>Find the following string:</li>
+    <p><code><pre style="padding-left:50px;">
+    [ux_theme_option]theme_option_copyright
+    [ux_theme_option]theme_option_descriptions_pagination
+    [ux_theme_option]theme_option_descriptions_comment_title
+    [ux_theme_option]theme_option_descriptions_your_message
+    [ux_theme_option]theme_option_descriptions_comment_submit
+    [ux_theme_option]theme_option_descriptions_next
+    [ux_theme_option]theme_option_descriptions_prev
+    [ux_theme_option]theme_option_descriptions_portfolio_learnmore
+    [ux_theme_option]theme_option_descriptions_tags
+    [ux_theme_option]theme_option_descriptions_menu_back
+    </pre></code>
+    </p>
+    <li>Click on the “translations” on the right side of every string item, enter the target translated words, check on “Translation is complete" and save it.</li>
+    </ol>
+
+     
+
+</section>
+
+
+<section id="optimization">
+    <div class="page-header"><h3>Speed Optimization</h3><hr class="notop"></div>
+
+    <p style="margin-left:20px;">We strongly recommend that you use <a rel="nofollow" href="https://wordpress.org/plugins/autoptimize/" title="Autoptimize plugin">Autoptimize</a> to optimize page speed, it is totally free WordPress plugin, it is very easy to use.<br> Check the 3 options: <br><br>
+        <img src="assets/autoptimize.jpg" alt="Autoptimize plugin" width="400"><br>Uncheck the "Also aggregate inline CSS?" option under advanced settings. <br><br>
+        Please activate this plugin after finishing site creation, or the cache would disturb the custom work(custom css/js).</p>
+    
+</section>
+
+
+
+<section id="included_files">
+	<div class="page-header"><h3>Included Files</h3><hr class="notop"></div>
+
+<ol>
+    <li><strong>Javascript files</strong>
+		<ol>  
+			<li>main.js - main js plugins: 
+                <ul>
+                    <li><a rel="nofollow" href="http://modernizr.com" title="Modernizr">Modernizr 3.3.1</a> - Respond user's browser features</li>
+                    <li><a rel="nofollow" href="http://imakewebthings.com/waypoints/" title="Waypoints">Waypoints v4.0.0</a> - Trigger something scrolling a anchor</li>
+                    <li><a rel="nofollow" href="http://isotope.metafizzy.co" title="Isotope">Isotope v3.0.1</a> - Masonry layout plugin</li>
+                    <li><a rel="nofollow" href="https://raw.githubusercontent.com/metafizzy/isotope-packery/master/packery-mode.pkgd.min.js">PACKAGED v2.0.0</a> - For Isotope packery layout</li>
+                    <li><a rel="nofollow" href="http://photoswipe.com" title="PhotoSwipe">PhotoSwipe v4.1.1</a> - Lightbox plugin</li>
+                    <li><a rel="nofollow" href="http://imagesloaded.desandro.com/" title="ImagesLoaded">ImagesLoaded v3.1.6</a> -  Judge images loaded or not</li>
+                    <li><a rel="nofollow" href="https://owlcarousel2.github.io/OwlCarousel2/index.html" title=""> OwlCarousel2 v2.0.0</a> - Slider plugin</li>
+                    <li><a rel="noopener noreferrer nofollow" href="https://github.com/ed-lea/jquery-collagePlus" target="_blank">jQuery collagePlus</a> - Justified Gallery plugin</li>
+                    <li><a rel="nofollow" href="https://github.com/ressio/lazy-load-xt" title="">LazyLoadXT v1.1.0</a> - Image lazy load plugin</li>
+                    <li><a rel="nofollow" href="http://VelocityJS.org" title="VelocityJS">VelocityJS v1.2.3</a> - Animation effect</li>
+                </ul>
+            </li> 
+			
+            <li><a rel="noopener noreferrer nofollow" href="http://www.jplayer.org" target="_blank">jquery.jplayer.min.js</a> - js/jquery.jplayer.min.js -  HTML5 media player plugin</li>
+			
+             
+			
+            <li><a rel="noopener noreferrer nofollow" href="http://www.uiueux.com" target="_blank">custom.theme.js</a> - js/custom.theme.js -  Air theme main js</li>
+		</ol>	
+	</li>
+
+	 <li><strong>CSS files</strong>
+		<ol>
+			<li><a rel="noopener noreferrer nofollow" href="https://github.com/twbs/bootstrap" target="_blank" title="Bootstrap">Bootstrap 3.3.5</a> - styles/bootstrap.css -  Bootstrap layout</li>
+			<li><a rel="noopener noreferrer nofollow" href="http://owlcarousel.owlgraphic.com" target="_blank" title="Owl carousel 2.0.0">Owl carousel 2.0.0</a> - styles/owl.carousel.css -  Owl carousel plugin css</li>
+            <li><a rel="noopener noreferrer nofollow" href="http://photoswipe.com/" target="_blank" title="Photoswipe 4.1.1">Photoswipe 4.1.1</a> - styles/photoswipe.css -  PhotoSwipe plugin css</li>
+			<li><a href="https://seatheme.net" target="_blank" title="Main Css of Air Theme" rel="noopener noreferrer">style.css</a> - style.css -  Air theme main css</li>
+		</ol>	
+	</li>
+</ol>
+
+
+<p><br><br></p>
+
+<div id="Thanks again">
+     
+<div>
+<hr class="notop"></div>
+<p>
+Once again, thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to publish your question <a href="https://seatheme.net/forums">here</a>.
+</p>
+<p>
+Thanks,<br>
+SeaTheme
+</p>
+
+</div>
+
+<p><br><br></p>
+		
+</section>
+
+
+
+
+
+
+
+</div>
+
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-min.js"></script> 
+<script src="assets/lightbox/jquery.lightbox.min.js"></script>
+<script>document.createElement('section');var duration='500',easing='swing';
+    $(document).ready(function() {
+           $('.lightbox').lightbox();
+           $('#navi-icon').on('click', function(){
+                if($(this).hasClass('show')) {
+                    $(this).removeClass('show');
+                } else {
+                    $(this).addClass('show');
+                }
+                return false;
+           });
+    }); 
+</script>
+</body>
+</html>

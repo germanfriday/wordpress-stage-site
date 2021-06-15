@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Aiteko &ndash; WordPress Theme's Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    
+    <style>
+    	.img-border{
+    		display: block;
+    		margin: 10px 0 10px;
+    		max-width: 100%;
+    		border-radius: 6px;
+    		border: 1px solid #dadada
+    	}
+    	ol.mg-bottom li{
+    		padding: 20px 20px 20px;
+    	}
+    	ol.mg-bottom li:nth-child(even) {
+    		background-color: #fafafa;
+    	}
+    	#e-logo {
+    		padding-left: 20px;
+    		padding-right: 20px;
+    	}
+    	small.footnote {
+    		font-size: 0.8em;
+    		font-weight: 800;
+    	}
+    </style>
+
+</head>
+<body>
+
+<div id="wrap">
+
+	<div id="side">
+		<div id="e-logo">
+			<img src="assets/img/logo.png" alt="" style="width:100px;height:100px;" />
+		</div>
+
+		<div id="item-name">
+			Aiteko<br/>
+			<small>WordPress Theme</small>
+		</div>
+
+		<ul id="side-menu">
+			<li><a href="#top">Theme Info</a></li>
+			<li><a href="#install">Installation</a></li>
+			<li><a href="#import">Import Demo Data</a></li>
+			<li><a href="#global-elementor">Elementor Global Settings</a></li>
+			<li><a href="#homepage">Homepage Setup</a></li>
+			<li><a href="#settings">Theme's Settings</a></li>
+			<li><a href="#metabox">Custom Metabox</a></li>
+			<li><a href="#css">CSS</a></li>
+			<li><a href="#javascript">Javascript</a></li>
+			<li><a href="#credits">Credits</a></li>
+		</ul>
+	</div>
+	<!-- #site -->
+
+	<div id="inner">
+
+		<section class="part" id="top">
+				<div class="page-header">
+					<h1>Aiteko</h1>
+					<h6>Version 1.0 &ndash; The Documentation</h6>
+				</div>
+
+<p class="highlight hero-unit">
+	Thank you for purchasing this item. If you have any questions that are beyond the scope of this help file, please feel free to contact us via the support tab at Themeforest. Thanks so much!
+</p>
+			    <table class="table table-bordered table-striped">
+			      <tbody>
+			        <tr>
+			          <td><code>Created</code></td>
+			          <td>Jan, 10 2019</td>
+			        </tr>
+			        <tr>
+			          <td><code>Last Update</code></td>
+			          <td>&ndash;</td>
+			        </tr>
+		          <tr>
+		            <td><code>Current Version</code></td>
+		            <td>1.0</td>
+		          </tr>
+			      </tbody>
+			    </table>
+
+				<hr>
+
+				<h3>Table of Contents</h3>
+				<ul>
+					<li><a href="#install">Installation</a></li>
+					<li><a href="#import">Import Demo Data</a></li>
+					<li><a href="#global-elementor">Elementor Global Settings</a></li>
+					<li><a href="#homepage">Homepage Setup</a></li>
+					<li><a href="#settings">Theme's Settings</a></li>
+					<li><a href="#metabox">Custom Metabox</a></li>
+					<li><a href="#css">CSS</a></li>
+					<li><a href="#javascript">Javascript</a></li>
+					<li><a href="#credits">Credits</a></li>
+				</ul>
+		</section>
+		<!-- #top -->
+
+
+		<section class="part" id="install">
+			<div class="page-header">
+				<h1>Theme Installation</h1>
+			</div>
+
+			<h3>Step 1: Download The Theme & Locate "aiteko.zip"</h3>
+			<p>Login to your themeforest account page, and navigate to "Download" tab to download the item you have purchased from ThemeForest.
+			Click the download link <strong>"All files & documentation"</strong>, after that be sure to extract the zip file and inside it browse to "Installable-Theme-Inside/aiteko.zip". The "aiteko.zip" file is the one you want to upload to WordPress.</p>
+
+			<p>If you have previously download the theme by clicking the <strong>“Installable WordPress file only”</strong> link, you're ready to go!</p>
+			
+			<h3>Step 2: Install Via WordPress or FTP</h3>
+			<p>
+				Login to your WordPress administrator page. You can upload the theme zip file in "Appearance > Themes" and click the "Add New" button on the top of page. After that click "Upload Theme" button at the top of page, 
+				upload the zip file, once it has done, click Activate the theme.
+			</p>
+			<p>
+				You also can manually upload the theme files via FTP into <strong>"/wp-content/themes/"</strong> path at your hosting, 
+				log-in into your wp-admin and activate the theme.
+			</p>
+
+			<p>If you found any strange situation when installing the theme, please let us know ASAP.</p>
+
+			<h3>Step 3: Installing Recommended Plugins</h3>
+			<p>Once you have installed and activated the theme, you will be prompted to install recommended plugins. Just click the link to begin installing plugins.
+			We have packed all core options and features into 1 plugin <strong>"WIP-Themes Core"</strong>. You MUST activate this plugin to enabled all options and features.
+			You also need to install and activate the "Elementor" plugin to get the same features as the demo.</p>
+
+			<p>Again, if you found any strange situation when installing the theme, please let us know ASAP.</p>
+
+			
+			<div class="clearfix"></div>
+		</section>
+		<!-- #install -->
+
+		<section class="part" id="import">
+			<div class="page-header">
+				<h1>Import Demo Data</h1>
+			</div>
+
+			<p class="hero-unit alert-danger">
+				<strong>Note:</strong><br/>
+				Before importing the demo data, make sure you have installing and activate all required plugins <strong>WIP-Themes Core</strong>, <strong>Elementor</strong> and <strong>One Click Demo Import</strong>.
+			</p>
+
+			<h3>Please follow a short tutorial below</h3>
+			
+			<p>Once you have install and activate <strong>All Required</strong> plugins. Go to "Appearance > Import Demo Data" menu as shown on image below.</p>
+			<img src="assets/img/import-1.jpg" />
+			
+			<p>Click the "Import Demo Data" button. You will see a text below the button says "Importing, please wait!". Please wait, and don't navigate away from this page until the import process is finish, as shown on image below.</p>
+			<img src="assets/img/import-2.jpg" />
+
+			<p class="hero-unit alert-danger">
+				Please be patient when importing the demo. Don't navigate away from the current page until the importer has done importing the content and settings, or you might break the import process.
+			</p>
+			<p class="hero-unit alert-danger">
+				If you see a 502 bad gateway error when importing the sample data please contact your hosting company since this is a server side error.
+			</p>
+		</section>
+		<!-- #import -->
+
+		<section class="part" id="global-elementor">
+			<div class="page-header">
+				<h1>Elementor Global Settings</h1>
+			</div>
+
+			<p>After importing the demo data, you need to setup some Elementor's global settings so it will not override your site's font and colors.</p>
+
+			<p>Please navigate to "Elementor > Settings", and disabled the default color and font from Elementor.</p>
+			<img src="assets/img/elementor-settings.jpg" />
+
+			<p class="hero-unit alert-info">
+				If you're new with Elementor, please follow the official documentation here <a href="https://docs.elementor.com/" target="_blank">https://docs.elementor.com/</a>
+			</p>
+		</section>
+		<!-- #global-elementor -->
+
+		<section class="part" id="homepage">
+			<div class="page-header">
+				<h1>Homepage Setup</h1>
+			</div>
+
+			<p>By default the homepage will look like a blog <em>(this is how WordPress is intended to work)</em>. If you want a custom homepage you can create it using the <strong>Elementor</strong> then go to <strong>Settings > Reading</strong> and you can define your homepage there. Make sure you have created and published your homepage page prior. If you don’t have any pages or all your pages are currently drafts then you won’t be able to see the settings in the screenshot below.</p>
+
+			<img src="assets/img/homepage-1.jpg" />
+
+			<div class="clearfix"></div>
+		</section>
+		<!-- #homepage -->
+
+
+		<section class="part" id="settings">
+			<div class="page-header">
+				<h1>Theme Settings</h1>
+			</div>
+
+			<p class="hero-unit">
+				This theme has no <em>"Custom"</em> theme settings page. All you need to do is navigate to <strong>Appearance > Customize</strong> to setup some settings available on this theme.
+			</p>
+
+			<hr>
+			<p>This theme includes some of easy to use options to customize the design of your site. Most of your theme options can be found in the live WordPress theme customizer. Our theme uses only native WordPress functions, or you should be familiar with the way the Customizer looks and works. Simply navigate to <strong>Appearance > Customize</strong> to make changes to the design of your website.</p>
+
+			<img src="assets/img/customizer-1.jpg" />
+
+			<hr>
+
+			<h3>Site Identity</h3>
+			<p>In this section, you can setup your website Logo, Site Title & Tagline, Copyright Text and also favicon image.</p>
+			<img src="assets/img/customizer-2.jpg" />
+
+			<hr>
+
+			<h3>Elements</h3>
+			<p>This section will allow you to choose the portfolio archive style, and enabled/disabled some site elements.</p>
+			<img src="assets/img/customizer-3.jpg" />
+
+			<hr>
+
+			<h3>Custom Skin</h3>
+			<p>The default theme skin is use minimalist black and white concept, but we believe not everyone love this color concept. That's why we provide a custom skin settings, where you can set the custom color for your website. Do not forget to activate the <strong>"Enable Custom Skin"</strong> option in <strong>"Base Styling"</strong> section, to activate the custom color skin on the front-end of your website.</p>
+			<img src="assets/img/customizer-5.jpg" />
+
+			<hr>
+
+			<h3>Typography</h3>
+			<p>Select from 500+ google web fonts for heading and body text. Find the best font for your site easily! Set the base font size and all heading font size. Since almost all font have diifferent characteristic, you might need to adjust the font size everytime you pick a new font for your site.</p>
+			<img src="assets/img/customizer-4.jpg" />
+
+			<hr>
+
+			<h3>Social icons</h3>
+			<p>Manage the social links and icons on the left bar.</p>
+			<img src="assets/img/customizer-9.jpg" />
+
+			<hr>
+
+			<h3>Additional CSS</h3>
+			<p>If you have huge changes in the theme style, I suggest you to create a child theme.</p>
+			
+			<p>But instead of changing the theme's css file directly,
+			you can place your css codes here - it is the best way to save your changes since it will not get removed
+			when the theme get updated into new version.</p>
+
+			<img src="assets/img/customizer-6.jpg" />
+
+
+		</section>
+		<!-- #settings -->
+
+
+		<section class="part" id="metabox">
+			<div class="page-header">
+				<h1>Custom Metabox</h1>
+				<h6>Page and Post Metabox</h6>
+			</div>
+
+		<div class="row">
+		  <div class="span3">
+		     <h3>Page Metabox</h3>
+		     <hr/>
+		     <p>Since WordPress 5.0, your editing screen will looks bit different than usual. The page options will be listed in the right hand side. For page, you have an option to show/hide the page title.</p>
+
+		  </div>
+
+		  <div class="span9"> 
+		    <img src="assets/img/metabox-2.jpg" alt="" />
+		  </div>
+		</div>
+
+		<div class="row">
+		  <div class="span3">
+		     <h3>Portfolio Metabox</h3>
+		     <hr/>
+		     <p><strong>Options</strong><br/>
+		      For portfolio, you have a simple & optional option to enter your projects year info.</p>
+
+		  </div>
+
+		  <div class="span9"> 
+		    <img src="assets/img/metabox-1.jpg" alt="" />
+		  </div>
+		</div>
+
+
+		</section>
+
+		<section class="part" id="css">
+			<div class="page-header">
+				<h1>Theme CSS Files</h1>
+			</div>
+
+		<div class="row">
+		  <div class="span4">
+		          <p>
+		          We using some CSS files in this theme.<br /> 
+		          <ol>
+		            <li><em>"aiteko/assets/css/site.css"</em><br/><small>General layout structures.</small></li>
+		            <li><em>"aiteko/assets/css/default-skin.css"</em><br/><small>Default skin used by the theme.</small></li>
+		          </ol>
+		          
+		          </p> 
+		  </div>
+
+		  <div class="span8">
+		    <h4>Structure of "site.css"</h4>
+<pre class="prettyprint linenums">
+	/** ===============================
+	 ********* 1. BASE STYLING *********
+	 =============================== **/
+	**somecode
+
+	/** ==============================
+	 ********* 2. Wrap & Menu *********
+	 ================================== **/
+	**somecode
+
+	/** =================================
+	 ********* 3. Main Container *********
+	 ===================================== **/
+	**somecode
+
+	/** =============================
+	 ********* 4. Blog Posts *********
+	 ================================= **/
+	**somecode
+
+	/** ================================
+	 ********* 4.1 Single Posts *********
+	 ==================================== **/
+	 **somecode
+
+	/** =============================
+	 ********* 5. Inner page *********
+	 ================================= **/
+	**somecode
+
+	/** ============================
+	 ********* 6. Portfolio *********
+	 ================================ **/
+	**somecode
+
+	/** =================================
+	 ********* 7. Search results *********
+	 ===================================== **/
+	**somecode
+
+	/** =============================
+	 ********* 8. Pagination *********
+	 ================================= **/
+	**somecode
+
+	/** =================================
+	 ********* 9. Overlay Search *********
+	 ===================================== **/
+	 **somecode
+
+	/** ===========================
+	 ********* 10. WIDGETS *********
+	 =============================== **/
+	 **somecode
+
+	/** ============================
+	 ********* 11. COMMENTS *********
+	 ================================ **/
+	 **somecode
+
+	/** ==========================
+	 ********* 12. FOOTER *********
+	 ============================== **/
+	 **somecode
+
+	/** =========================
+	 ********* 13. MISC *********
+	 ============================ **/
+	 **somecode
+</pre>
+		  </div>
+		</div>
+
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+
+		<p>If you are a developer, all .scss file also included under "scss" folder for more speedy and easy to modify the default style :)</p>
+
+		</section>
+		<!-- #CSS -->
+
+		<section class="part" id="javascript">
+		  <div class="page-header">
+		    <h1>Javascript Files</h1>
+		    <h6>the js files!</h6>
+		  </div>
+
+		  <div class="row">
+		    <div class="span3">
+		      <h3>JavaScript Files</h3>
+		      <p>This theme imports some Javascript files.</p>
+		    </div>
+		    <div class="span9">
+		      <table class="table table-bordered table-striped">
+		        <thead>
+		          <tr>
+		            <th>Tag</th>
+		            <th>Description</th>
+		          </tr>
+		        </thead>
+		        <tbody>
+		          <tr>
+		            <td><code>html5.js</code></td>
+		            <td>Helper for Internet Explorer version < 9.</td>
+		          </tr>
+		          <tr>
+		            <td><code>global.js</code></td>
+		            <td>All base fuction defined here.</td>
+		          </tr>
+		          <tr>
+		            <td><code>jarallax.min.js</code></td>
+		            <td>Parallax module/helper</td>
+		          </tr>
+		          <tr>
+		            <td><code>anime.min.js</code></td>
+		            <td>CSS3 animation helper</td>
+		          </tr>
+		          <tr>
+		            <td><code>smooth-scrollbar.js</code></td>
+		            <td>Scrollbar module</td>
+		          </tr>
+		           <tr>
+		            <td><code>magnific-popup.min.js</code></td>
+		            <td>Image lightbox</td>
+		          </tr>
+		        </tbody>
+		      </table>
+		    </div>
+		  </div>
+		</section>
+		<!-- #javascript -->
+
+<section class="part" id="credits">
+  <div class="page-header">
+    <h1>Credits Files</h1>
+    <h6>We've used the following images, icons or other files as listed.</h6>
+  </div>
+
+<h5>Images</h5>
+<p>All images used on demo are from <a href="https://unsplash.com/">unsplash.com</a> and <a href="https://www.pexels.com/">pexels.com</a>.
+</p>
+
+<h5>Javascript and Font</h5>
+    <ol>
+        <li><a href="http://jquery.com/">jQuery</a></li>
+        <li><a href="https://github.com/juliangarnier/anime">Anime js</a></li>
+        <li><a href="https://github.com/nk-o/jarallax">Jarallax</a></li>
+        <li><a href="https://github.com/idiotWu/smooth-scrollbar">Smooth-scrollbar</a></li>
+        <li><a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a></li>
+    </ol>
+</section>
+
+		<hr />
+
+		<div class="goodbye">
+    <p>Once again, thank you so much for purchasing this item. As we said at the beginning, we'd be glad to help you if you have any questions relating to this item. We'll do our best to assist.</p>
+
+    <p>Best Regards,<br/>WIP Themes.</p>
+		</div>
+		<!-- .goodbye -->
+
+	</div>
+	<!-- #inner -->
+
+</div>
+<!-- #wrap -->
+
+</body>
+</html>

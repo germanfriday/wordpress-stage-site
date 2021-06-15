@@ -1,0 +1,1 @@
+<div class="entry"><?php the_content(); wp_link_pages(); ?></div><!--End entry-->

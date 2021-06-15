@@ -1,0 +1,71 @@
+<h2 class="title-form">Personal information</h2>
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="fieldInputName">First name</label>
+            [text* your-name class:form-control class:input-lg placeholder "enter your name"]
+        </div>
+        <div class="form-group">
+            <label for="fieldSelectGender">Gender</label>
+            [select gender class:form-control class:input-lg "male" "female"]
+        </div>
+        <div class="form-group">
+              <label for="fieldSelectCountry">Country</label>
+              [select country class:form-control class:input-lg "United States" "United Kingdom" "Germany" "Japan" "France"]
+        </div>
+     </div>
+     <div class="col-md-4">
+          <div class="form-group">
+             <label for="fieldInputLastname">Last name</label>
+             [text* last-name class:form-control class:input-lg placeholder "enter your last name"]
+          </div>
+          <div class="form-group">
+             <label for="fieldInputEmail1">Email address</label>
+             [email* your-email class:form-control class:input-lg placeholder "enter your email address"]
+          </div>
+          <div class="form-group">
+               <label for="fieldSelectCity">City</label>
+               [select city class:form-control class:input-lg "Los Angeles" "Chicago" "Houston" "Philadelphia" "Washington, D.C."]
+           </div>
+     </div>
+     <div class="col-md-4">
+          <div class="form-group">
+              <label for="fieldInputBirth">Date of birth</label>
+              [date date-value class:form-control class:input-lg placeholder "DD/MM/YYYY"]
+           </div>
+           <div class="form-group">
+               <label for="fieldInputPostalcode">Postal code</label>
+               [text* postal-code class:form-control class:input-lg placeholder "enter your postal code"]
+           </div>
+           <div class="form-group">
+               <label for="fieldInputPostalcode">Adress</label>
+               [text* adress class:form-control class:input-lg placeholder "enter your adress"]
+           </div>
+     </div>
+</div>
+                
+<hr class="invisible" />
+<hr class="invisible" />
+<h2 class="title-form">Video Tutorials</h2>              
+<div>
+<label class="checkbox-inline">[checkbox webdesign "Webdesign"]</label>
+<label class="checkbox-inline">[checkbox marketing "Marketing"]</label>
+<label class="checkbox-inline">[checkbox webdevelopment "Webdevelopement"]</label>
+<label class="checkbox-inline">[checkbox coding "Coding"]</label>
+<label class="checkbox-inline">[checkbox optimization "Search Engine Optimization"]</label>
+<label class="checkbox-inline">[checkbox graphic-design "Graphic Design"]</label>
+<label class="checkbox-inline">[checkbox mysql-php "MySQL / PHP"]</label>
+<label class="checkbox-inline">[checkbox html-css "HTML / CSS"]</label>
+<label class="checkbox-inline">[checkbox c "C++"]</label>
+<label class="checkbox-inline">[checkbox making-videos "Making Videos"]</label>
+<label class="checkbox-inline">[checkbox languages "Languages"]</label>
+<label class="checkbox-inline">[checkbox moviemaker-3d "Moviemaker 3D"]</label>
+<label class="checkbox-inline">[checkbox logodesign "Logodesign"]</label>
+<label class="checkbox-inline">[checkbox browser-co "Browser Co."]</label>
+<label class="checkbox-inline">[checkbox social-networking"Social Networking"]</label>
+</div>
+<hr class="invisible" />
+                
+<p>
+    [submit class:btn class:btn-theme class:btn-orange "Get Videos"]
+</p>

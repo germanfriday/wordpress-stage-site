@@ -1,0 +1,3018 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Air WordPress Theme\n"
+"POT-Creation-Date: 2017-08-28 21:37+0800\n"
+"PO-Revision-Date: 2020-04-17 11:08+0800\n"
+"Language-Team: SeaTheme <hi@seatheme.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_attr__;esc_html_e;esc_html__\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "PAGE NOT FOUND"
+msgstr "无法找到页面"
+
+#: 404.php:13
+msgid "STAY CALM AND DON'T FREAK OUT!"
+msgstr "请不要着急！"
+
+#: 404.php:15
+msgid ""
+"Unfortunately, the page you are looking for is unavailable. Trying visit our"
+msgstr "抱歉，此页无法打开，请访问"
+
+#: 404.php:15 functions/theme/options/options-fields.php:285
+msgid "Homepage"
+msgstr "首页"
+
+#: 404.php:15
+msgid " and starting from there."
+msgstr ""
+
+#: comments.php:11
+msgid "0 Response"
+msgstr "无回复"
+
+#: comments.php:11
+msgid "1 Response"
+msgstr "1条回复"
+
+#: comments.php:11
+msgid "% Responses"
+msgstr "% 条回复"
+
+#: comments.php:45
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "这篇文章受密码保护。 输入密码以查看任何评论。"
+
+#: comments.php:57 woocommerce/airtheme-woocommerce-functions.php:89
+msgid "Name"
+msgstr "姓名"
+
+#: comments.php:58 functions/theme/post/post-meta.php:1282
+#: woocommerce/airtheme-woocommerce-functions.php:90
+msgid "Email"
+msgstr "邮箱"
+
+#: comments.php:59
+msgid "Website"
+msgstr "网站"
+
+#: comments.php:61 functions/theme/options/options-config.php:651
+#: woocommerce/airtheme-woocommerce-functions.php:92
+msgid "Leave your comment here"
+msgstr "在此留言"
+
+#: comments.php:63 functions/theme/options/options-config.php:644
+msgid "Leave a Comment"
+msgstr "发布评论"
+
+#: comments.php:65 functions/class/class-ux-importer.php:251
+#: functions/theme/options/options-config.php:658
+#: functions/theme/wordpress-importer/wordpress-importer.php:286
+#: woocommerce/airtheme-woocommerce-functions.php:94
+msgid "Submit"
+msgstr "提交"
+
+#: comments.php:82 woocommerce/airtheme-woocommerce-functions.php:109
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+"登录 <a href=“%1$s”>%2$s</a>. <a href=“%3$s” title=“登出此账户”>退出 &raquo;"
+"</a>"
+
+#: comments.php:84
+#, php-format
+msgid "Leave a Comment to %s"
+msgstr "对 %s 发布评论"
+
+#: comments.php:85
+msgid "Cancel Reply"
+msgstr "取消回复"
+
+#: comments.php:88 woocommerce/airtheme-woocommerce-functions.php:115
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "您必须<a href=“%s”>登录后</a>发表评论。"
+
+#: functions/class/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: functions/class/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: functions/class/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:393
+#: functions/class/class-tgm-plugin-activation.php:912
+#: functions/class/class-tgm-plugin-activation.php:2618
+#: functions/class/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:394
+#: functions/class/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/class/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/class/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: functions/class/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:1019
+#: functions/class/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#. translators: %s: version number
+#: functions/class/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: functions/class/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: functions/class/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: functions/class/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: functions/class/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: functions/class/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/class/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/class/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:3594
+#: functions/class/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:3594
+#: functions/class/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: functions/class/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/class/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: functions/class/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: functions/class/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:99
+#: functions/class/class-ux-importer.php:108
+#: functions/class/class-ux-importer.php:159
+#: functions/class/class-ux-importer.php:163
+#: functions/class/class-ux-importer.php:172
+#: functions/theme/wordpress-importer/wordpress-importer.php:134
+#: functions/theme/wordpress-importer/wordpress-importer.php:143
+#: functions/theme/wordpress-importer/wordpress-importer.php:194
+#: functions/theme/wordpress-importer/wordpress-importer.php:198
+#: functions/theme/wordpress-importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:100
+#: functions/theme/wordpress-importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:143
+#: functions/theme/wordpress-importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:143
+#: functions/theme/wordpress-importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:144
+#: functions/theme/wordpress-importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:164
+#: functions/theme/wordpress-importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:180
+#: functions/theme/wordpress-importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:205
+#: functions/theme/wordpress-importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:231
+#: functions/theme/wordpress-importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:232
+#: functions/theme/wordpress-importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:234
+#: functions/theme/wordpress-importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:244
+#: functions/theme/wordpress-importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:247
+#: functions/theme/wordpress-importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:264
+#: functions/theme/wordpress-importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:275
+#: functions/theme/wordpress-importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:278
+#: functions/theme/wordpress-importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:286
+#: functions/theme/wordpress-importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:288
+#: functions/theme/wordpress-importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:289
+#: functions/theme/wordpress-importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:339
+#: functions/theme/wordpress-importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:391
+#: functions/theme/wordpress-importer/wordpress-importer.php:426
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:434
+#: functions/theme/wordpress-importer/wordpress-importer.php:469
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:483
+#: functions/class/class-ux-importer.php:704
+#: functions/theme/wordpress-importer/wordpress-importer.php:518
+#: functions/theme/wordpress-importer/wordpress-importer.php:739
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:571
+#: functions/theme/wordpress-importer/wordpress-importer.php:606
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:608
+#: functions/theme/wordpress-importer/wordpress-importer.php:643
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:670
+#: functions/theme/wordpress-importer/wordpress-importer.php:705
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:839
+#: functions/theme/wordpress-importer/wordpress-importer.php:874
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:846
+#: functions/theme/wordpress-importer/wordpress-importer.php:881
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:909
+#: functions/theme/wordpress-importer/wordpress-importer.php:944
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:922
+#: functions/theme/wordpress-importer/wordpress-importer.php:957
+msgid "Invalid file type"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:981
+#: functions/theme/wordpress-importer/wordpress-importer.php:1016
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:994
+#: functions/theme/wordpress-importer/wordpress-importer.php:1029
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:999
+#: functions/theme/wordpress-importer/wordpress-importer.php:1034
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:1005
+#: functions/theme/wordpress-importer/wordpress-importer.php:1040
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:1104
+#: functions/theme/wordpress-importer/wordpress-importer.php:1139
+msgid "Import WordPress"
+msgstr ""
+
+#: functions/class/class-ux-importer.php:1111
+#: functions/theme/wordpress-importer/wordpress-importer.php:1146
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:1126
+#: functions/theme/wordpress-importer/wordpress-importer.php:1161
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: functions/class/class-ux-importer.php:1127
+#: functions/theme/wordpress-importer/wordpress-importer.php:1162
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: functions/interface/interface-functions.php:40
+#, php-format
+msgid "Page %s"
+msgstr "第%s页"
+
+#: functions/interface/interface-functions.php:710
+#: functions/theme/options/options-config.php:630
+msgid "LOAD MORE ARTICLES"
+msgstr "查看更多文章"
+
+#: functions/interface/interface-functions.php:712
+#: functions/theme/options/options-config.php:637
+msgid "LOADING..."
+msgstr "加载中…"
+
+#: functions/interface/interface-functions.php:759
+#: template/global/photoswipe.php:40
+msgid "Previous"
+msgstr "上一篇"
+
+#: functions/interface/interface-functions.php:760
+#: template/global/photoswipe.php:43
+msgid "Next"
+msgstr "下一篇"
+
+#: functions/interface/interface-functions.php:801
+msgid "WPML not installed and activated."
+msgstr "WPML插件未安装或启用。"
+
+#: functions/interface/interface-functions.php:913
+#: functions/theme/options/options-config.php:627
+msgid "Load More"
+msgstr "查看更多文章"
+
+#: functions/interface/interface-functions.php:918
+msgid "Sorry, no result."
+msgstr "抱歉，没有检索到文章。"
+
+#: functions/interface/interface-functions.php:981
+#: functions/interface/interface-functions.php:983
+msgid "ON "
+msgstr "发布于："
+
+#: functions/interface/interface-functions.php:999
+msgid "IN: "
+msgstr "所属："
+
+#: functions/interface/interface-functions.php:1005
+msgid "IN "
+msgstr "所属："
+
+#: functions/interface/interface-functions.php:1025
+#: functions/interface/interface-functions.php:1214
+#: functions/interface/interface-functions.php:1217
+#, php-format
+msgid "View all posts in %s"
+msgstr "在%s中查看所有文章"
+
+#: functions/interface/interface-functions.php:1035
+#: functions/interface/interface-functions.php:1037
+#: functions/interface/interface-functions.php:1039
+msgid "BY: "
+msgstr "作者："
+
+#: functions/interface/interface-functions.php:1047
+#: functions/interface/interface-functions.php:1050
+#: functions/interface/interface-functions.php:1053
+#: woocommerce/single-product-reviews.php:34
+msgid "0 COMMENT"
+msgstr "无回复"
+
+#: functions/interface/interface-functions.php:1047
+#: functions/interface/interface-functions.php:1050
+#: functions/interface/interface-functions.php:1053
+#: woocommerce/single-product-reviews.php:34
+msgid "1 COMMENT"
+msgstr "1条评论"
+
+#: functions/interface/interface-functions.php:1047
+#: functions/interface/interface-functions.php:1050
+#: functions/interface/interface-functions.php:1053
+#: woocommerce/single-product-reviews.php:34
+msgid "% COMMENTS"
+msgstr "% 条评论"
+
+#: functions/interface/interface-functions.php:1060
+msgid "Continue Reading"
+msgstr "继续阅读"
+
+#: functions/theme/nav-menu/nav-menu-anchor.php:41
+msgid "Anchor"
+msgstr ""
+
+#: functions/theme/nav-menu/nav-menu-anchor.php:44
+msgid "None"
+msgstr ""
+
+#: functions/theme/nav-menu/nav-menu-anchor.php:46
+msgid "The top of this page"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: functions/theme/nav-menu/ux-class/nav-menu.php:99
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: functions/theme/nav-menu/ux-class/nav-menu.php:103
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:116
+msgid "sub item"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:131
+msgid "Move up"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:144
+msgid "Move down"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:148
+msgid "Edit menu item"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:148
+msgid "Edit"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:157
+#: functions/theme/post/post-meta.php:753
+#: functions/theme/post/post-meta.php:843
+#: functions/theme/post/post-meta.php:1052
+msgid "URL"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:164
+msgid "Navigation Label"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:170
+msgid "Title Attribute"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:177
+msgid "Open link in a new tab"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:182
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:188
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:197
+msgid "Description"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:199
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:205
+msgid "Move"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:206
+msgid "Up one"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:207
+msgid "Down one"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:210
+msgid "To the top"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:217
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:230
+#: functions/theme/options/options-fields.php:260
+msgid "Remove"
+msgstr ""
+
+#: functions/theme/nav-menu/ux-class/nav-menu.php:231
+msgid "Cancel"
+msgstr ""
+
+#: functions/theme/options/options-config.php:65
+msgid "Select menu"
+msgstr ""
+
+#: functions/theme/options/options-config.php:111
+#: functions/theme/options/options-config.php:436
+#: functions/theme/post/post-meta.php:147
+msgid "Facebook"
+msgstr ""
+
+#: functions/theme/options/options-config.php:115
+msgid "Visit Facebook page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:118
+#: functions/theme/options/options-config.php:437
+#: functions/theme/post/post-meta.php:148
+msgid "Twitter"
+msgstr ""
+
+#: functions/theme/options/options-config.php:122
+msgid "Visit Twitter page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:125
+msgid "Google+"
+msgstr ""
+
+#: functions/theme/options/options-config.php:129
+msgid "Visit Google Plus page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:132
+msgid "Youtube"
+msgstr ""
+
+#: functions/theme/options/options-config.php:136
+msgid "Visit Youtube page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:139
+msgid "Vimeo"
+msgstr ""
+
+#: functions/theme/options/options-config.php:143
+msgid "Visit Vimeo page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:146
+#: functions/theme/options/options-config.php:444
+#: functions/theme/post/post-meta.php:155
+msgid "Tumblr"
+msgstr ""
+
+#: functions/theme/options/options-config.php:150
+msgid "Visit Tumblr page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:153
+msgid "RSS"
+msgstr ""
+
+#: functions/theme/options/options-config.php:157
+msgid "Visit Rss"
+msgstr ""
+
+#: functions/theme/options/options-config.php:160
+#: functions/theme/options/options-config.php:439
+#: functions/theme/post/post-meta.php:150
+msgid "Pinterest"
+msgstr ""
+
+#: functions/theme/options/options-config.php:164
+msgid "Visit Pinterest page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:167
+#: functions/theme/options/options-config.php:442
+#: functions/theme/post/post-meta.php:153
+msgid "Linkedin"
+msgstr ""
+
+#: functions/theme/options/options-config.php:171
+msgid "Visit Linkedin page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:174
+msgid "Instagram"
+msgstr ""
+
+#: functions/theme/options/options-config.php:178
+msgid "Visit Instagram page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:181
+msgid "Github"
+msgstr ""
+
+#: functions/theme/options/options-config.php:185
+msgid "Visit Github page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:188
+msgid "Xing"
+msgstr ""
+
+#: functions/theme/options/options-config.php:192
+msgid "Visit Xing page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:195
+msgid "Flickr"
+msgstr ""
+
+#: functions/theme/options/options-config.php:199
+msgid "Visit Flickr page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:202
+msgid "VK"
+msgstr ""
+
+#: functions/theme/options/options-config.php:206
+msgid "Visit VK page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:209
+msgid "Weibo"
+msgstr ""
+
+#: functions/theme/options/options-config.php:213
+msgid "Visit Weibo page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:216
+msgid "Renren"
+msgstr ""
+
+#: functions/theme/options/options-config.php:220
+msgid "Visit Renren page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:223
+msgid "Bitbucket"
+msgstr ""
+
+#: functions/theme/options/options-config.php:227
+msgid "Visit Bitbucket page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:230
+msgid "Foursquare"
+msgstr ""
+
+#: functions/theme/options/options-config.php:234
+msgid "Visit Foursquare page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:237
+#: functions/theme/options/options-config.php:241
+msgid "Skype"
+msgstr ""
+
+#: functions/theme/options/options-config.php:244
+msgid "Dribbble"
+msgstr ""
+
+#: functions/theme/options/options-config.php:248
+msgid "Visit Dribbble page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:370
+#: functions/theme/post/post-meta.php:162
+msgid "Date"
+msgstr ""
+
+#: functions/theme/options/options-config.php:371
+msgid "Length"
+msgstr ""
+
+#: functions/theme/options/options-config.php:372
+#: functions/theme/post/post-meta.php:434
+#: template/global/content-titlewrap.php:73
+msgid "Category"
+msgstr ""
+
+#: functions/theme/options/options-config.php:373
+#: functions/theme/post/post-meta.php:165
+#: template/global/content-titlewrap.php:68
+msgid "Author"
+msgstr ""
+
+#: functions/theme/options/options-config.php:374
+msgid "Comments"
+msgstr ""
+
+#: functions/theme/options/options-config.php:378
+msgid "Default Demo"
+msgstr ""
+
+#: functions/theme/options/options-config.php:385
+msgid "1 Set of Information"
+msgstr ""
+
+#: functions/theme/options/options-config.php:386
+msgid "2 Sets of Information"
+msgstr ""
+
+#: functions/theme/options/options-config.php:390
+#: functions/theme/options/options-config.php:398
+#: functions/theme/options/options-config.php:900
+#: functions/theme/options/options-config.php:1251
+msgid "Menu"
+msgstr ""
+
+#: functions/theme/options/options-config.php:391
+#: functions/theme/options/options-config.php:399
+msgid "Copyright Info"
+msgstr ""
+
+#: functions/theme/options/options-config.php:392
+#: functions/theme/options/options-config.php:400
+msgid "Social Icons"
+msgstr ""
+
+#: functions/theme/options/options-config.php:393
+#: functions/theme/options/options-config.php:401
+#: functions/theme/options/options-config.php:535
+#: functions/theme/options/options-config.php:1224
+msgid "Logo"
+msgstr ""
+
+#: functions/theme/options/options-config.php:394
+#: functions/theme/options/options-config.php:402
+msgid "Multi-Language"
+msgstr ""
+
+#: functions/theme/options/options-config.php:410
+msgid "Show Menu Icon"
+msgstr ""
+
+#: functions/theme/options/options-config.php:411
+msgid "Show Menu"
+msgstr ""
+
+#: functions/theme/options/options-config.php:415
+msgid "Fluid"
+msgstr ""
+
+#: functions/theme/options/options-config.php:416
+msgid "Same As Main Container"
+msgstr ""
+
+#: functions/theme/options/options-config.php:420
+#: functions/theme/options/options-config.php:425
+#: functions/theme/post/post-meta.php:182
+#: functions/theme/post/post-meta.php:294
+#: functions/theme/post/post-meta.php:299
+msgid "Dark"
+msgstr ""
+
+#: functions/theme/options/options-config.php:421
+#: functions/theme/options/options-config.php:426
+#: functions/theme/post/post-meta.php:183
+#: functions/theme/post/post-meta.php:295
+#: functions/theme/post/post-meta.php:300
+msgid "Light"
+msgstr ""
+
+#: functions/theme/options/options-config.php:430
+msgid "1170"
+msgstr ""
+
+#: functions/theme/options/options-config.php:431
+msgid "1070"
+msgstr ""
+
+#: functions/theme/options/options-config.php:432
+msgid "970"
+msgstr ""
+
+#: functions/theme/options/options-config.php:438
+#: functions/theme/post/post-meta.php:149
+msgid "Google Plus"
+msgstr ""
+
+#: functions/theme/options/options-config.php:440
+#: functions/theme/post/post-meta.php:151
+msgid "Digg"
+msgstr ""
+
+#: functions/theme/options/options-config.php:441
+#: functions/theme/post/post-meta.php:152
+msgid "Reddit"
+msgstr ""
+
+#: functions/theme/options/options-config.php:443
+#: functions/theme/post/post-meta.php:154
+msgid "Stumbleupon"
+msgstr ""
+
+#: functions/theme/options/options-config.php:445
+#: functions/theme/post/post-meta.php:156
+msgid "Mail"
+msgstr ""
+
+#: functions/theme/options/options-config.php:449
+#: functions/theme/options/options-config.php:457
+#: functions/theme/post/post-meta.php:269
+msgid "0"
+msgstr ""
+
+#: functions/theme/options/options-config.php:450
+#: functions/theme/options/options-config.php:458
+#: functions/theme/post/post-meta.php:271
+msgid "10"
+msgstr ""
+
+#: functions/theme/options/options-config.php:451
+#: functions/theme/options/options-config.php:459
+#: functions/theme/post/post-meta.php:272
+msgid "20"
+msgstr ""
+
+#: functions/theme/options/options-config.php:452
+#: functions/theme/options/options-config.php:460
+msgid "30"
+msgstr ""
+
+#: functions/theme/options/options-config.php:453
+#: functions/theme/options/options-config.php:461
+#: functions/theme/post/post-meta.php:273
+msgid "40"
+msgstr ""
+
+#: functions/theme/options/options-config.php:475
+#: functions/theme/options/options-interface.php:4
+#: functions/theme/theme-options.php:7
+msgid "Theme Options"
+msgstr ""
+
+#: functions/theme/options/options-config.php:480
+#: functions/theme/options/options-config.php:483
+msgid "Import Demo Data"
+msgstr ""
+
+#: functions/theme/options/options-config.php:482
+msgid ""
+"if you are new to WordPress or have problems creating posts or pages that "
+"look like the theme demo, you could import dummy posts and pages here that "
+"will definitely help to understand how those tasks are done"
+msgstr ""
+
+#: functions/theme/options/options-config.php:484
+msgid "Loading data, don&acute;t close the page please."
+msgstr ""
+
+#: functions/theme/options/options-config.php:488
+msgid ""
+"The demo content will be import including post/pages and sliders, the images "
+"in sliders could only be use as placeholder and could not be use in your "
+"finally website due to copyright reasons."
+msgstr ""
+
+#: functions/theme/options/options-config.php:497
+msgid "export your current data to a file and save it on your computer"
+msgstr ""
+
+#: functions/theme/options/options-config.php:498
+msgid "Export Current Data"
+msgstr ""
+
+#: functions/theme/options/options-config.php:505
+msgid "import a data file you have saved"
+msgstr ""
+
+#: functions/theme/options/options-config.php:506
+msgid "Import My Saved Data"
+msgstr ""
+
+#: functions/theme/options/options-config.php:517
+msgid "Generate New Thumbs for This Theme"
+msgstr ""
+
+#: functions/theme/options/options-config.php:518
+msgid ""
+"if you have many posts and had assigned some Featured Image for them before "
+"using this theme, this button could help you adapt these feature images to "
+"appropriate size for this theme"
+msgstr ""
+
+#: functions/theme/options/options-config.php:519
+msgid "Generate New Thumbnails"
+msgstr ""
+
+#: functions/theme/options/options-config.php:520
+msgid "Processing, don&acute;t close the page please."
+msgstr ""
+
+#: functions/theme/options/options-config.php:530
+msgid "General Settings"
+msgstr ""
+
+#: functions/theme/options/options-config.php:539
+msgid "Enable Plain Text Logo"
+msgstr ""
+
+#: functions/theme/options/options-config.php:546
+msgid "Logo Text"
+msgstr ""
+
+#: functions/theme/options/options-config.php:555
+msgid "Dark Custom Logo"
+msgstr ""
+
+#: functions/theme/options/options-config.php:556
+msgid ""
+"the container for custom logo is 120px(width) * 120px(hight) for \"Menu Bar "
+"on Side\" layout,  240px(width) * 100px(hight) for \"Menu Bar on Head\" "
+"layout, you could upload a double size logo image to meet the needs of "
+"retina screens"
+msgstr ""
+
+#: functions/theme/options/options-config.php:563
+msgid "Light Custom Logo"
+msgstr ""
+
+#: functions/theme/options/options-config.php:571
+msgid "Custom Logo Height"
+msgstr ""
+
+#: functions/theme/options/options-config.php:575
+#: functions/theme/options/options-config.php:601
+msgid "It is optional."
+msgstr ""
+
+#: functions/theme/options/options-config.php:581
+msgid "Custom Logo For Loading Page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:589
+msgid "Custom Footer Logo"
+msgstr ""
+
+#: functions/theme/options/options-config.php:597
+msgid "Custom Footer Logo Height"
+msgstr ""
+
+#: functions/theme/options/options-config.php:609
+msgid "Descriptions"
+msgstr ""
+
+#: functions/theme/options/options-config.php:613
+msgid "Menu Icon"
+msgstr ""
+
+#: functions/theme/options/options-config.php:616 template/global/header.php:6
+msgid "MENU"
+msgstr "菜单"
+
+#: functions/theme/options/options-config.php:620
+msgid "Close Menu Icon"
+msgstr ""
+
+#: functions/theme/options/options-config.php:623 template/global/header.php:7
+msgid "CLOSE"
+msgstr "关闭"
+
+#: functions/theme/options/options-config.php:634
+msgid "Loading"
+msgstr ""
+
+#: functions/theme/options/options-config.php:641
+#: functions/theme/options/options-config.php:992
+msgid "Comment Title"
+msgstr ""
+
+#: functions/theme/options/options-config.php:642
+msgid "Comments in posts"
+msgstr ""
+
+#: functions/theme/options/options-config.php:648
+msgid "Comment Box Placeholder"
+msgstr ""
+
+#: functions/theme/options/options-config.php:655
+msgid "Comment Submit Button Name"
+msgstr ""
+
+#: functions/theme/options/options-config.php:662 searchform.php:1
+msgid "Search"
+msgstr "搜索"
+
+#: functions/theme/options/options-config.php:665
+#: template/global/content-titlewrap.php:7
+#: template/global/menu-hidden-panel.php:16
+msgid "Type and Hit Enter"
+msgstr "输入关键词并按回车"
+
+#: functions/theme/options/options-config.php:669
+msgid "Blog Page Title"
+msgstr ""
+
+#: functions/theme/options/options-config.php:672
+#: template/global/content-titlewrap.php:8
+msgid "News"
+msgstr "新闻"
+
+#: functions/theme/options/options-config.php:676
+msgid "Previous(Post Navigation)"
+msgstr ""
+
+#: functions/theme/options/options-config.php:679
+#: template/single/content-navi.php:10
+#: template/single/gallery/portfolio-navi.php:18
+#: template/single/gallery/portfolioslider-navi.php:17
+msgid "PREV"
+msgstr "上一篇"
+
+#: functions/theme/options/options-config.php:683
+msgid "Next(Post Navigation)"
+msgstr ""
+
+#: functions/theme/options/options-config.php:686
+#: template/single/content-navi.php:11
+#: template/single/gallery/portfolio-navi.php:19
+#: template/single/gallery/portfolioslider-navi.php:18
+msgid "NEXT"
+msgstr "下一篇"
+
+#: functions/theme/options/options-config.php:692
+msgid "Copyright"
+msgstr ""
+
+#: functions/theme/options/options-config.php:696
+msgid "Copyright Information"
+msgstr ""
+
+#: functions/theme/options/options-config.php:697
+msgid ""
+"enter the copyright information, it would be placed on the bottom of the "
+"pages"
+msgstr ""
+
+#: functions/theme/options/options-config.php:705
+msgid "Icon"
+msgstr ""
+
+#: functions/theme/options/options-config.php:709
+msgid "Custom Favicon"
+msgstr ""
+
+#: functions/theme/options/options-config.php:710
+msgid ""
+"upload the favicon for your website, it would be shown on the tab of the "
+"browser"
+msgstr ""
+
+#: functions/theme/options/options-config.php:716
+msgid "Custom Mobile Icon"
+msgstr ""
+
+#: functions/theme/options/options-config.php:717
+msgid "upload the icon for the shortcuts on mobile devices"
+msgstr ""
+
+#: functions/theme/options/options-config.php:723
+msgid "Custom CSS"
+msgstr ""
+
+#: functions/theme/options/options-config.php:728
+msgid "Please enter your Custom CSS (Optional)"
+msgstr ""
+
+#: functions/theme/options/options-config.php:746
+#: functions/theme/post/post-meta.php:1294
+msgid "Social Networks"
+msgstr ""
+
+#: functions/theme/options/options-config.php:751
+msgid "Your Social Media Links"
+msgstr ""
+
+#: functions/theme/options/options-config.php:756
+msgid "Social Medias"
+msgstr ""
+
+#: functions/theme/options/options-config.php:761
+msgid "Opened in New Tab or Window"
+msgstr ""
+
+#: functions/theme/options/options-config.php:772
+msgid "Share Buttons For Post"
+msgstr ""
+
+#: functions/theme/options/options-config.php:776
+msgid "Enable Share Buttons for Posts"
+msgstr ""
+
+#: functions/theme/options/options-config.php:798
+msgid "Schemes"
+msgstr ""
+
+#: functions/theme/options/options-config.php:803
+msgid "Color Setting"
+msgstr ""
+
+#: functions/theme/options/options-config.php:807
+msgid "Select a predefined color scheme "
+msgstr ""
+
+#: functions/theme/options/options-config.php:814
+msgid "Global"
+msgstr ""
+
+#: functions/theme/options/options-config.php:818
+msgid "Highlight Color"
+msgstr ""
+
+#: functions/theme/options/options-config.php:826
+msgid "Auxiliary Color"
+msgstr ""
+
+#: functions/theme/options/options-config.php:834
+msgid "Page/Post Bg Color"
+msgstr ""
+
+#: functions/theme/options/options-config.php:835
+msgid "background color for the page area"
+msgstr ""
+
+#: functions/theme/options/options-config.php:842
+msgid "Header Bg Color"
+msgstr ""
+
+#: functions/theme/options/options-config.php:850
+msgid "Page Loader Bg Color"
+msgstr ""
+
+#: functions/theme/options/options-config.php:858
+msgid "Selected Text Bg Color"
+msgstr ""
+
+#: functions/theme/options/options-config.php:859
+msgid "the color for selected text background"
+msgstr ""
+
+#: functions/theme/options/options-config.php:866
+msgid "Border Color"
+msgstr ""
+
+#: functions/theme/options/options-config.php:875
+#: functions/theme/options/options-config.php:1228
+msgid "Plain Text Logo"
+msgstr ""
+
+#: functions/theme/options/options-config.php:879
+msgid "Logo Dark"
+msgstr ""
+
+#: functions/theme/options/options-config.php:887
+msgid "Logo Light"
+msgstr ""
+
+#: functions/theme/options/options-config.php:904
+msgid "Menu on Header Dark"
+msgstr ""
+
+#: functions/theme/options/options-config.php:912
+msgid "Menu on Header Light"
+msgstr ""
+
+#: functions/theme/options/options-config.php:920
+msgid "Menu Item on Expanded Menu Panel"
+msgstr ""
+
+#: functions/theme/options/options-config.php:932
+#: functions/theme/options/options-config.php:1298
+msgid "Posts & Pages"
+msgstr ""
+
+#: functions/theme/options/options-config.php:936
+#: functions/theme/options/options-config.php:1302
+#: functions/theme/options/options-config.php:1664
+#: functions/theme/post/post-meta.php:161
+#: functions/theme/post/post-meta.php:753
+#: functions/theme/post/post-meta.php:843
+#: functions/theme/post/post-meta.php:1036
+#: functions/theme/post/post-meta.php:1052
+#: functions/theme/post/post-meta.php:1198
+msgid "Title"
+msgstr ""
+
+#: functions/theme/options/options-config.php:944
+#: functions/theme/options/options-config.php:1320
+#: functions/theme/post/post-meta.php:1052
+msgid "Content"
+msgstr ""
+
+#: functions/theme/options/options-config.php:952
+msgid "Meta Info."
+msgstr ""
+
+#: functions/theme/options/options-config.php:960
+#: functions/theme/options/options-config.php:1370
+msgid "Gallery Post Property Title"
+msgstr ""
+
+#: functions/theme/options/options-config.php:968
+#: functions/theme/options/options-config.php:1388
+msgid "Gallery Post Property Content"
+msgstr ""
+
+#: functions/theme/options/options-config.php:976
+#: functions/theme/options/options-config.php:1406
+msgid "Gallery Post Link Button"
+msgstr ""
+
+#: functions/theme/options/options-config.php:984
+msgid "Previous & Next"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1000
+msgid "Comment Content"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1008
+msgid "Comment Author Name"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1018
+#: functions/theme/options/options-config.php:1489
+msgid "Portfolio List"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1022
+msgid "Filter Text by Default"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1030
+msgid "Filter Text Focused"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1038
+#: functions/theme/options/options-config.php:1510
+#: functions/theme/post/post-meta.php:142
+msgid "Load More Button"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1046
+#: functions/theme/options/options-config.php:1527
+#: functions/theme/options/options-config.php:1568
+msgid "Title for Item"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1054
+#: functions/theme/options/options-config.php:1544
+msgid "Tag for Item"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1062
+msgid "Mask for Item"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1072
+#: functions/theme/options/options-config.php:1612
+#: functions/theme/options/options-config.php:1616
+msgid "Button"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1076
+msgid "Text & Border"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1083
+msgid "Text Mouseover"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1090
+msgid "Bg Mouseover"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1100
+#: functions/theme/options/options-config.php:1636
+msgid "Form"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1103
+msgid "Text Input Box by Default"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1110
+msgid "Text Input Box Focused"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1120
+msgid "Widget"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1124
+msgid "Title Text"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1132
+msgid "Content Text"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1139
+msgid "Widget on Sidebar Title"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1147
+msgid "Widget on Sidebar Title Bg"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1157
+#: functions/theme/options/options-config.php:1748
+#: functions/theme/options/options-config.php:1895
+msgid "Footer"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1161
+msgid "Footer Text Color"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1169
+msgid "Footer Bg Color"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1178
+msgid "Others"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1182
+msgid "Logo & Menu Skin on Header"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1191
+msgid "Lightbox Color Skin"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1203
+msgid "Font Settings"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1208
+msgid "Synchronous"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1213
+msgid "Update to new Google Font Data"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1214
+msgid "Updating ..."
+msgstr ""
+
+#: functions/theme/options/options-config.php:1255
+msgid "Menu on Header"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1273
+msgid "Menu Item on Expanded Panel"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1338
+msgid "Content Heading 1-6"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1352
+msgid "Meta"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1424
+msgid "Post Previous & Next"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1442
+msgid "Comments Title"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1460
+msgid "Comments Content"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1478
+msgid "Comments Author Name"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1493
+msgid "Filter"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1564
+msgid "Masonry Blog"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1585
+msgid "Meta for Item"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1602
+msgid "Excerpt for Item"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1640
+msgid "Text Input Box"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1660
+msgid "Archive"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1681
+msgid "Posts Title"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1702
+msgid "Widgets"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1706
+msgid "Widget Title"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1723
+msgid "Widget Content"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1772
+msgid "Icons"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1777
+msgid "Upload Icons"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1781
+msgid ""
+"select images for your icons from Media Library, it is recommended to upload "
+"48*48 images"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1789
+msgid "Layout"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1792
+msgid "General"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1796
+msgid "Main Container Width (px)"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1803
+msgid "Border"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1809
+msgid "Border on Top & Bottom"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1816
+msgid "Border on Left & Right"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1824
+msgid "Page Loader"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1831
+msgid "Image LazyLoad"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1838
+msgid "Disable Scrolled Animation of Portfolio"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1847
+msgid "Header"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1851
+msgid "Header Width"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1858
+msgid "Menu Style"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1865
+msgid "Show Social Links"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1872
+msgid "Show Search Button On Expanded Menu Panel"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1879
+msgid "Enable WPML & Show Multi Language Links On Expanded Menu Panel"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1886
+msgid "Enable Woocomerce Cart"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1899
+msgid "Enable Footer Widget for Posts"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1906
+msgid "Select Footer Widget for Posts"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1915
+msgid "Footer Elements"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1922
+msgid "Information 1"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1940
+msgid "Information 2"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1962
+msgid "Page/Post"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1966
+msgid "Show Meta On Post Content Page"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1980
+msgid "Category to Hide on Page/Post"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1989
+msgid "Enable Share Buttons for Project(Gallery Post)"
+msgstr ""
+
+#: functions/theme/options/options-config.php:1996
+msgid "Enable Share Buttons for Other Post Format"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2003
+msgid ""
+"Show Post (Previous/Next) Navigation On Project Item Page（Gallery Post）"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2010
+msgid "Category for More Project Button On The Bottom of Gallery Post"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2017
+msgid ""
+"Items Number for More Project Button On The Bottom of Gallery Post (3 "
+"Columns)"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2028
+msgid "Mobile"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2033
+msgid "Responsive"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2037
+msgid "Enable Mobile Layout"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2038
+msgid "disable this option if you want to display the same with PC end"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2046
+#: functions/theme/options/options-config.php:2051
+msgid "Featured Colors"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2055
+msgid "Setup the featured colors for posts and modules"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2060
+msgid "Color by Default"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2067
+msgid "Color 1"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2074
+msgid "Color 2"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2081
+msgid "Color 3"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2088
+msgid "Color 4"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2095
+msgid "Color 5"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2102
+msgid "Color 6"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2109
+msgid "Color 7"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2116
+msgid "Color 8"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2123
+msgid "Color 9"
+msgstr ""
+
+#: functions/theme/options/options-config.php:2130
+msgid "Color 10"
+msgstr ""
+
+#: functions/theme/options/options-fields.php:259
+msgid "Upload Image"
+msgstr ""
+
+#: functions/theme/options/options-fields.php:296
+#: functions/theme/options/options-fields.php:509
+#: functions/theme/post/post-meta.php:688
+msgid "Select Images"
+msgstr ""
+
+#: functions/theme/options/options-fields.php:337
+#: functions/theme/theme-ajax.php:132
+msgid "-- Select Font --"
+msgstr ""
+
+#: functions/theme/options/options-fields.php:393
+#: functions/theme/options/options-fields.php:423
+#: functions/theme/theme-ajax.php:12
+msgid "Select Icon"
+msgstr ""
+
+#: functions/theme/options/options-fields.php:407
+#: functions/theme/options/options-fields.php:431
+msgid "Enter the social media url"
+msgstr ""
+
+#: functions/theme/options/options-fields.php:408
+#: functions/theme/options/options-fields.php:432
+msgid "Social media name"
+msgstr ""
+
+#: functions/theme/options/options-fields.php:555
+msgid "Select a Category"
+msgstr ""
+
+#: functions/theme/options/options-fields.php:565
+msgid "No Categories"
+msgstr ""
+
+#: functions/theme/options/options-interface.php:10
+#: functions/theme/options/options-interface.php:95
+msgid "Restore Defaults"
+msgstr ""
+
+#: functions/theme/options/options-interface.php:95
+msgid ""
+"All the settings you have done will be cover write to the default settings, "
+"are you sure you want to continue?"
+msgstr ""
+
+#: functions/theme/options/options-interface.php:95
+msgid "Documentation"
+msgstr ""
+
+#: functions/theme/options/options-interface.php:95
+msgid "Support Forum"
+msgstr ""
+
+#: functions/theme/options/options-interface.php:96
+msgid "Please waitting..."
+msgstr ""
+
+#: functions/theme/options/options-interface.php:96
+msgid "Save Options"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:6 functions/theme/post/post-meta.php:653
+#: functions/theme/post/post-meta.php:661
+msgid "Select Slider"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:12
+msgid "Revolution Slider"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:19
+msgid "BM Slider"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:32 functions/theme/post/post-meta.php:68
+msgid "Select slider name"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:49
+msgid "Bmslider not installed"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:80
+msgid "revolution slider not installed"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:89
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:90
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:91
+msgid "Without Sidebar"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:94 functions/theme/theme-ajax.php:178
+msgid "Select a slider"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:97
+msgid "Self Hosted Audio"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:98
+msgid "Soundcloud"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:101
+#: functions/theme/post/post-meta.php:106
+#: functions/theme/post/post-meta.php:111
+msgid "4:3"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:102
+#: functions/theme/post/post-meta.php:107
+#: functions/theme/post/post-meta.php:112
+msgid "16:9"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:103
+#: functions/theme/post/post-meta.php:108
+#: functions/theme/post/post-meta.php:113
+msgid "Custom"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:116
+msgid "Top of Gallery"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:117
+msgid "Bottom of Gallery"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:123
+msgid "Ascending"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:124
+msgid "Descending"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:128
+msgid "Small"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:129
+msgid "Big"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:130
+msgid "Long"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:131
+msgid "Height"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:135
+msgid "Layout 1"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:136
+msgid "Layout 2"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:137
+msgid "Layout 3"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:138
+msgid "Layout 4"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:143
+msgid "Infiniti Scroll"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:160
+msgid "Please Select"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:163
+msgid "ID"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:164
+msgid "Modified"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:166
+msgid "Comment count"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:174
+#: functions/theme/post/post-meta.php:247
+msgid "No Template"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:175
+msgid "Blog Masonry"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:176
+msgid "Introduction Above List"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:177
+msgid "Left Introduction & Right Filter"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:178
+msgid "Introduction In List"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:187
+msgid "Masonry Grid"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:188
+msgid "Masonry"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:189
+msgid "Grid(Thumbnail)"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:190
+msgid "Grid(Thumbnail + Title)"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:194
+#: functions/theme/post/post-meta.php:203
+#: functions/theme/post/post-meta.php:270
+msgid "2"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:195
+#: functions/theme/post/post-meta.php:204
+msgid "3"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:196
+#: functions/theme/post/post-meta.php:205
+msgid "4"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:197
+msgid "5"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:198
+msgid "6"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:202
+msgid "1"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:209
+msgid "No Spacing"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:210
+#: functions/theme/post/post-meta.php:258
+msgid "Narrow"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:211
+msgid "Normal"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:215
+msgid "Normal(Main Container Width)"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:216
+#: functions/theme/post/post-meta.php:256
+msgid "Fullwidth"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:217
+msgid "Fullwidth Filled"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:221
+msgid "Open The Portfolio Item"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:222
+msgid "Open Lightbox"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:223
+msgid "Open Lightbox(Play All Images of Current Project)"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:227
+#: functions/theme/post/post-meta.php:233
+#: functions/theme/post/post-meta.php:284
+msgid "Left"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:228
+#: functions/theme/post/post-meta.php:234
+#: functions/theme/post/post-meta.php:285
+msgid "Center"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:229
+msgid "Right"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:238
+msgid "Bordered Mask(Text Left)"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:239
+msgid "Bordered Mask(Text Centered)"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:240
+msgid "Filled Mask(Text Left)"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:241
+msgid "Filled Mask(Text Centered)"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:242
+msgid "Image Zoom In"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:243
+msgid "No Effect"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:248
+msgid "Standard Gallery"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:249
+msgid "Gallery on Left"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:250
+msgid "Gallery on Right"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:251
+msgid "Slider"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:252
+msgid "Fullscreen"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:257
+msgid "Wide"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:262
+msgid "1/2"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:263
+msgid "3/5"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:264
+msgid "2/3"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:265
+msgid "3/4"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:274
+msgid "60"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:275
+msgid "80"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:279
+msgid "Standard"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:280
+msgid "Filled"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:289
+msgid "Project Title"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:290
+msgid "Gallery"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:315
+msgid "Page Options"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:322
+msgid "Page Template"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:341
+#: functions/theme/post/post-meta.php:1128
+#: functions/theme/post/post-meta.php:1253
+msgid "Sidebar"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:370
+msgid "Show Page Title"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:400
+msgid "Introduction"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:417
+msgid "Portfolio List Type"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:442
+msgid "Order"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:450
+#: functions/theme/post/post-meta.php:460
+msgid "Columns"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:470
+msgid "Post Number per Page"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:477
+msgid "Pagination"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:493
+msgid "Item Title Align"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:502
+msgid "Item Spacing"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:511
+msgid "List Width"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:520
+msgid "What Thumbnail Does"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:527
+msgid "Mouseover Effect"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:535
+msgid "Hide Category"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:552
+#: functions/theme/post/post-meta.php:577
+msgid "Show Filter"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:559
+msgid "Filter Align"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:592
+msgid "Spacer above Content"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:609
+msgid "From Page Top"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:615
+#: functions/theme/post/post-meta.php:1074
+#: functions/theme/post/post-meta.php:1115
+msgid "Colour for Logo & Menu Button"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:623
+msgid "Show Slider"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:629
+msgid "Show Featured Image"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:647
+msgid "Slider Source"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:680
+msgid "Gallery Setting"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:722
+msgid "Audio Settings"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:730
+msgid "Audio Type"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:740
+msgid "Artist"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:748
+msgid "MP3"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:758
+msgid "Code for WP"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:761
+msgid ""
+"*Format: https://soundcloud.com/imam-lepast-konyol/maher-zain-always-be-"
+"there-1"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:770
+msgid "Video Settings"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:778
+#: functions/theme/post/post-meta.php:961
+msgid "You could find the embed code on the source video page."
+msgstr ""
+
+#: functions/theme/post/post-meta.php:782
+#: functions/theme/post/post-meta.php:968
+msgid "Embeded Code"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:788
+#: functions/theme/post/post-meta.php:977
+msgid "Ratio"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:806
+msgid "Quote Settings"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:814
+msgid "The Quote"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:815
+msgid "Write your quote in this field."
+msgstr ""
+
+#: functions/theme/post/post-meta.php:820
+msgid "Cite"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:830
+msgid "Link Settings"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:838
+msgid "Link Item"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:852
+msgid "Layout Options"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:860
+msgid "Layout Template"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:879
+#: functions/theme/post/post-meta.php:898
+msgid "Gallery Width"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:907
+msgid "Gallery Style"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:923
+msgid "Text Align"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:934
+msgid "Start From"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:945
+msgid "Gallery Layout Builder"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:953
+msgid "Show Video"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:995
+msgid "Video Position"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1005
+msgid "Image Spacing"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1025
+msgid "Show Button"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1036
+#: functions/theme/post/post-meta.php:1194
+#: functions/theme/post/post-meta.php:1204
+msgid "Link"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1041
+msgid "Show Property"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1064
+#: functions/theme/post/post-meta.php:1107
+msgid "Show Feature Image"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1090
+msgid "Title Text Masking"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1091
+msgid ""
+"The Featured Image need be set. For Webkit Browser only, like Chrome, Safari"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1151
+msgid "Jobs Meta"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1158
+msgid "Location"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1164
+msgid "Number"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1175
+msgid "Testimonials Meta"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1182
+msgid "Testimonial Cite"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1188
+#: functions/theme/post/post-meta.php:1276
+msgid "Position"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1213
+msgid "Clients Meta"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1220
+msgid "Client Link"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1231
+msgid "Team Meta"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1238
+msgid "use team template"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1288
+msgid "Phone Number"
+msgstr ""
+
+#: functions/theme/post/post-meta.php:1308
+msgid "Shape for Masonry Grid List"
+msgstr ""
+
+#: functions/theme/theme-ajax.php:13
+msgid "Choose a icon for this Icon Box"
+msgstr ""
+
+#: functions/theme/theme-ajax.php:18
+msgid "Font Awesome"
+msgstr ""
+
+#: functions/theme/theme-ajax.php:20
+msgid "User Uploaded Icons"
+msgstr ""
+
+#: functions/theme/theme-options.php:127 template/global/photoswipe.php:19
+msgid "Close"
+msgstr "关闭"
+
+#: functions/theme/theme-options.php:128
+msgid "Insert"
+msgstr ""
+
+#: functions/theme/theme-options.php:129
+msgid "Agree"
+msgstr ""
+
+#: functions/theme/theme-post.php:125 woocommerce/single-product-reviews.php:46
+msgid " ago"
+msgstr " 之前"
+
+#: functions/theme/theme-post.php:126
+msgid "Reply"
+msgstr ""
+
+#: functions/theme/theme-post.php:132
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: functions/theme/theme-register.php:182
+msgid "Sidebar 1 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:183
+msgid "Sidebar 2 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:184
+msgid "Sidebar 3 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:185
+msgid "Sidebar 4 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:186
+msgid "Sidebar 5 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:187
+msgid "Sidebar 6 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:188
+msgid "Sidebar 7 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:189
+msgid "Sidebar 8 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:190
+msgid "Sidebar 9 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:191
+msgid "Sidebar 10 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:198
+msgid "widgets for sidebar"
+msgstr ""
+
+#: functions/theme/theme-register.php:209
+msgid "Footer 1 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:210
+msgid "Footer 2 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:211
+msgid "Footer 3 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:212
+msgid "Footer 4 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:213
+msgid "Footer 5 for Post/Page"
+msgstr ""
+
+#: functions/theme/theme-register.php:220
+msgid "No more than 3 widgets could be shown"
+msgstr ""
+
+#: functions/theme/wordpress-importer/parsers.php:42
+#: functions/theme/wordpress-importer/parsers.php:86
+#: functions/theme/wordpress-importer/parsers.php:94
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: functions/theme/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: functions/theme/wordpress-importer/parsers.php:98
+#: functions/theme/wordpress-importer/parsers.php:103
+#: functions/theme/wordpress-importer/parsers.php:334
+#: functions/theme/wordpress-importer/parsers.php:523
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: functions/theme/wordpress-importer/wordpress-importer.php:1236
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: template/archive/loop-item-audio.php:26 template/single/format-audio.php:17
+msgid "Artist:"
+msgstr "作者："
+
+#: template/archive/loop.php:43
+msgid "Sorry, no articles"
+msgstr "抱歉，没有检索到文章"
+
+#: template/global/content-titlewrap.php:25
+msgid "Daily Archives"
+msgstr "按日期归档"
+
+#: template/global/content-titlewrap.php:30
+msgid "Monthly Archives"
+msgstr "按月份归档"
+
+#: template/global/content-titlewrap.php:35
+msgid "Yearly Archives"
+msgstr "按年份归档"
+
+#: template/global/content-titlewrap.php:41
+msgid "Latest Posts"
+msgstr "最新文章"
+
+#: template/global/content-titlewrap.php:54
+msgid "Archives"
+msgstr "归档"
+
+#: template/global/content-titlewrap.php:57
+msgid "Shop"
+msgstr "店铺"
+
+#: template/global/content-titlewrap.php:63
+msgid "Tag"
+msgstr "标签"
+
+#: template/global/content-titlewrap.php:64
+#: template/global/content-titlewrap.php:74
+msgid "Posts for"
+msgstr "文章所属"
+
+#: template/global/content-titlewrap.php:84
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: template/global/content-titlewrap.php:85
+msgid "Search for: "
+msgstr "搜索关键词："
+
+#: template/global/content-titlewrap.php:107
+#: woocommerce/airtheme-template/title-bar.php:4
+msgid " items found"
+msgstr " 个条目"
+
+#: template/global/photoswipe.php:21
+msgid "Share"
+msgstr "分享"
+
+#: template/global/photoswipe.php:23
+msgid "Toggle fullscreen"
+msgstr "切换到全屏"
+
+#: template/global/photoswipe.php:25
+msgid "Zoom in/out"
+msgstr "放大/缩小"
+
+#: template/global/search-popup.php:1
+msgid "Enter a Key Word Here"
+msgstr "输入关键词"
+
+#: template/page/content-archive.php:3
+msgid "last 10 Posts"
+msgstr "最近10篇文字"
+
+#: template/page/content-archive.php:7
+msgid "Archives by Month"
+msgstr "按月份归档"
+
+#: template/page/content-archive.php:12
+msgid "Archives by Category"
+msgstr "按类别归档"
+
+#: template/page/content-filter.php:44 template/page/content-filter.php:67
+#: template/page/content-filter.php:90
+msgid "All"
+msgstr "所有文章"
+
+#: template/single/type-jobs_item.php:10
+msgid "Location:"
+msgstr "城市："
+
+#: template/single/type-jobs_item.php:14
+msgid "Number:"
+msgstr "人数："
+
+#: template/single/type-team_item.php:22
+msgid "POSITION"
+msgstr "职位"
+
+#: template/single/type-team_item.php:28
+msgid "EMAIL"
+msgstr "邮箱"
+
+#: template/single/type-team_item.php:34
+msgid "PHONE NUMBER"
+msgstr "电话号码"
+
+#: woocommerce/airtheme-woocommerce-functions.php:66
+msgid "Leave a Review"
+msgstr "在此留言"
+
+#: woocommerce/airtheme-woocommerce-functions.php:87
+msgid "YOU REVIEW"
+msgstr ""
+
+#: woocommerce/airtheme-woocommerce-functions.php:110
+msgid "LEAVE A REPLY"
+msgstr "发布评论"
+
+#: woocommerce/airtheme-woocommerce-functions.php:111
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "回复 %s"
+
+#: woocommerce/airtheme-woocommerce-functions.php:112
+msgid "Cancel reply"
+msgstr "取消回复"
+
+#: woocommerce/airtheme-woocommerce-functions.php:124
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr "已购用户登录后才能发布评价。"
+
+#: woocommerce/airtheme-woocommerce-register.php:5
+msgid "Shop Sidebar"
+msgstr ""
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:71
+msgid "Product"
+msgstr "商品"
+
+#: woocommerce/cart/cart.php:40 woocommerce/cart/cart.php:90
+msgid "Price"
+msgstr "价格"
+
+#: woocommerce/cart/cart.php:41 woocommerce/cart/cart.php:97
+msgid "Quantity"
+msgstr "数量"
+
+#: woocommerce/cart/cart.php:42 woocommerce/cart/cart.php:115
+msgid "Total"
+msgstr "总共"
+
+#: woocommerce/cart/cart.php:84
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:127
+msgid "Remove this item"
+msgstr "删除"
+
+#: woocommerce/cart/cart.php:149
+msgid "Enter promotion code"
+msgstr "输入优惠码"
+
+#: woocommerce/cart/cart.php:150
+msgid "Apply"
+msgstr "启用"
+
+#: woocommerce/cart/cart.php:157
+msgid "Update Cart"
+msgstr "更新购物车"
+
+#: woocommerce/single-product-reviews.php:49
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "目前是 %d 星（最高5星）"
+
+#: woocommerce/single-product-reviews.php:49
+msgid "out of 5"
+msgstr "5星最高"
+
+#: woocommerce/single-product/product-image.php:53
+msgid "Placeholder"
+msgstr "替代图"
+
+msgid "CONTACT US"
+msgstr "联系我们"

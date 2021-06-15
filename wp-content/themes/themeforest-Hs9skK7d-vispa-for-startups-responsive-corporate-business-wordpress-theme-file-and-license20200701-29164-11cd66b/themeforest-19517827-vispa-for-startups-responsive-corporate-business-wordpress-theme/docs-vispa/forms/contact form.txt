@@ -1,0 +1,26 @@
+<h2 class="title-form">Contact form</h2>
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="fieldInputName">Name</label>
+            [text* your-name class:form-control class:input-lg placeholder "enter your name"]
+        </div>
+        <div class="form-group">
+            <label for="fieldInputTopic">Subject</label>
+            [text* subject class:form-control class:input-lg placeholder "enter topic of message"]
+        </div>
+        <div class="form-group">
+            <label for="fieldInputEmail">Email address</label>
+            [email* your-email class:form-control class:input-lg placeholder "enter your email address"]
+        </div>
+    </div>
+    <div class="col-md-6">
+         <div class="form-group">
+            <label for="fieldInputMessage">Message</label>
+            [textarea your-message class:form-control placeholder "text of message"]
+          </div>
+    </div>
+</div>
+<p class="text-right buttons-margin-horizontal">
+   <input type="reset" class="btn btn-theme btn-gray" value="Reset" />[submit class:btn class:btn-theme class:btn-green "Send message"]
+</p>

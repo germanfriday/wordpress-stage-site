@@ -1,0 +1,1215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vispa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-26 23:20+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: ThemeFuse <hello@themefuse.com>\n"
+"Language-Team: FlyTemplates <support@flytemplates.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\Dropbox\\LS\\htdocs\\vispa\\wp-content\\themes\\vispa\n"
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/404.php:19
+msgid "Page Not Found"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/404.php:21
+msgid "Sorry, we can't find the page You are looking for. Please, try a search or go to"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/404.php:22
+msgid "homepage"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/404.php:28
+msgid "search an existing page"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/comments.php:42
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/comments.php:80
+msgid "Comments are closed."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/content-author.php:9
+msgid "About the Author"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/content-none.php:8
+msgid "Nothing Found"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/content-none.php:18
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/content-none.php:22
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/footer.php:42
+msgid "Follow us on"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/listing-blog.php:54
+msgid "Read More"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/related-posts.php:11
+msgid "Related Posts"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/search-form.php:12
+msgid "Type Keywords"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/search-form.php:16
+msgid "search"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/config.php:8
+msgid "Contact form"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/config.php:9
+msgid "Build contact forms"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/config.php:10
+msgid "Content Elements"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:15
+msgid "Form Fields"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:41
+msgid "Settings"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:44
+msgid "Options"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:52
+msgid "Email To"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:53
+msgid "We recommend you to use an email that you verify often"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:54
+msgid "The form will be sent to this email address."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:66
+msgid "Subject Message"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:67
+msgid "This text will be used as subject message for the email"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:68
+msgid "Contact Form"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:77
+msgid "Submit Button"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:78
+msgid "This text will appear in submit button"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:79
+msgid "Send"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:88
+msgid "Success Message"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:89
+msgid "This text will be displayed when the form will successfully send"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:90
+msgid "Message sent!"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:96
+msgid "Failure Message"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:97
+msgid "This text will be displayed when the form will fail to be sent"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:98
+msgid "Oops something went wrong."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:105
+msgid "Mailer"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:16
+msgid "Parallax"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:18
+msgid "Enable the parallax?"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:21
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:35
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:49
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:63
+msgid "No"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:25
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:39
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:53
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:67
+msgid "Yes"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:30
+msgid "Overlay"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:32
+msgid "Enable the overlay?"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:44
+msgid "Zoom Effect"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:46
+msgid "Enable the zoom effect?"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:58
+msgid "Separator"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/extensions/home-slider/options/options.php:60
+msgid "Enable the separator?"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/shortcodes/slider/config.php:8
+msgid "Slider"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/shortcodes/slider/config.php:9
+msgid "Add a Slider"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/shortcodes/slider/config.php:10
+msgid "Media Elements"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/shortcodes/slider/options.php:9
+msgid "Select Slider"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/shortcodes/slider/options.php:19
+msgid "No Sliders Available"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/shortcodes/slider/options.php:19
+msgid "No Sliders created yet. Please go to the"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/shortcodes/slider/options.php:19
+msgid "Sliders page and"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/media/extensions/slider/shortcodes/slider/options.php:19
+msgid "create a new Slider"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/portfolio/views/content-single.php:65
+msgid "Client"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/portfolio/views/content-single.php:72
+msgid "Production Date"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/portfolio/views/content-single.php:79
+msgid "Used Skills"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/portfolio/views/content-single.php:86
+msgid "Categories"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/blog-post/options.php:55
+msgid "Posts Per Page"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/blog-post/options.php:56
+msgid "Posts per page to display"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:11
+msgid "Tablet Display"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:12
+msgid "Choose the responsive tablet display for this column"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:13
+msgid "Use this option in order to control how this column behaves on devices with the resolution between 768px - 991px (tablet portrait). Note that on phones all the columns are 1/1 by default."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:17
+msgid "Automatically inherit default layout"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:18
+msgid "Make it a 1/6 column"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:19
+msgid "Make it a 1/5 column"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:20
+msgid "Make it a 1/4 column"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:21
+msgid "Make it a 1/3 column"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:22
+msgid "Make it a 1/2 column"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:23
+msgid "Make it a 2/3 column"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:24
+msgid "Make it a 3/4 column"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/column/options.php:25
+msgid "Make it a 1/1 column"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/divider/config.php:6
+msgid "Divider"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/divider/config.php:7
+msgid "Add a Divider"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:16
+msgid "Type"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:17
+msgid "Select the divider type"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:20
+msgid "Diamond"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:21
+msgid "Star"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:22
+msgid "Square"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:29
+msgid "Height"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:30
+msgid "Select the space height in px"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:33
+msgid "Small"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:34
+msgid "Medium"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:35
+msgid "Large"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/fly-gallery/config.php:7
+msgid "Gallery"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/fly-gallery/config.php:8
+msgid "Add a gallery"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/fly-gallery/options.php:26
+msgid "Images"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/fly-gallery/options.php:27
+msgid "Add/Edit Image"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/fly-gallery/options.php:28
+msgid "Create your gallery"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/fly-gallery/options.php:33
+msgid "Title"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/fly-raw-code/config.php:7
+msgid "RAW Code"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/fly-raw-code/config.php:8
+msgid "Add a raw code"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/fly-raw-code/options.php:9
+msgid "Code"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/fly-raw-code/options.php:10
+msgid "Enter the HTML, JavaScript or CSS code"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/icon/config.php:6
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:8
+msgid "Icon"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/icon/config.php:7
+msgid "Add an Icon"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:12
+msgid "Color"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:13
+msgid "Select the icon color"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:17
+msgid "Size"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:18
+msgid "Enter the icon size"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:22
+msgid "Link"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/icon/options.php:23
+msgid "Enter the link"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/icon-box/config.php:6
+msgid "Icon Box"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/icon-box/config.php:7
+msgid "Add an Icon Box"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:23
+msgid "Custom"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:26
+msgid "Locations"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:27
+msgid "Add/Edit Location"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:30
+msgid "Note: Please set location"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:34
+msgid "Location"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:38
+msgid "Location Title"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:39
+msgid "Set location title"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:43
+msgid "Location Description"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:44
+msgid "Set location description"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:48
+msgid "Location Url"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:49
+msgid "Set page url (Ex: http://example.com)"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:52
+msgid "Location Image"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:53
+msgid "Add location image"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:112
+msgid "No location provider specified for map shortcode"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/class-fw-shortcode-map.php:122
+#, php-format
+msgid "Unknown location provider \"%s\" specified for map shortcode"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/config.php:8
+msgid "Map"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/config.php:9
+msgid "Add a Map"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:21
+msgid "Population Method"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:22
+msgid "Select map population method (Ex: events, custom)"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:33
+msgid "Map Type"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:34
+msgid "Select map type"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:121
+msgid "Map Height"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:122
+msgid "Enter the map height in pixels (Ex: 300)"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:127
+msgid "Map Pin"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:128
+msgid "Upload a pin for your location(s) (64x64)"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:139
+msgid "Map Zoom"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:140
+msgid "Select map zoom"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:143
+msgid "Custom Class"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:144
+msgid "Enter custom CSS class"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/options.php:145
+msgid "You can use this class to further style this shortcode by adding your custom CSS in the <strong>custom.less</strong> file. This file is located on your server in the <strong>/child-theme/styles-less/</strong> folder."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/views/view.php:28
+msgid "Our Address"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/views/view.php:33
+msgid "Phone"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/map/views/view.php:38
+msgid "Email"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/media-image/config.php:6
+msgid "Image"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/media-image/config.php:7
+msgid "Add an Image"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:8
+msgid "Choose Image"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:9
+msgid "Either upload a new, or choose an existing image from your media library"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:16
+msgid "Width"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:17
+msgid "Set image width"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:23
+msgid "Set image height"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:33
+msgid "Image Link"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:34
+msgid "Where should your image link to?"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:38
+msgid "Open Link in New Window"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/media-image/options.php:39
+msgid "Select here if you want to open the linked page in a new window"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/performance/options.php:190
+msgid "Icon Color"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/portfolio/config.php:7
+msgid "Portfolio"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/portfolio/config.php:8
+msgid "Portfolio Shortcode"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:12
+msgid "Portfolio Category"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:13
+msgid "Select portfolio category to get posts from"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:18
+msgid "Top Filter"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:19
+msgid "Enable top filter?"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:32
+msgid "Spaces"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:33
+msgid "Enable spaces between items?"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/pricing-table/options.php:75
+msgid "Button"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/pricing-table/options.php:76
+msgid "Button Styling"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:10
+msgid "Section Name"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:11
+msgid "Enter a name (it is for internal use and will not appear on the front end)"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:20
+msgid "Full Width"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:22
+msgid "Make the content inside this section full width?"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:56
+msgid "Enable the overlay for this section?"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:85
+msgid "Video Background"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:108
+msgid "Select the video type"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:112
+msgid "Youtube"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:113
+msgid "Vimeo"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:114
+msgid "Upload"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:123
+msgid "Insert a YouTube video URL"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:130
+msgid "Insert a Vimeo video URL"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:137
+msgid "Upload a video"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:150
+msgid "Select the section's height in px (Ex: 400)"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:154
+msgid "auto"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:155
+msgid "small"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:156
+msgid "medium"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:157
+msgid "large"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:169
+msgid "Enable the parallax effect?"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:185
+msgid "Link ID"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:186
+msgid "Enter a custom CSS ID for this section (Ex: example-id)"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/section/options.php:187
+msgid "Use this ID in any URL link in the page in order to anchor link to this section: (Ex: http://www.your-domain.com/#example-id)"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/skills/options.php:128
+msgid "Progress Bar Color"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/skills/options.php:129
+msgid "Select the progress bar color"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/special-heading/config.php:6
+msgid "Special Heading"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/special-heading/config.php:7
+msgid "Add a Special Heading"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:16
+msgid "Write the heading title content"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:43
+msgid "Select the separator type"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:56
+msgid "Text"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:57
+msgid "Enter the heading text"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:74
+msgid "Centered"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:175
+msgid "Separator Color"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:176
+msgid "Select the separator color"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/tabs/config.php:8
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:15
+msgid "Tabs"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/tabs/config.php:9
+msgid "Add some Tabs"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:16
+msgid "Add/Edit Tab"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:17
+msgid "Create your tabs"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:31
+msgid "Select icon type"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:36
+msgid "Font Awesome"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:37
+msgid "Custom Upload"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/tabs/options.php:59
+msgid "Content"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php:186
+msgid "Enter the border width in pixels. Ex: 4"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/team-member/options.php:191
+msgid "Select the border color"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/testimonials/config.php:8
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:14
+msgid "Testimonials"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/testimonials/config.php:9
+msgid "Add some Testimonials"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:15
+msgid "Add/Edit Testimonial"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:16
+msgid "Here you can add, remove and edit your Testimonials."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:22
+msgid "Enter the title"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:32
+msgid "Enter the content"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/theme/options/settings.php:1237
+msgid "API Keys"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/theme/options/settings.php:1241
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/theme/options/settings.php:1245
+msgid "Google Maps"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/framework-customizations/theme/options/settings.php:1247
+#, php-format
+msgid "Create an application in %sGoogle Console%s and add the API Key here."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:336
+msgid "Install Required Plugins"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:337
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:341
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:342
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:394
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:395
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:396
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:3319
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:397
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:399
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:405
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:406
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#. translators: %s: version number
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2120
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2417
+msgid "Required"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2420
+msgid "Recommended"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2437
+msgid "WordPress Repository"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2440
+msgid "External Source"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2443
+msgid "Pre-Packaged"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2461
+msgid "Not Installed"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2465
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2467
+msgid "Active"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2473
+msgid "Required Update not Available"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2476
+msgid "Requires Update"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2479
+msgid "Update recommended"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2641
+msgid "Installed version:"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2649
+msgid "Minimum required version:"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2661
+msgid "Available version:"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2698
+msgid "Plugin"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2699
+msgid "Source"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2704
+msgid "Version"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2705
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2755
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2760
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2766
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2871
+msgid "Install"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2877
+msgid "Update"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2880
+msgid "Activate"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2911
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2913
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2954
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:2956
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:3318
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:3663
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:3666
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:3668
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:3672
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:3674
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:3675
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:3677
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:3680
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:3683
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/tgm-activation/class-tgm-plugin-activation.php:3685
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/helpers.php:994
+msgid "by"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-login/class-widget-fw-login.php:56
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-recent-posts/class-widget-fw-recent-posts.php:60
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-search/class-widget-fw-search.php:50
+msgid "Title:"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-login/class-widget-fw-login.php:66
+msgid "Show remember button"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-login/class-widget-fw-login.php:71
+msgid "Show forgot password"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/class-widget-fw-posts.php:54
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-recent-posts/class-widget-fw-recent-posts.php:67
+msgid "Number of Posts to Show:"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/class-widget-fw-posts.php:62
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-recent-posts/class-widget-fw-recent-posts.php:75
+msgid "Select Days:"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/class-widget-fw-posts.php:66
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-recent-posts/class-widget-fw-recent-posts.php:79
+msgid "All time"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/class-widget-fw-posts.php:68
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-recent-posts/class-widget-fw-recent-posts.php:81
+msgid "1 Week"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/class-widget-fw-posts.php:70
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-recent-posts/class-widget-fw-recent-posts.php:83
+msgid "1 Month"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/class-widget-fw-posts.php:72
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-recent-posts/class-widget-fw-recent-posts.php:85
+msgid "3 Month"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/class-widget-fw-posts.php:74
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-recent-posts/class-widget-fw-recent-posts.php:87
+msgid "6 Month"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/class-widget-fw-posts.php:76
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-recent-posts/class-widget-fw-recent-posts.php:89
+msgid "1 Year"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/class-widget-fw-posts.php:81
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-recent-posts/class-widget-fw-recent-posts.php:94
+msgid "Select Category:"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/class-widget-fw-posts.php:85
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-recent-posts/class-widget-fw-recent-posts.php:98
+msgid "All Categories"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/class-widget-fw-posts.php:97
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-recent-posts/class-widget-fw-recent-posts.php:110
+msgid "Display Date?"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/views/widget.php:57
+msgid "Recent Posts"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-posts/views/widget.php:59
+msgid "Popular Posts"
+msgstr ""
+
+#: D:\Dropbox\LS\htdocs\vispa\wp-content\themes\vispa/theme-includes/widgets/fw-search/views/widget.php:22
+msgid "search for something"
+msgstr ""
+

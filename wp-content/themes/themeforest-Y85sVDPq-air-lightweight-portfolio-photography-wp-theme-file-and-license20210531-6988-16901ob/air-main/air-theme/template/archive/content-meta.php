@@ -1,0 +1,1 @@
+<?php airtheme_interface_blog_show_meta('category', 'article'); ?> <?php airtheme_interface_blog_show_meta('date', 'article'); ?>  <?php airtheme_interface_blog_show_meta('author', 'article'); ?> <?php airtheme_interface_blog_show_meta('length', 'article'); ?> <?php airtheme_interface_blog_show_meta('comments', 'article'); edit_post_link('(Edit)'); ?>

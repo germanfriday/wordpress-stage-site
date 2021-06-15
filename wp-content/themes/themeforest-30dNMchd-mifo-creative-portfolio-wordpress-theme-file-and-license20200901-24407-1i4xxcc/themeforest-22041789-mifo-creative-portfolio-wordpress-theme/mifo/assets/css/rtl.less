@@ -1,0 +1,703 @@
+body{
+	direction: rtl;
+    unicode-bidi: embed;    
+    &.rtl{
+    	.rs-breadcrumbs .breadcrumbs-inner{
+    		text-align: left;
+    		span.current-item{
+    			float: left;
+    			padding-right: 5px;
+    		}
+    	}
+    	.rs-blog .blog-slider .single-blog-slide .blog-informations .blog-details .read-more a:after{
+    		display: none;
+    	}
+    	.rs-blog .blog-slider .single-blog-slide .blog-informations .blog-details .read-more a:before{
+    		font-family: linea-arrows-10;
+		    content: "\e068" !important;
+		    color: #000000;
+		    font-size: 17px;
+		    position: absolute;
+		    top: 2px;
+		    left: 0px;
+		    opacity: 0;
+		    transition: all 0.3s ease 0s;
+    	}
+    	.rs-breadcrumbs .breadcrumbs-inner span a span:before{
+    		right: -16px;
+    		left: auto;
+    	}
+	    .owl-carousel, 
+	    .slick-slider,
+		.bx-wrapper	
+			{ direction: ltr; }
+		.readon:after{
+			transform: rotate(180deg);
+		}
+
+		.slider-button .readon:after{
+			transform: rotate( 0deg);
+		}	
+
+		.rs-porfolio-details .ps-image{
+			float: right;
+			margin-right: 0;
+		}
+
+		.rs-porfolio-details .ps-informations ul{
+			text-align: right;
+		}
+		.readon:hover:after{
+			left: 0px;
+			right: auto !important;
+    		opacity: 1;    		
+		}	
+		.readon{
+			padding-right: 0;
+			padding-left: 20px;
+		}
+		.owl-carousel .owl-item, .slick-slide
+		{ direction: rtl; }
+		#rs-header{
+			.toolbar-area{
+				.toolbar-sl-share{
+					ul{
+						text-align: left;
+					}
+				}
+				.toolbar-contact{
+					ul{
+						text-align: right;
+						li{
+							margin-right: 0;
+							margin-left: 25px;
+							i{
+								float: right;
+								margin: 0 0 0 8px;
+							}
+							&:first-child{
+								i{
+									margin: 0 0 0 5px;
+								}
+							}
+						}
+					}
+				}
+			}
+			.logo-area{
+				float: right;
+				margin-right: 0;
+			}
+		}
+		#rs-header.style1{
+			.menu-area{
+				.menu-responsive{
+					text-align: left;
+				}
+			}
+			.has-quote-text{
+				.get-quote{
+					margin: 0;
+				}
+			}
+			.sticky_form{
+				left: 0;
+				right: auto;
+				.bs-search{
+					button{
+						left: 0;
+						right: auto;
+					}
+				}
+			}
+		}
+		.rs-acheivements{
+			.vc_column-inner{
+				text-align: right;
+			}
+		}
+		.rs-course {
+			.course-rating-total{
+				border-right: 1px solid #ddd;
+				border-left: none;
+				line-height: 10px;
+				padding-right: 10px;
+				padding-left: 0;
+				margin-right: 10px;
+				margin-left: 0;
+			}
+			.cource-item .course-footer > div + div{
+				padding-right: 8px;
+				padding-left: 0;
+				margin-left: 0;
+				margin-right: 8px;
+				border-right: 1px solid #ccc;
+				border-left: none;
+			}
+		}
+		.menu-area{
+			.navbar{
+				ul{
+					li{
+						ul.sub-menu{
+							right: 0;
+							left: auto;
+							li{
+								text-align: right;
+							}
+						}
+					} 
+				}
+			}
+		}
+		.rs-latest-news{
+			text-align: right;
+			.news-list-item{
+				.news-img{
+					padding-left: 0;
+					padding-right: 0;
+				}
+			}
+		}
+
+		.rs-testimonial-home .cl-testimonial2 .image-testimonial .testimonial-content p,
+		.rs-testimonial-home .testimonial-content .cl-author-info li{
+		    text-align: right !important;
+		}
+		#cl-testimonial .testimonial-slide3.slider3 .slick-dots {
+		    bottom: 95px;
+		    text-align: left;
+		    right: 0;
+		}
+		#cl-testimonial .testimonial-slide3.slider3 .testimonial-content .author-image {
+    		margin-right: 0;
+    	}
+    	.menu-area .navbar ul li.left .sub-menu li .sub-menu {
+		    right: -100% !important;
+		}
+		#rs-acheivements.rs-acheivements4.icon-left .rs-counter-list .count-icon {
+		    margin-left: 25px;
+		    margin-right: 0;
+		}
+		#rs-acheivements.rs-acheivements4.icon-left .rs-counter-list,
+		#rs-footer .about-widget, #rs-footer .footer-top h3.footer-title{
+			text-align: right;
+		}
+		#rs-footer.has-footer-contact .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner {
+		    border-right: 1px solid #ffffff;
+		    border-left: 0;
+		}
+		#rs-footer.has-footer-contact .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner::before {
+		    right: 3px;
+		    left: auto;
+		}
+		#rs-footer.has-footer-contact .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner::after {
+		    right: -5px;
+		    left: auto;
+		}
+		#rs-footer .widget {
+		    text-align: right;
+		    p{
+		    	text-align: right;
+		    }
+		}
+		#rs-footer .footer-top h3.footer-title::after{
+			right: 0;
+			left: auto;
+		}
+		#rs-footer .footer-top .mc4wp-form-fields input[type="submit"]{
+			right: auto;
+			left: 2px;			
+		}
+		#rs-footer .footer-top .mc4wp-form-fields input[type="email"]{
+			padding: 12px 16px 12px 16px;
+		}
+		#rs-footer .footer-top .mc4wp-form-fields .form-inner::before{
+			left: 30px;
+			right: auto;
+		}
+		#rs-footer .footer-top .recent-post-widget .post-item .post-date {
+		    margin-left: 15px;
+		    margin-right: 0;
+		}
+		#rs-footer .widget ul li {
+		    text-align: right;
+		    &:before{
+		    	right:0;
+		    	left: auto;
+		    }
+		}
+		#rs-footer .footer-top ul#menu-footer-menu li {
+		    padding: 4px 14px 4px 0;
+		}
+		.toolbar-contact-style4 ul {
+		    float: left;
+		}
+		#rs-header.header-style2 .toolbar-contact-style4 ul li {
+		    margin-right: 25px;
+		}
+		#rs-header.header-style2 .sticky_search{
+			text-align: left;
+		}
+		.toolbar-contact-style4 ul li .contact-inf {
+		    float: right;
+		    text-align: right;
+		    margin: 0;
+		    span{
+		    	text-align: right;
+		    }
+		}
+		.toolbar-contact-style4 ul li i,
+		.rs-porfolio-details .ps-image ul li.social-icon{
+		    float: right;
+		}
+		#rs-header.header-style2 .sticky_form {
+		    right: auto;
+		    left: 15px;
+		}
+		#rs-header .bs-search button{
+			left: 0;
+			right: auto;
+		}
+		#rs-header.header-style2 .menu-responsive {
+		    padding-right: 25px;
+		}
+		.rs-services-style1.icon-left .services-icon{
+			margin-left: 20px;
+			margin-right: 0;
+		}
+		.rs-services-style1.icon-left .services-desc,
+		.rs-services-style1.icon-left .services-desc .services-title,
+		#about-us .rs-heading,
+		.rs-courses-2 .cource-item .course-body,
+		.rs-events .event-item .events-details{
+		    text-align: right;
+		}
+		.rs-heading.style4{
+			text-align: right;
+			.view-more{
+				text-align: left;
+			}
+		}
+		#cl-testimonial .testimonial-slide3 i{
+			right: 0;
+		}
+		.rs-courses-2 .cource-item .course-value .course-price{
+			margin: 0;
+		}
+		.rs-heading.center .description{
+			max-width: 100%;
+		}
+		#cl-testimonial .testimonial-slide2.slider2 .image-testimonial .testimonial-content h4 {
+		    text-align: right !important;
+		}
+		.rs-events .event-item .event-meta .event-time {
+		    margin-left: 10px;
+		    margin-right: 0;
+		}
+		.rs-latest-news .news-list-block .news-list-item .news-date i {
+		    margin-left: 4px;
+		    margin-right: 0;
+		}
+		#rs-header.header-styl-3 .sticky_search {
+		    margin-right: 20px;
+		    padding-right: 20px;
+		    padding-left: 0;
+		    margin-left: 0;
+		    border-right: 1px solid #ccc;
+		    border-left: 0;
+		}
+		#rs-header.header-styl-3 .sticky_form{
+			left: 0;
+			right: auto;
+		}
+		#rs-header.header-styl-3 .has-quote-text{
+			text-align: left;
+		}
+		.responsive-two-col .rs-heading.style5{
+			text-align: right;
+			.description{
+				text-align: right;
+			}
+		} 
+		.rs-testimonial-home .rs-heading.style5{
+			text-align: right;
+			.description{
+				text-align: right;
+			}
+		}  
+		#History{
+			text-align: right;
+			P{
+				text-align: right;
+			}
+		}
+		.rs-accordion .vc_tta-panel-heading a i{
+			left: 0;
+			right: auto;
+		}
+		.rs-accordion .vc_tta-panel-heading h4,
+		.rs-accordion .vc_tta-panel .vc_tta-panel-body{
+			text-align: right;
+		}
+		.content-rtl-right, .vc_row-o-content-middle{
+			.vc_col-sm-7{
+				text-align: right;
+				.vc_col-sm-6{
+					float: right;
+				}
+			}
+			.rs-heading.style1,
+			.wpb_text_column{
+				text-align: right;
+			}
+			.rs-heading.style1::after{
+				right: 0;
+				left: auto;
+			}
+		}
+		.about3, .rs-about1{
+			.wpb_column{
+				text-align: right;
+			}
+			.rs-heading.style2 h2::after{
+				right: 0;
+				left: auto;
+			}
+		}
+		#rs-acheivements{
+			.rs-heading.style1::after{
+				right: 0;
+				left: 0;
+				margin: 0 auto;
+				-webkit-transform: translateX(0%);
+				transform: translateX(0%);
+			}
+			.rs-heading.style1{
+				text-align: center;
+			}
+		}
+		.home4-post{
+			.wpb_wrapper{
+				text-align: right;
+			}
+			.rs-heading.style1::after{
+				right: 0;
+				left: auto;
+			}
+			.latest-news-slider .slick-arrow{
+				left: -104px;
+				right: auto;
+			}
+			.latest-news-slider .slick-arrow.slick-next{
+    			left: -160px;
+    		}
+		}
+		#rs-home-video.rs-acheivements::after{
+			right: -128px;
+			left: auto;
+		}
+		.about-tabs{
+			vc_col-sm-8{
+				float: right;
+			}
+			.wpb_wrapper{
+				text-align: right;
+			}
+		} 
+		#content .about-tabs .vc_tta-tabs-container li.vc_active a::before{
+			right: 0;
+			left: auto;
+		}
+		.rs-latest-news.style2 .slick-arrow.slick-next {
+		    left: -65px;
+		    right: auto;
+		}
+		.rs-latest-news.style2 .slick-arrow {
+		    left: -10px;
+		    right: auto;
+		}
+		.contact-form-area, .contact-form-area textarea,
+		.contact-form-area .col-sm-6 input[type="text"], .contact-form-area .col-sm-6 input[type="email"]{
+			text-align: right;
+		}
+		#rscontact-pages{
+			.vc_col-sm-4{
+				float: right;
+			}
+		}
+		.bs-sidebar.dynamic-sidebar{
+			text-align: right;
+		}
+		.bs-sidebar .widget-title::after{
+			left: auto;
+			right: 0;
+		}
+		.bs-sidebar .bs-search button{
+			left: 0;
+			right: auto;
+		}
+		.widget ul li::before{
+			right: 0;
+			left: auto;
+			transform: rotate(180deg);
+		}
+		.rs-blog .blog-item .blog-button i{
+			transform: rotate(180deg);
+		}
+		.bs-sidebar .widget_categories li {
+		    padding: 5px 15px 5px 0 !important;
+		}
+		.bs-sidebar .recent-post-widget .show-featured .post-img {
+		    padding-left: 15px;
+		    padding-right: 0;
+		}
+		.bs-sidebar .widget ul li {
+		    padding: 7px 15px 7px 0;
+		}
+		.rs-blog .blog-item .blog-full-area .full-blog-content,
+		.rs-blog-grid .blog-item .full-blog-content,
+		.rs-blog-details .bs-desc{
+			text-align: right;
+		}
+		.rs-blog-grid .blog-item .full-blog-content{
+			margin-top: 15px;
+		}
+		.btm-cate li {
+		    float: right;
+		    margin-left: 25px;
+		    margin-right: 0;
+		}
+		.pagination-area .nav-links > :first-child {
+		    border-radius: 0 20px 20px 0px;
+		}
+		.pagination-area .nav-links > :last-child {
+		    border-radius: 20px 0 0 20px;
+		}
+		.rs-blog-details .meta-info-wrap .tag-line a{
+			margin-right: 8px;
+			margin-left: 0;
+		}
+		.ps-navigation ul .next i {
+		    float: right;
+		    margin-top: 5px;
+		}
+		.comments-area .comment-list,
+		.comment-form, .rs-blog-details #reply-title{
+			text-align: right;
+		}
+		.comments-area .comment-list li.comment .comment-content {
+		    margin-right: 50px;
+		    margin-left: 0;
+		    padding-left: 0;
+		    padding-right: 15px;
+		}
+		.comments-area .comment-list li.comment .comment-metadata {
+		    margin-right: 50px;
+		    margin-left: 0;
+		}
+		.comments-area .comment-list li.comment .comment-author img {
+		    margin-left: 15px;
+		    margin-right: 0;
+		}
+		.comments-area .comment-list li.comment .reply a{
+			margin-right: 27px;
+			margin-left: 0;
+		}
+		#scrollUp{
+			left: 30px;
+			right: auto;
+		}
+		#content div.product div.summary, div.product div.summary, .cart_totals h2, 
+		#content div.product div.summary, div.product div.summary, .related.products h2, .woocommerce-tabs,
+		h3#order_review_heading, .woocommerce form .form-row label, .woocommerce form .form-row .select2-container,
+		.woocommerce-billing-fields, .woocommerce-additional-fields, .woocommerce-info, form.login, .entry-content .woocommerce h2,
+		.course-features-info ul li, .course-features-info h3.title, .rs-courses-details .event-desc,
+		.rs-courses-3 .course-item .course-body .course-desc, .rs-courses-3 .course-item .course-toolbar .course-category,
+		.course-landing-summary, .eshkool-ralated-course{
+			text-align: right;
+		}
+		.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals{
+			float: right;
+		}
+		.woocommerce-error::before, .woocommerce-info::before, .woocommerce-message::before{
+			left: 1.5em;
+			right: auto;
+		}
+		#payment #place_order, #payment #place_order {
+		    float: right;
+		}
+		.woocommerce-form-login .woocommerce-Button {
+		    margin-left: 12px !important;
+		    margin-right: 0 !important;
+		}	
+		.rs-breadcrumbs ul li.trail-end {
+		    padding-right: 8px;
+		    padding-left: 0;
+		}
+
+		ul.sidenav .menu > li.menu-item-has-children:before{
+			left: 0;
+			right: auto;
+		}	
+		.rs-breadcrumbs ul li.trail-begin a{
+			padding-right: 20px !important;
+			padding-left: 0 !important
+		}
+		#rs-skills .left_img{
+			padding-left: 40px;
+		}
+		.rs-breadcrumbs ul li.trail-begin a:before{
+			right: 0;
+			left: auto;
+		}
+		.service-square-effect .services-desc,
+		.rs-portfolio-style5 .portfolio-item:hover .portfolio-content h3,
+		.rs-portfolio-style5 .portfolio-item:hover .portfolio-content p{
+			text-align: right;
+		}
+		.rs-breadcrumbs .page-title{
+			float: right;
+		}	
+		.rs-breadcrumbs .breadcrumbs{
+			float: left;
+		}
+		.portfolio-filter button{
+			margin-left: 30px;
+		}
+		#cl-testimonial p {
+		    text-align: right;
+		}
+		#cl-testimonial .testimonial-content .image-testimonial {
+    		float: left;
+    	}
+    	.single-testimonial .testimonial-left {
+		    float: right;
+		    margin-left: 15px;
+		    margin-right: 0;
+		}
+		.cl-testimonial5 .image-testimonial .testimonial-content ul {
+		    padding: 10px 0px 0 0px !important;
+		}
+		#cl-testimonial .cl-col-2 {
+		    float: right;
+		}
+		.testimonial-boxshadow  #cl-testimonial ul{
+			text-align: right;
+		}
+		
+		.rs-heading.style1:after{
+			right: 0
+		}
+
+		.rs-heading.style1.center:after{
+			right: auto;
+		}
+		#rs-header .menu-area .navbar{
+			float: left;
+		}
+		.nav-link-container{
+			left:0 ;
+			right: auto;
+
+		}
+		.sidenav .nav-close-menu-li{
+			text-align: left
+		}
+
+		.sidenav .nav-close-menu-li button{
+			margin-left: 19px;
+		}
+
+		.sidenav .widget_nav_menu ul li{
+			text-align: right;
+		}
+
+		input[type="text"], input[type="number"], input[type="password"], input[type="email"],
+		select, textarea{
+			text-align: right;
+		}
+		@media screen and ( max-width: 991px){
+			
+			#rs-header.style1 .menu-area .mobile-menu-link .nav-menu-link{
+				top: 10px;
+			}
+			#rs-acheivements.rs-acheivements4.icon-left .rs-counter-list{
+				text-align: center;
+			}
+
+			#rs-footer.has-footer-contact .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner:before, #rs-footer.has-footer-contact .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner:after{
+				width: 0;
+			}
+
+			#rs-footer.has-footer-contact .footer-contact-desc div[class*="col-"] + div[class*="col-"] .contact-inner{
+				border:none
+			}
+			#rs-header .toolbar-area .toolbar-contact ul,
+			#rs-header .toolbar-area .toolbar-sl-share ul{
+				text-align: center;
+			}
+			.sidenav .nav-close-menu-li button{
+				left:0px;
+			}
+
+			.mc4wp-form{
+				max-width: 100%;
+			}
+
+			.sidenav .nav-close-menu-li{
+				text-align: left;
+			}
+			.mobile-menu-container ul li{
+				text-align: right;
+			}
+
+			ul.sidenav .menu > li.menu-item-has-children:before{
+				left: 15px;
+				right: auto
+			}
+			#rs-header.header-style2 .toolbar-contact-style4 ul li{
+				margin-right: 10px;
+			}
+			.header-style2 .menu-area .mobile-menu-link .nav-menu-link{
+				left: auto;
+				right: 0;
+			}
+			
+
+			.header-style2  .menu-middle .col-sm-9{
+				display: none !important
+			}		
+					
+			.portfolio-filter button{
+				margin-left: 0
+			}	
+		} 
+
+		@media screen and (max-width: 767px){
+			.rs-heading.style4 .view-more{
+				text-align: right;
+			}
+			.rs-events-2 .event-item .event-img{
+				text-align: center;
+			}
+			.rs-events-2 .event-item .event-img img{
+				width: 100%
+			}
+			.ps-image{
+				margin-bottom: 35px;
+			}
+			.rs-breadcrumbs .page-title,
+			.rs-breadcrumbs .breadcrumbs{
+				float: none;
+			}
+		}
+
+		@media screen and (max-width: 590px){
+			#rs-header.style1 .menu-area .menu-responsive{
+				left: 70px;
+				right: auto;
+			}
+		}
+	}
+}

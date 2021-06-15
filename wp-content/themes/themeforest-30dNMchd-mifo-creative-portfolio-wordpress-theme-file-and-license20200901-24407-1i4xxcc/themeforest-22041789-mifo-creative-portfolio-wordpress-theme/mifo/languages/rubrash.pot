@@ -1,0 +1,311 @@
+# Copyright (C) 2017 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-12-23 16:00+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator:\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: 404.php:27
+msgid "404"
+msgstr ""
+
+#: 404.php:38
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:51
+msgid ""
+"OR BACK TO HOMEPAGE"
+msgstr ""
+
+#: comments.php:32
+msgid "One comments on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:52
+msgid "Primary"
+msgstr ""
+
+#: index.php:11
+msgid "Read More"
+msgstr ""
+
+#: pagination.php:11
+msgid "Previous"
+msgstr ""
+
+#: pagination.php:16
+msgid "Next"
+msgstr ""
+
+
+#: single-teams.php:50
+msgid "Team Information"
+msgstr ""
+
+#: single-teams.php:55
+msgid "Designation"
+msgstr ""
+
+#: single-teams.php:62
+msgid "Company:"
+msgstr ""
+
+#: single-teams.php:95
+msgid "Address::"
+msgstr ""
+
+#: single-teams.php:103
+msgid "City:"
+msgstr ""
+
+#: single-teams.php:112
+msgid "State:"
+msgstr ""
+
+#: single-teams.php:120
+msgid "Country:"
+msgstr ""
+
+#: single-teams.php:128
+msgid "Phone:"
+msgstr ""
+
+#: single-teams.php:136
+msgid "Email:"
+msgstr ""
+
+#: single-teams.php:146
+msgid "Website:"
+msgstr ""
+
+#: single-teams.php:173
+msgid "Pages:"
+msgstr ""
+
+
+#: inc/template-tags.php:29
+msgid "Posted on %s", "post date"
+msgstr ""
+
+#: inc/template-tags.php:35
+msgid "by %s", "post author"
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:55
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:59
+msgid ", ", "list item separator"
+msgstr ""
+
+#: inc/template-tags.php:62
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:72
+msgid "Leave a Comment<span class="screen-reader-text"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:89
+msgid "Edit <span class="screen-reader-text">%s</span>"
+msgstr ""
+
+#: inc/template-sidebar.php:10
+msgid "Sidebar"
+msgstr ""
+
+#: inc/template-sidebar.php:12
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/template-sidebar.php:20
+msgid "Off Canvas Sidebar"
+msgstr ""
+
+#: inc/template-sidebar.php:22
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/template-sidebar.php:31
+msgid "Footer One Widget Area"
+msgstr ""
+
+#: inc/template-sidebar.php:33
+msgid "Add Text widgets area"
+msgstr ""
+
+#: inc/template-sidebar.php:41
+msgid "Footer Two Widget Area"
+msgstr ""
+
+#: inc/template-sidebar.php:43
+msgid "Add text box widgets area"
+msgstr ""
+
+#: inc/template-sidebar.php:50
+msgid "Footer Three Widget Area"
+msgstr ""
+
+#: inc/template-sidebar.php:52
+msgid "Add text box widgets area"
+msgstr ""
+
+#: inc/template-sidebar.php:59
+msgid "Footer Four Widget Area"
+msgstr ""
+
+#: inc/template-sidebar.php:61
+msgid "Add text box widgets area"
+msgstr ""
+
+#: inc/template-functions.php:91
+msgid "Caution: For importing demo data please click on "Import Demo Data" button. During demo data installation please do not refresh the page. After you import this demo, you will have to setup the slider separately. For more info plesae read the documentation carefully."
+msgstr ""
+
+#: inc/page-header/breadcrumbs-search.php:8
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/page-header/breadcrumbs-search.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/page-header/breadcrumbs-blog.php:14
+msgid "All Blogs"
+msgstr ""
+
+#: inc/page-header/breadcrumbs-blog.php:41
+msgid "Blog"
+msgstr ""
+
+#: template-parts/content.php:34
+msgid "Continue reading<span class="screen-reader-text"> "%s"</span>"
+msgstr ""
+
+#: template-parts/content.php:45
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:17
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:38
+msgid "Edit <span class="screen-reader-text">%s</span>"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid "Ready to publish your first post? <a href="%1$s">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-single.php:18
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:18
+msgid "Edit <span class="screen-reader-text">%s</span>"
+msgstr ""
+
+#: template-parts/post/content.php:40
+msgid "Continue reading<span class="screen-reader-text"> "%s"</span>"
+msgstr ""
+
+#: template-parts/post/content.php:51
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post/content-aside.php:26
+msgid "Continue reading<span class="screen-reader-text"> "%s"</span>"
+msgstr ""
+
+#: template-parts/post/content-aside.php:37
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post/content-audio.php:67
+msgid "Continue reading<span class="screen-reader-text"> "%s"</span>"
+msgstr ""
+
+#: template-parts/post/content-audio.php:42
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post/content-image.php:47
+msgid "Continue reading<span class="screen-reader-text"> "%s"</span>"
+msgstr ""
+
+#: template-parts/post/content-image.php:72
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post/content-gallery.php:75
+msgid "Continue reading<span class="screen-reader-text"> "%s"</span>"
+msgstr ""
+
+#: template-parts/post/content-gallery.php:80
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post/content-link.php:37
+msgid "Continue reading<span class="screen-reader-text"> "%s"</span>"
+msgstr ""
+
+#: template-parts/post/content-link.php:48
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post/content-quote.php:66
+msgid "Continue reading<span class="screen-reader-text"> "%s"</span>"
+msgstr ""
+
+#: template-parts/post/content-quote.php:71
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post/content-video.php:63
+msgid "Continue reading<span class="screen-reader-text"> "%s"</span>"
+msgstr ""
+
+#: template-parts/post/content-video.php:68
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post/content-none.php:23
+msgid "Ready to publish your first post? <a href="%1$s">Get started here</a>."
+msgstr ""
+
+#: template-parts/post/content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+

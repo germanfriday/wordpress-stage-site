@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Mifo - Creative Portfolio WordPress | Theme Documentation</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<link href="assets/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="assets/styles.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<img class="nav-logo" src="assets/logo.png" alt="">
+				</div>
+				<nav class="collapse navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav">						
+						<li>
+						<a href="https://themeforest.net/user/rs-theme/portfolio?ref=rs-theme" target="_blank">PURCHASE NOW</a>
+					</li>
+					</ul>
+				</nav>
+			</div>
+		</nav>
+
+		<div id="masthead">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Mifo - Creative Portfolio<br /> WordPress Theme</h1>
+						<p>This document contains general information and step by step guidelines<br> on how to set up the theme.</p>
+						<span class="cta-button"><a href="#getting-started">Get started</a></span>
+					</div>
+				</div>
+			</div><!--/container-->
+		</div><!--/masthead-->
+
+		<!--main-->
+		<div id="mainContent" class="container">
+			<div class="row">
+			  <!--left-->
+				<div class="col-md-3" id="leftCol">
+					<ul class="nav nav-stacked affix-top" id="sidebar">
+						<h5><span>Topics</span></h5>
+						<li class="active"><a href="#getting-started">Getting started</a></li>
+						<li class=""><a href="#gs-installing-the-theme">Installing the theme</a></li>						
+						<li class=""><a href="#gs-required-plugins">Required plugins</a></li>
+						<li class=""><a href="#ops-setup-plugins">Setup 3rd Party Plugins</a></li>
+						<li class=""><a href="#gs-importing-demo-content">Importing demo content</a></li>						
+						<li class=""><a href="#ops-creating-pages">Creating pages</a></li>
+						<li class=""><a href="#ops-settings-pages">Page Layout and Page Meta Settings</a></li>
+						<li class=""><a href="#ops-creating-portfolio">Creating Custom Post</a></li>						
+						<li class=""><a href="#ops-setting-up-the-menu">Setting up the menu</a></li>
+						
+						<li class=""><a href="#ops-setting-contact">Setting up the Conact Form</a></li>
+						<li class=""><a href="#ops-theme-options">Theme Options</a></li>
+						<li class=""><a href="#ops-vc">Visual Composer</a></li>		
+						<li class=""><a href="#ops-faq">FAQ</a></li>
+					</ul>
+				</div><!--/left-->
+
+				<!--right-->
+				<div class="col-md-9 ContentWrapper">
+
+
+					<h2 id="getting-started">Getting started</h2>
+					<p><strong>On behalf of our team, we would like to thank you for purchasing this theme.</strong> Your support encourages us to build better themes and continuously bring value to our products. This documentation file covers all the information needed to install and use this theme. You'll find everything you need to know to create a stunning and beautiful website in minutes.</p>				
+
+					<hr>
+
+					<h2 id="gs-installing-the-theme">Installing the theme</h2>
+					<p><strong>In order to install the theme you need to have a WordPress copy already installed on your own server.</strong></p>
+					<p>Below are some useful links for WordPress information:<br>
+						</p><ul>
+							<li><a href="http://codex.wordpress.org/" target="_blank" title="WordPress Codex">WordPress Codex</a> - general information about WordPress and how to install it on your server</li>
+							<li><a href="https://codex.wordpress.org/First_Steps_With_WordPress" target="_blank" title="First Steps With Wordpress">First Steps With WordPress</a> - general information that covers a wide variety of topics</li>
+							<li><a href="https://codex.wordpress.org/FAQ_New_To_WordPress" target="_blank" title="FAQ New To WordPress">FAQ New To WordPress</a> - the most popular FAQ's regarding WordPress</li>
+						</ul>
+					<p></p>
+
+					<hr>
+
+					<h3>Install the theme from WordPress or FTP</h3>
+					<p><strong>NOTE:</strong> Once you have downloaded the theme package from ThemeForest you must unzip it and upload only the inner zip file named <strong>mifo.zip</strong>.</p>
+
+					<p>Step by step instructions:</p>
+					<ol>
+						<li>Login to your WordPress site's administration area</li>
+						<li>Navigate to <strong>Appearance &gt; Themes &gt; Add New &gt; Upload theme</strong> 
+
+						</li>
+						<li>Click on the "Add New" button, then click on the "Upload Theme" button and also check below image</li>
+						<br />
+						<img src="assets/add-new.png" alt="Install required plugins">
+						<li>Upload the theme zip file named <strong>mifo.zip</strong></li>
+						<li>Click "Activate"</li>
+					</ol>
+
+					<p>If this method fails we recommend uploading the theme via FTP. Open your FTP client, move to your WordPress installation path /wp-content/themes and upload the <strong>unziped mifo</strong> folder.</p>
+
+					<p>After the upload is complete navigate to <strong>Appearance &gt; Themes</strong> and activate the theme.</p>
+
+					<hr>
+
+					<h3>Install the child theme</h3>
+
+					<p>Rubrash's main download folder includes a child theme. A WordPress child theme allows you to apply custom code changes to your site. Using a child theme ensures your customizations will not be overwritten, even if you update the parent theme.</p>
+
+					<p>You can same way install child thene as like parent theme. You will get child theme under main files and name is Rubrashwp-child.zip</p>
+
+					<hr>
+														
+					<h2 id="gs-required-plugins">Install theme required plugins</h2>
+					<p>After the theme is installed a message box will appear requesting you to install 8 required plugins:</p>
+					<p><img src="assets/plugin-install.png" alt="Install required plugins"></p>
+					<p>
+						</p><ul>
+							<li><strong>RS Addon Plugin</strong> - theme addone plugin for page builder </li>
+							<li><strong>RS Framework Plugin</strong> - theme core plugin </li>
+							<li><strong>Visual Composer</strong> - Premium content builder plugin</li>
+							
+							<li><strong>CL Testimonial</strong> - Premium plugin</li>
+							
+							<li><strong><a href="https://wordpress.org/plugins/contact-form-7/" title="Contact Form 7" target="_blank">Contact Form 7</a></strong> - available for download with WordPress plugin repository</li>
+							<li><strong>Mailchip For WP</strong> - plugin used for Newslellter subscription</li>
+							<li><strong>Breadcrumb Trail</strong> - plugin used for breadcumbs</li>
+							<li><strong>WordPress One Click Importer</strong> - plugin used for importing theme demo data</li>
+							
+						</ul>
+					<p></p>
+
+					<p>These plugins must be installed for the theme to work properly.</p>
+
+					<hr>
+
+					<h3>Plugins documentation and video tutorials</h3>
+					<p><strong>Visual Composer</strong><br>
+						Documentation: <a href="http://kb.wpbakery.com/" title="Visual Composer Knowledge Base" target="_blank">http://kb.wpbakery.com/</a><br>
+						Video tutorials: <a href="https://vc.wpbakery.com/video-tutorials/" title="Visual Composer Video Tutorials" target="_blank">https://vc.wpbakery.com/video-tutorials/</a
+						</p>		
+
+					<hr>
+
+					<h3>Plugins licence</h3>
+
+					<p>When you purchase a theme from ThemeForest that bundles Visual Composer and Revolution Slider, you are free to use these Premium plugins with the theme. However, your Rubrash purchase does not give you individual Visual Composer and Revolution Slider licenses that allow you to activate or download these plugins as you wish. Activation doesn’t mean the plugin will not work but only that you cannot receive direct updates. Please don't worry if you see warning messages about the plugin license activation.</p>
+
+					<p>You can use these plugins with the Rubrash theme and you are fully compliant with the Envato’s policy, but you cannot activate them as the owner (so don't try to use the Rubrash purchase code to activate one of these plugins).</p>
+
+					<p>New plugin updates will be provided when we issue new theme updates. As soon as a new version is available for download, we will surely update the theme after we will fully test the plugins to make sure there are no bugs that will conflict with our own update. We will also fully test new theme versions before releasing them on ThemeForest.</p>
+
+					<hr>
+
+
+									
+					<h2 id="ops-setup-plugins">3rd Party Plugin Instal</h2>
+					<p>If you need any third party plugin install in theme you should follow below steps:</p>
+					<ul>
+						<li>Login to your WordPress site's administration area</li>
+						<li>Navigate to <strong>Plugins &gt; Add New &gt; Upload Plugins</strong> and check below image
+						<br />
+						<img src="assets/plugin-add.png">
+						<li>This way you can add plugins when your need</li>
+					</ul>
+			
+
+					<hr>
+
+					<h2 id="gs-importing-demo-content">Importing demo content</h2>
+
+					<p>The fastest way to import our demo content is to use the <strong>Demo Content Importer</strong>. The Demo Content Importer provides you with all of Rubrash’s pages and posts, sample sliders, widgets, theme options, assigned pages, and more. Using this import feature is recommended for fresh installs. The automatic import will NOT replace existing content however. We always recommend running it on a fresh WordPress installation.</p>
+
+					
+						</p><ol>
+							<li>Make sure you have all the required plugins installed and activated.</li>
+							<li>Navigate to <strong>Appearance &gt; Import Demo Data </strong>.</li>
+							<li>Then Click to <strong>Import Demo Data</strong>
+								<img src="assets/import.png">
+							</li>
+							<li>Wait until the import routine is done. Please be patient and don't navigate away, as this can take few minutes depending on your host's performance.</li>
+							<li>You will be notified once the importing process is completed.</li>
+						</ol>
+						<ol>
+							<li><h3>Slider Setup</h3></li>
+							<li>Navigate to <strong>Slider </strong> and then you can easily add slider check image also<br />
+								<img src="assets/slider-import.jpg">
+								<br />
+								<img src="assets/slider-settings.jpg">
+							</li>							
+						</ol>	
+
+					<p><strong>Note:</strong> The "Internal Pages" can be imported without affecting your content.</p>
+					<p><strong>IMPORTANT:</strong> Importing demo content will overwrite all existing option values, please proceed with caution!</p>
+
+					<h3>Mauall Upload </h3>
+
+					<strong>If one click demo data don't work use manuall upload system.</strong>
+
+				<p>Form one click demo data plugin you will get manuall upload system Check below image</p>
+				<img src="assets/manual.png">
+				<p>After clcik it then you will get option select files. You will get files form demo-data folder at mail download files.</p>
+				<img src="assets/demo_data.png"> 
+				<p>After seelct all files just give click submit button and your are done for import demo data</p>
+					<hr>	
+
+					<h2 id="ops-creating-pages">Creating pages</h2>
+
+					<p>For Make new page you can check below image:
+						<br />
+						<img src="assets/page-make.png">
+					</p>
+
+					<ol>
+						<li>Create a separate page (as child of the master page - "Home") for each of the sections you would like to insert on the one page layout.</li>
+						<li>The order of these sections is given by the <strong>"page order"</strong> attribute set for each page when created. Set the page order for each of these child pages (see screenshot below).</li>
+					</ol>
+					<p><img src="assets/page-order.jpg" alt="Page order meta box"></p>
+					
+					<hr>
+					<h2 id="ops-settings-pages">Page Layout and Page Header Settings</h2>
+					<ol>
+						<li>You can setup page layout under all pages <br />
+							<img src="assets/sidebar.jpg" />
+						</li>
+						
+					</ol>
+					<h2>Page Meta Settings</h2>
+					<p>On the bottom of each page there are 1 meta settings boxes. Here you can configure the following:</p>
+					<ol>
+						
+						<li>Hide page title</li>
+						<li>Add header style</li>
+						<li>Show/hide breadcrumbs</li>
+						<li>Show/hide toolbar</li>
+						
+					</ol>
+							<img src="assets/header-banner.png" />
+						</li>
+					<hr>
+
+					<h2 id="ops-creating-portfolio">Setting up the Post type Portfolio</h2>			    	
+					<img src="assets/portfolio-1.png" /><br />	
+					<img src="assets/portfolio-2.png" />
+
+					<br />
+					<strong>Same way you can add other elements under  Cl Testimonial, Gallery section</strong>	
+					<hr>					
+
+					<h2 id="ops-setting-up-the-menu">Setting up the menu</h2>
+
+					<p>Navigate to <strong>Appearance &gt; Menus</strong> and create your main menu. Inside the "Manage Locations" tab you can assign this menu as the <strong>Header Menu</strong>.</p>
+					<p>The theme features two menu locations: Header and Footer menu.</p>
+
+					<h3>Menu items linking to section pages</h3>
+					<p>To create a menu item linking to a section of the One Page template select <strong>Links</strong> from the left side panel and set the "URL" to #page-slug and "Link text" as the name of the menu item (eg. #about-us as URL and "About us" as Link text).</p>
+					<p><strong>The left side panel box should look like this:</strong></p>
+					<p><img src="assets/menu-section-pages.jpg" alt="Section menu items"></p>
+
+					<h3>Menu items linking to stand alone pages</h3>
+					<p>If you want to include a stand alone page menu item use the "Pages" tab, select desired page and click "add to menu".</p>
+
+					<hr>
+
+					<h2 id="ops-setting-contact">Contact Form Setup</h2>
+					<p>Rubrash wp theme comes with contat form 7 plugin. You can easily setup this form</p>
+					<p>After login admin Navigate to Contact and click add new and check below image  </p>
+					<p><img src="assets/contact-from.png" alt="Mega menu child items"></p>
+					<p>Then Save contact form you will get shordcode and you can add this <strong>shorcode any page post or widget</strong> Check image also</p>
+					<p><img src="assets/shordcode.png"></p>
+					<hr>
+
+					<h2 id="ops-theme-options">Theme Options</h2>
+
+
+							<p>You can access the Theme Options panel by going to <strong>Navigate &gt; RS Options</strong>. Theme various options are organized into vertical tabs on the left side.</p>
+
+					<hr>
+
+					<h3 id="ops-global-options">General Sections</h3>
+							<p>
+								
+								<strong>Logo</strong> - Main logo image<br>				
+								<strong>Favicon</strong> - Upload favicon image<br>
+								<strong>Off Canvas</strong> - You can on/off off canvas here<br />
+								<strong>Preloader</strong> - You can on/off preloader here
+								<strong>Go to Top</strong> - You can on/off top to bottom scroll here
+
+							</p>
+							<p><img src="assets/global-options.png"></p>
+
+					<hr>
+
+					<h3 id="ops-header">Header</h3>
+
+
+					<p>
+						<strong>- Show Top Bar</strong> - Choose to display top bar on/off<br>
+						<strong>- Show Social Icon Header Section</strong> - Choose to display social icon on/off<br>	
+						<strong>- Add top phone number</strong> - You can add phone number here<br>
+						<strong>- Add Phone pre text here</strong> - You can add pre text here<br>
+						<strong>- Email Address</strong> - Add email address here<br>
+						<strong>- Qutoe Button text and Qutoe button link can add here</strong> 
+						
+					</p>
+						<p><img src="assets/header.jpg"></p>
+
+					<hr>
+					
+					<h3 id="ops-typography">Typography</h3>
+
+							<p>
+							<strong>Body font settings</strong> - Font Family (Google fonts), Font Weight &amp; Style, Text Align, Font Size, Line Height, Font Color<br>
+							<strong>Headings font settings</strong> - Font Family (Google fonts), Font Weight &amp; Style, Text Align, Font Size, Line Height, Font Color<br>
+
+							</p>
+					<p><img src="assets/typography.jpg"></p>
+					<p><img src="assets/typography-2.jpg"></p>
+
+					<hr>
+					<h3 id="ops-blog">Social Icon</h3>					
+					<p><img src="assets/social.jpg"></p>
+					<hr>
+
+					<h3 id="ops-404">404 Page</h3>
+						<p>
+							<strong>Page title</strong> - Default: 404 <br>
+							<strong>Text</strong> - Default: Page text can add here<br>
+							<strong>Back to homepage button text</strong> - Default: Back to homepage<br>
+							<strong>Background image</strong> - Upload a background image displayed as a cover and forced to full width
+							</p>
+						<p><img src="assets/404.jpg"></p>
+
+					<hr>
+
+					<h3 id="ops-footer">Footer</h3>
+					<p>
+
+						<strong>Upload Footer Logo</strong> - You can upload logo here<br>
+						<strong>Social Icon</strong> - You can on/off social icon here<br>
+						<strong>Copyright Text</strong> - Bottom footer copyright text<br>
+						<strong>Footer Style</strong> - You can assign footer logo here.
+							</p>
+							<p><img src="assets/footer.jpg"></p>
+
+					<hr>
+
+					<h2 id="ops-vc">Visual Composer</h2>
+
+					This section details the main elements and aspects of Mifo's unique application of the Visual Composer Page Builder. Discovering the different areas, icons and tools we have included will enable you to build beautiful pages quickly.
+
+					<hr>
+
+					<h3 id="ops-page-builder">How to use the page builder</h3>
+
+					<p>In this overview, you will find everything you need to know about Visual Composer page builder; starting with how the most commonly used interface elements work. Visual Composer has everything you need to manage content elements with a single click: add, edit, duplicate, remove or create element presets, etc. You can also find some interesting video tutorials with VC Video Academy here: <a href="https://vc.wpbakery.com/video-tutorials/" title="Visual Composer video tutorials" target="_blank">https://vc.wpbakery.com/video-tutorials/</a></p>
+
+					<p><img src="assets/use-page-builder.jpg"></p>
+
+					<p><strong>1) Add elements</strong></p>
+					<p>RS Elements gives you instant access to 10 built-in content elements. Each element has been carefully crafted, and offers multiple options. Simply insert elements into your page, click on the Plus Icons, and you’ll see an overlay window containing all the available modules. Select the one you want, and it will be inserted onto the page.</p>
+
+					<p><strong>2) Drag and drop elements</strong></p>
+					<p>With the intuitive drag and drop interface you can quickly change your layout or reorder elements. Simply drag elements or modules using the Drag Arrows Icon.</p>
+
+					<p><strong>3) Open Settings</strong></p>
+					<p>You can modify rows, columns, and module presets in seconds, and build complex layouts without using a single line of code. Simply open the setting from the Pen Icons. This will open a different overlay window for every module category with your options  organized in convenient tabs.</p>
+
+					<p><strong>4) Copy, paste and clone elements</strong></p>
+					<p>One way to make page building proceed more efficiently is to go to use the copy, paste and close functionalities.</p>
+
+					<p><strong>5) Custom CSS code</strong></p>
+					<p>If you need to insert custom CSS code for use in a single page only, you can easily do so. The custom code will be stamped only for the page in question, and will not appear in any other page. At the top right corner, you will see a Gear icon. Click on it to open a code editor window and insert your custom code.</p>
+
+					<hr>
+
+					<h3 id="ops-elements-overview">RS theme Elements Overview</h3>
+
+					<p>Our RS Theme Addons plugin gives you instant access to built in content elements. Our Elments we developed based of our theme.</p>
+
+					<p><strong>Element list overview:</strong></p>
+					<p><img src="assets/rs-theme-elements.jpg"></p>
+
+					<hr>
+
+					<h2 id="ops-faq">FAQ</h2>
+
+					<p><strong>1) Are you sure you want to do this?</strong><br>
+					When you are trying to install the theme and WordPress comes back with the message "Are you sure you want to do this?" it means that your PHP has a setting for upload files lower than the ZIP file size.<br>
+					What you need to do is contact your hosting provider and ask to increase the "upload_max_filesize" and "post_max_size" to at least 32mb.
+					</p>
+					<p><strong>2) Demo images not included in the sample content</strong><br>
+					Due to copyright restrictions some of the live preview images/videos were not included with the demo content. We are not allowed to redistribute them.
+					</p>
+				</div><!--/right-->
+			</div><!--/row-->
+
+		</div><!--/container-->
+
+		<div class="footer">
+			<p>Mifo - Creative Portfolio WordPress Theme</p>
+		</div>
+</body>
+</html>

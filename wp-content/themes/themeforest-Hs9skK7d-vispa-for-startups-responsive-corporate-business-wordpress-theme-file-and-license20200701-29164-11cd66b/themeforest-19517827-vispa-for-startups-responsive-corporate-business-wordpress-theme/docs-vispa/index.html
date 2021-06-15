@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="FlyTemplates">
+
+    <title>Documentation &middot; Vispa</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/beauty-line-icons.css" rel="stylesheet">
+    <link href="css/docs.min.css" rel="stylesheet">
+    <link href="css/documentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+<a class="sr-only" href="#content">Skip to main content</a>
+
+<!-- Docs master nav -->
+<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--<a href="http://flytemplates.com/" class="navbar-brand"><img src="img/kl_logo_small.png" alt="FlyTemplates" title="FlyTemplates" /></a>-->
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="http://demo.flytemplates.com/vispa/" target="_blank">Live Preview Demo</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="mailto:support@flytemplates.com">support@flytemplates.com</a></li>
+                <li><a href="http://flytemplates.com/contact/" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<!-- Docs page layout -->
+<div class="bs-docs-header" id="content">
+    <div class="container">
+        <h1>Vispa</h1>
+
+        <p>Premium WordPress Theme powered by FlyTemplates</p>
+    </div>
+</div>
+
+<div class="container bs-docs-container">
+
+    <div class="row">
+        <div class="col-md-9" role="main">
+            <!-- Introduction
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="introduction" class="page-header">Introduction</h1>
+
+                <p class="lead">Thank you for purchasing our theme. If you have any questions about the template, please
+                    feel free to contact us via
+                    <a href="mailto:support@flytemplates.com">support@flytemplates.com</a> or the
+                    <a target="_blank" href="http://flytemplates.com/contact/">contact form</a>. Thanks very much!</p>
+
+                <p>This documentation presents information how to install and use this theme. You can always find the
+                    latest version of this documentation
+                    <a target="_blank" href="http://docs.flytemplates.com/vispa/">online</a>.
+                </p>
+            </div>
+            <!-- About
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="about" class="page-header">About the theme</h1>
+
+                <p class="lead">Vispa can be used as a Portfolio, Blog WordPress theme or for any other usage.
+                    Feel free to create your own website with this finished template.</p>
+
+                <p>Containing more than ten different layouts. Vispa WordPress theme can be used for multi-purpose
+                    websites.
+                    Whether you want to create an portfolio, a blog website, a gallery or even a personal profile page,
+                    Vispa is always the right solution.
+                    Use <a href="#options">Theme Options</a> and <a href="#shortcode">Shortcodes</a> to customize your
+                    website.
+                    The user friendly WordPress interface will help and guide you through to build a fully working and
+                    clean website.</p>
+
+                <p>Vispa has a clean and minimalistic design which helps you to create an awesome and powerful project.
+                    The whole template was built based on the latest standards and recommendations. Vispa theme is
+                    powered by
+                    <a href="http://unyson.io/" target="_blank">Unyson</a> (WordPress framework) and
+                    <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap v3</a> (the most popular
+                    front-end framework).
+                    It means that it will be easier for you to do the changes and to increase its possibilities, thanks
+                    to many plugins it possesses.</p>
+            </div>
+            <!-- Requirements
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="requirements" class="page-header">Requirements</h1>
+
+                <p class="lead">If you're planning to build a website using WordPress with vispa theme, you must first
+                    ensure your hosting provider
+                    meets WP's and our theme requirements.</p>
+
+                <h3 id="requirements-database">Database</h3>
+                <ul>
+                    <li>MySQL version 5.5 or greater</li>
+                </ul>
+                <h3 id="requirements-php">PHP</h3>
+                <ul>
+                    <li>PHP version <a href="http://php.net/releases/5_6_0.php" target="_blank">5.6.0</a> or greater
+                        (available from August 2014)
+                    </li>
+                    <li>PHP5 <acronym title="Graphics Draw">GD</acronym> library</li>
+                    <li>Memory limit set up at least 64MB</li>
+                    <li>Enabled <code>mod_rewrite</code> in Apache for clean URLs (friendly URL)</li>
+                </ul>
+                <p class="text-right small">Read more on <a href="http://wordpress.org/about/requirements/"
+                                                            target="_blank">WordPress Requirements</a></p>
+            </div>
+            <!-- Installation theme
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="installation" class="page-header">Installation</h1>
+
+                <p class="lead">Please make sure that you are using the latest version of <a
+                        href="http://wordpress.org/download/" target="_blank" title="WordPress Download">WordPress</a>
+                    before you install vispa theme. You can find the information on how to install WordPress in <a
+                            href="http://codex.wordpress.org/Installing_WordPress" target="_blank"
+                            title="Codex: Installing WordPress">WordPress Support (Codex)</a>.</p>
+
+                <h3 id="installation-upload">Upload theme files</h3>
+
+                <p>You have two ways to upload Vispa theme files:</p>
+                <ol>
+                    <li>
+                        <h5><strong>Upload theme by WordPress upload function</strong></h5>
+                        <ul>
+                            <li>Login to your WordPress admin account
+                                (<code>http://<em>yourdomain.com</em>/wp-admin</code>).
+                            </li>
+                            <li>Click <strong><code>Appearance</code>&rsaquo;<code>Themes</code></strong> and go to
+                                <kbd>Add New</kbd>.
+                            </li>
+                            <li>Click <kbd>Upload Theme</kbd>, browse your files and find <code>vispa-child.zip and
+                                vispa-parent.zip</code> (make sure you are not uploading the whole <code>.zip</code>
+                                file that you've downloaded from Themeforest).
+                            </li>
+                            <li>Click <kbd>Install Now</kbd>.</li>
+                            <li>After Vispa theme is uploaded, click <kbd>Activate vispa-child</kbd>.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5><strong>Upload Vispa files to your server via <abbr
+                                title="File Transfer Protocol">FTP</abbr></strong></h5>
+                        <ul>
+                            <li>Unpack the theme <code>.zip</code> file (<code>vispa.zip</code>) you have downloaded.
+                            </li>
+                            <li>Upload the <code>/vispa-child and /vispa-parent</code> folder (not: "vispa Files") to
+                                the <code>/wp-content/themes/</code> directory in your WordPress installation on your
+                                server.
+                            </li>
+                            <li>Login to your WordPress admin account
+                                (<code>http://<em>yourdomain.com</em>/wp-admin</code>).
+                            </li>
+                            <li>Click <strong><code>Appearance</code>&rsaquo;<code>Themes</code></strong>.</li>
+                            <li>Look for the <strong>vispa-child</strong> theme and click <kbd>Activate</kbd>.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3 id="installation-activation">Theme activation</h3>
+
+                <p>After theme activation you must follow next steps.</p>
+                <ol>
+                    <li>
+                        <h5><strong>Download and activate the required plugins</strong></h5>
+                        <figure class="img-thumbnail">
+                            <img src="img/1.png" class="img-responsive"/>
+                        </figure>
+
+                        <hr>
+
+                        <figure class="img-thumbnail">
+                            <img src="img/2.png" class="img-responsive"/>
+                        </figure>
+                    </li>
+                    <li>
+                        <h5><strong>Download Unyson framework's extensions</strong></h5>
+                        <figure class="img-thumbnail">
+                            <img src="img/3.png" class="img-responsive"/>
+                        </figure>
+                        <p>If something goes wrong, go to Unyson page and install them</p>
+                        <figure class="img-thumbnail">
+                            <img src="img/4.png" class="img-responsive"/>
+                        </figure>
+                    </li>
+                </ol>
+            </div>
+            <!-- Import Content
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="import" class="page-header">Import Content</h1>
+
+                <p class="lead">It is possible to import Vispa demo content to your WordPress website based on Vispa WP
+                    Theme.</p>
+
+                <h3 id="import-dc">Demo Content </h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JDyPHONK14g" frameborder="0"
+                        allowfullscreen></iframe>
+                <p>If you want to use our content you have to go to <strong><code>Tools</code>&rsaquo;<code>Demo Content
+                    Install</code></strong> page</p>
+                <figure class="img-thumbnail">
+                    <img src="img/5.png" class="img-responsive"/>
+                </figure>
+            </div>
+            <!-- Theme Options
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="options" class="page-header">Theme Options</h1>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <figure class="img-thumbnail"><img src="img/6.png" class="img-responsive"/></figure>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="lead">After the theme is installed, a new menu page called
+                            <strong><code>Appearance</code>&rsaquo;<code>Theme Settings</code></strong> will appear on
+                            the bottom left of your WordPress administration area.</p>
+                    </div>
+                </div>
+                <hr/>
+
+                <p>The Theme Options Panel is divided into several sections:</p>
+
+                <figure class="img-thumbnail">
+                    <img src="img/7.png" class="img-responsive"/>
+                </figure>
+
+                <hr>
+
+                <figure class="img-thumbnail">
+                    <img src="img/7a.png" class="img-responsive"/>
+                </figure>
+
+                <hr>
+
+                <figure class="img-thumbnail">
+                    <img src="img/7b.png" class="img-responsive"/>
+                </figure>
+                <hr>
+
+                <figure class="img-thumbnail">
+                    <img src="img/7c.png" class="img-responsive"/>
+                </figure>
+
+                <hr>
+
+                <figure class="img-thumbnail">
+                    <img src="img/7d.png" class="img-responsive"/>
+                </figure>
+
+                <hr>
+
+                <figure class="img-thumbnail">
+                    <img src="img/7e.png" class="img-responsive"/>
+                </figure>
+                <hr>
+
+
+                <figure class="img-thumbnail">
+                    <img src="img/7f.png" class="img-responsive"/>
+                </figure>
+
+                <hr>
+
+                <figure class="img-thumbnail">
+                    <img src="img/7g.png" class="img-responsive"/>
+                </figure>
+
+                <hr>
+
+                <figure class="img-thumbnail">
+                    <img src="img/7h.png" class="img-responsive"/>
+                </figure>
+                <hr>
+
+                <figure class="img-thumbnail">
+                    <img src="img/7i.png" class="img-responsive"/>
+                </figure>
+
+            </div>
+            <!-- Menu
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="menu" class="page-header">Menu Top</h1>
+
+                <p class="lead">Main menu (Top Menu) is located in in the header area at the top of website.
+                    It is a group of navigation links for your visitors to find the important parts of your site faster.
+                    Menu is responsive and in mobile devices becomes right slide menu.</p>
+
+                <p>If you did not set "navigation menu" after <a href="#installation-activation">theme activation</a>
+                    you can set it in <strong><code>Appearance</code>&rsaquo;<code>Menus</code></strong>. Here you can
+                    also make a new menu or edit an existing item.</p>
+
+                <p>If you want to create new Primary Menu, you have to click "create a new menu" in top bar.</p>
+                <figure class="img-thumbnail"><img src="img/appearance_menus_create_new.png" class="img-responsive"
+                                                   alt="Create a new menu"/></figure>
+                <p>After that you have to write new "<em>menu name</em>" and click <kbd>Create Menu</kbd>.</p>
+                <figure class="img-thumbnail"><img src="img/appearance_menus_create_new_2.png" class="img-responsive"
+                                                   alt="Create menu"/></figure>
+                <p>After that you can add Pages, Categories and/or Posts to <strong>Menu structure</strong>, and you
+                    have to check "Primary Navigation" and click <kbd>Save menu</kbd>. Now Top Menu is ready and you can
+                    see it on front side.</p>
+                <figure class="img-thumbnail"><img src="img/8.png" class="img-responsive" alt="Save menu"/></figure>
+                <p>If you want to create an item in menu that is <em>not a link</em> you can add "Links" with URL "#"
+                    and your custom name. You can add this Link to the menu and make it a parent for some regular Pages.
+                    Thanks to this your link will be in the main menu and after clicking it, the user can see
+                    "sub-pages" of it.</p>
+
+                <p>Parent Page can be also regular Page, but then "sub-pages" in menu will be visible after cursor
+                    hover.</p>
+
+                <p>To sum up, if you want to create drop-down menu after clicking event you need to use parent as Link
+                    with "#" URL and if you want to create drop-down menu after hovering event you have to make menu
+                    only out of regular elements (Pages, Posts, Projects etc.).</p>
+                <figure><span class="img-thumbnail"><img src="img/9.png" class="img-responsive" alt="Save menu"/></span>
+                    <figcaption><em>Not a link</em> parent element to drop-down sub-menu, step #1</figcaption>
+                </figure>
+                <figure><span class="img-thumbnail"><img src="img/appearance_menus_create_new_5.png"
+                                                         class="img-responsive" alt="Save menu"/></span>
+                    <figcaption><em>Not a link</em> parent element to drop-down sub-menu, step #2</figcaption>
+                </figure>
+                <figure><span class="img-thumbnail"><img src="img/10.png" class="img-responsive"
+                                                         alt="Save menu"/></span>
+                    <figcaption><em>Not a link</em> parent element to drop-down sub-menu - result</figcaption>
+                </figure>
+            </div>
+            <!-- Pages
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="pages" class="page-header">Pages</h1>
+
+                <p class="lead">In WordPress, you can write Posts or Pages. Pages are static. They are a good way to
+                    publish information that does not change much, like an <em>"About us"</em> page. Pages live outside
+                    of the normal blog chronology. Pages are not associated with a date/time like Posts, nor can you tag
+                    or categorize a page.</p>
+
+                <p>You can use Pages to organize and manage any content. In addition to the frequently used <em>"About
+                    us"</em> and <em>"Contact us"</em> pages, you can add other examples of common pages including <em>"Copyright"</em>,
+                    <em>"Disclosure"</em>, <em>"Legal Information"</em>, <em>"Reprint Permissions"</em>, <em>"Company
+                        Information"</em>, and <em>"Accessibility Statement"</em>.</p>
+
+                <p class="text-right small">Source: <a href="http://codex.wordpress.org/Pages" target="_blank">WordPress
+                    Codex</a> and <a href="http://support.wordpress.com/pages/" target="_blank">WordPress Support</a>
+                </p>
+
+                <h3 id="pages-templates">Page Templates</h3>
+
+                <p>The theme comes with the following Page templates:</p>
+                <ul>
+                    <li>
+                        <h5><strong>Default Template</strong></h5>
+
+                        <p>Regular template with sidebars
+                            (<strong><code>Appearance</code>&rsaquo;<code>Widgets</code></strong>).</p>
+
+                        <figure class="img-thumbnail">
+                            <img src="img/11.png" class="img-responsive"/>
+                        </figure>
+                    </li>
+                    <li>
+                        <h5><strong>Visual Builder Template</strong></h5>
+
+                        <p>Full Width Page Template for theme visual builder.</p>
+                        <figure class="img-thumbnail">
+                            <img src="img/12.png" class="img-responsive"/>
+                        </figure>
+                    </li>
+                </ul>
+                <p>The seo settings after page content can be edited in Unyson page , Seo Extension, its compatible with
+                    this theme but not
+                    required.</p>
+            </div>
+            <!-- Home page
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="home" class="page-header">Home Page</h1>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <p><strong><code>Settings</code>&rsaquo;<code>Reading</code>&rsaquo;<code>Front page
+                            displays</code>&rsaquo;<code>Front Page</code></strong>.</p>
+                    </div>
+                    <div class="col-md-7">
+                        <figure class="img-thumbnail"><img src="img/setting_reading.png" class="img-responsive"
+                                                           alt="Reading Settings"/></figure>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="portfolio" class="page-header">Portfolio</h1>
+
+                <p class="lead">Portfolio post type is usually used to present your works and projects.
+                    Portfolio Posts consist of many elements. It has a gallery upload option which give you the
+                    possibility to
+                    upload many images for your project.</p>
+                <figure>
+                    <img src="img/13.png" class="img-responsive"/>
+                    <figcaption>Projects Posts 2 Columns</figcaption>
+                </figure>
+                <hr>
+                <figure>
+                    <img src="img/13a.png" class="img-responsive"/>
+                    <figcaption>Projects Posts 3 Columns</figcaption>
+                </figure>
+                <hr>
+                <figure>
+                    <img src="img/13b.png" class="img-responsive"/>
+                    <figcaption>Projects Posts No Spaces</figcaption>
+                </figure>
+                <hr>
+                <h4>Usage</h4>
+
+                <p>If you want to add a Project Post to Project Category you have to go to:</p>
+
+                <p><strong><code>Portfolio</code>›<code>Add New</code></strong>.</p>
+                <figure>
+                    <img src="img/15.png" class="img-responsive"/>
+                </figure>
+                <hr>
+                <figure>
+                    <img src="img/15a.png" class="img-responsive"/>
+                </figure>
+                <hr>
+                <figure>
+                    <img src="img/16.png" class="img-responsive"/>
+                </figure>
+            </div>
+
+            <!-- Blog
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="blog" class="page-header">Blog</h1>
+
+                <p class="lead">Posts are entries on your Blog that are shown in a reverse chronological order on the
+                    front page of your Blog. While using our theme, thanks to WordPress Posts, you can create a typical
+                    Blog or news about your company.</p>
+
+                <p class="text-right small">Read more on <a href="http://en.support.wordpress.com/posts/"
+                                                            target="_blank">WordPress Support</a></p>
+
+                <p>If you do not know how to write a Post look for additional information on one of many websites which
+                    will help you with it, for example <a href="http://codex.wordpress.org/Writing_Posts"
+                                                          target="_blank" title="Codex: Writing Posts">WordPress
+                        Codex</a>.</p>
+
+                <figure>
+                    <img src="img/blog1.png" class="img-responsive"/>
+                </figure>
+                <hr>
+                <figure>
+                    <img src="img/blog1a.png" class="img-responsive"/>
+                </figure>
+                <hr>
+                <figure>
+                    <img src="img/blog2.png" class="img-responsive"/>
+                </figure>
+
+            </div>
+            <!-- Shortcode
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="shortcode" class="page-header">Shortcode</h1>
+
+                <p class="lead">A shortcode is a WordPress-specific code that allows you to get an attractive elements
+                    with almost no effort. Shortcodes can embed files or create objects easily instead of using a
+                    complicated code.</p>
+                <figure>
+                    <img src="img/30.png" class="img-responsive"/>
+                </figure>
+
+                <h3 id="shortcode-usage">Adding Shortcodes</h3>
+
+                <p>Each shortcode are similar in use an they can be added very easy by clicking on them or dragging them
+                    in the content. The difference between them
+                    are the options provided. Each shortcode have different options with deatailed desription</p>
+                <hr/>
+                <h4>Usage</h4>
+
+                <p>If you want to add a shortcode element you have to:</p>
+
+                <figure><img src="img/32.png" class="img-responsive"/></figure>
+
+                <hr>
+
+                <figure><img src="img/33.png" class="img-responsive"/></figure>
+
+            </div>
+            <!-- Widgets
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="sliders" class="page-header">Sliders</h1>
+
+                <p class="lead">Go to <strong><code>Appearance</code>&rsaquo;<code>Sliders</code>&rsaquo;<code>Add
+                    New</code></strong>.</p>
+
+                <h3 id="create-slider">Create Slider</h3>
+
+                <p>In Vispa theme we have a custom slider extension where you can create as many sliders as you want.
+                    Vispa comes with two diferent sliders.</p>
+
+                <figure><span class="img-thumbnail"><img src="img/37.png" class="img-responsive"/></span>
+                </figure>
+
+                <hr>
+
+                <figure><span class="img-thumbnail"><img src="img/38.png" class="img-responsive"/></span>
+                </figure>
+
+                <h3 id="use-slider">Use Slider</h3>
+
+                <p class="">After creating a slider you can go in one of your pages, posts or general settings and use
+                    it as a header type option.</p>
+                <figure><span class="img-thumbnail"><img src="img/40.png" class="img-responsive"/></span>
+                </figure>
+
+                <hr>
+
+                <figure><span class="img-thumbnail"><img src="img/39.png" class="img-responsive"/></span>
+                </figure>
+            </div>
+            <!-- Widgets
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="widgets" class="page-header">Widgets</h1>
+
+                <p class="lead">It is a specific content that you can add to the sidebars on your website.
+                    In our theme you can add widgets to the right, left sidebars and to the footer.
+                    They can be easily added, rearranged and removed by dragging it to the chosen place in
+                    <strong><code>Appearance</code>&rsaquo;<code>Widgets</code></strong>.</p>
+
+                <h3 id="sidebars">Sidebars</h3>
+
+                <div class="row">
+                    <p>In our theme you can easily add as many sidebars as you want for any page.</p>
+                    <article>
+                        <h2 class="section-title">
+                            How to Add a Sidebar to a Page or Blog Post
+				<span class="tag tag-novice support-tooltip ">Novice
+                    <span class="hidden animated">Novice tutorials require <strong class="level-requirement">no prior
+                        knowledge of any specific web programming language.</strong></span>
+                </span>
+                        </h2>
+
+                        <p>This theme comes with a special built in sidebar module that will let you add different
+                            sidebars to different pages. Follow these steps in order to add a new sidebar to a page or
+                            blog post:</p>
+
+                        <ol>
+                            <li>Go to <strong>Appearance &gt; Widgets</strong> and find the sidebar manager on the lower
+                                right hand side of the page.
+                            </li>
+                        </ol>
+                        <figure class="img-thumbnail"><img src="img/18.jpg" class="img-responsive"/></figure>
+
+                        <ol start="2">
+                            <li>Lets add a new sidebar to a specific blog post. In order to do that, select the <strong>For
+                                Specific Pages</strong> tab.
+                            </li>
+                            <li>Select <strong>Blog Post</strong> from the list and type to search the blog post you
+                                want to set a new sidebar for. You can add multiple posts if you want.
+                            </li>
+                        </ol>
+                        <figure class="img-thumbnail"><img src="img/19.jpg" class="img-responsive" alt=""/></figure>
+
+                        <ol start="4">
+                            <li>Select the position of your sidebar.</li>
+                        </ol>
+                        <figure class="img-thumbnail"><img src="img/20.jpg" class="img-responsive" alt=""/></figure>
+
+                        <ol start="5">
+                            <li>Create a new sidebar (or select an existing one from the list).</li>
+                        </ol>
+
+                        <figure class="img-thumbnail"><img src="img/21.jpg" class="img-responsive" alt=""/></figure>
+
+                        <ol start="6">
+                            <li>Press the <strong>Add Sidebar</strong> button in order to create your new sidebar.</li>
+                        </ol>
+
+                        <figure class="img-thumbnail"><img src="img/22.jpg" class="img-responsive" alt=""/></figure>
+
+                        <ol start="7">
+                            <li>Add widgets in your newly created sidebar.</li>
+                        </ol>
+
+                        <p>By clicking on the widget you want from the left hand side</p>
+
+                        <figure class="img-thumbnail"><img src="img/23.jpg" class="img-responsive" alt=""/></figure>
+
+                        <p>By dragging &amp; dropping the widget in the sidebar placeholder</p>
+
+                        <figure class="img-thumbnail"><img src="img/24.jpg" class="img-responsive" alt=""/></figure>
+
+                        <ol start="8">
+                            <li><strong>Done</strong>. No need to save, this page automatically saves it self as you go
+                                along.
+                            </li>
+                        </ol>
+                    </article>
+                </div>
+
+                <h3 id="sssss">Custom Widgets</h3>
+
+                <p>In Vispa theme we prepared the style of the default WordPress widgets and we added our custom
+                    widgets:</p>
+
+                <h3 id="widget-search">Search</h3>
+
+                <div class="row">
+                    <div class="col-md-7">
+                        <p>Widget lets you display a search box in sidebar.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <figure><span class="img-thumbnail"><img src="img/25.png" class="img-responsive"/></span>
+                        </figure>
+                    </div>
+                </div>
+
+                <h3 id="widget-posts">Recent Posts</h3>
+
+                <div class="row">
+                    <div class="col-md-7">
+                        <p>Widget lets you display your recent posts with thumbnails in sidebar.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <figure><span class="img-thumbnail"><img src="img/28.png" class="img-responsive"/></span>
+                        </figure>
+                    </div>
+                </div>
+
+                <h3 id="widget-popular-posts">Recent - Popular Posts</h3>
+
+                <div class="row">
+                    <div class="col-md-7">
+                        <p>Widget lets you display your recent and popular posts with thumbnails and as tabs in
+                            sidebar.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <figure><span class="img-thumbnail"><img src="img/28a.png" class="img-responsive"/></span>
+                        </figure>
+                    </div>
+                </div>
+
+                <h3 id="widget-socials">Login Form</h3>
+
+                <div class="row">
+                    <div class="col-md-7">
+                        <p>Widget lets you login from frontend.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <figure><span class="img-thumbnail"><img src="img/29.png" class="img-responsive"/></span>
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Forms
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="forms" class="page-header">Contact Forms</h1>
+
+                <p class="lead">Vispa use Contact Form Extension from Unyson.</p>
+                <article>
+
+                    <p>Add a contact form to any page by adding the <strong>Contact Form Shortcode</strong> via de
+                        Visual Page Builder.</p>
+
+                    <h3 name="Adding-the-contact-form-shortcode-to-a-page">Adding the contact form shortcode to apage</h3>
+
+                    <ol>
+                        <li>Go to <strong>Pages &gt; All Pages</strong></li>
+                        <li>Create a new page or click on an existing page that is already created</li>
+                        <li>Click on the <strong>Contact Form</strong> shortcode in order to use this for the Contact
+                            Form 7 shortcode
+                        </li>
+                    </ol>
+
+                    <figure><span class="img-thumbnail">
+                        <img src="img/44.png" class="img-responsive"/></span>
+                    </figure>
+
+                    <h3 name="Creating-the-contact-form">Creating the contact form</h3>
+
+                    <p>-In order to create a contact form, you can use the contact  form builder from Unyson plugin that is used in our theme.</p>
+                    <p>Or you can use Contact Form 7 Plugin. CF7 Documentation - <a href="http://contactform7.com/docs/" target="_blank">Docs</a></p>
+                    <figure><span class="img-thumbnail">
+                        <img src="img/45.png" class="img-responsive"/></span>
+                    </figure>
+
+                    <p>Frontend Result:</p>
+                    <figure><span class="img-thumbnail"><img src="img/53.png" class="img-responsive"/></span></figure>
+
+                </article>
+            </div>
+
+            <!-- Styling
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="styling" class="page-header">Styling</h1>
+
+                <p class="lead">Vispa comes with unlimited color schemes, and the possibilitty to change theme
+                    fonts(<strong><code>Appearence</code>&rsaquo;<code>Theme Settings</code>&rsaquo;<code>Styling
+                        Tab</code></strong>)</p>
+                <figure><span class="img-thumbnail"><img src="img/42.png" class="img-responsive"/></span></figure>
+
+                <hr>
+
+                <figure><span class="img-thumbnail"><img src="img/43.png" class="img-responsive"/></span></figure>
+            </div>
+            <!-- Help
+            ================================================== -->
+            <div class="bs-docs-section">
+                <h1 id="help" class="page-header">Help</h1>
+
+                <p class="lead">If you have any problem and you are our customer you can ask any question via <a
+                        href="mailto::support@flytemplates.com">support@flytemplates.com</a> or via <a href="http://flytemplates.com/contact/" target="_blank">Contact Form</a></p>.
+                Therefore, before you contact me, please consider finding an answer to your question in:
+                <ul>
+                    <li>the relevant section of the documentation</li>
+                    <li><a href="https://codex.wordpress.org/" target="_blank">WordPress Codex</a></li>
+                    <li>Google for general questions</li>
+                </ul>
+                <div class="bs-callout bs-callout-info">
+                    <p>Don't forget to rate our work on <a href="http://themeforest.net/user/flytemplates/">ThemeForest</a>.</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-md-3">
+            <div class="bs-docs-sidebar hidden-print" role="complementary">
+                <ul class="nav bs-docs-sidenav">
+                    <li>
+                        <a href="#introduction">Introduction</a>
+                    </li>
+                    <li>
+                        <a href="#about">About the theme</a>
+                    </li>
+                    <li>
+                        <a href="#requirements">Requirements</a>
+                    </li>
+                    <li>
+                        <a href="#installation">Installation</a>
+                        <ul class="nav">
+                            <li><a href="#installation-upload">Upload</a></li>
+                            <li><a href="#installation-activation">Activation</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#import">Import Content</a>
+                    </li>
+                    <li>
+                        <a href="#options">Theme Options</a>
+                    </li>
+                    <li>
+                        <a href="#menu">Menu</a>
+                    </li>
+
+                    <li>
+                        <a href="#pages">Pages</a>
+                    </li>
+
+                    <li>
+                        <a href="#home">Home page</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#blog">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#shortcode">Shortcode</a>
+                        <ul class="nav">
+                            <li><a href="#shortcode-usage">Using Shortcodes</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#sliders">Sliders</a>
+                        <ul class="nav">
+                            <li><a href="#create-slider">Create Slider</a></li>
+                            <li><a href="#use-slider">Use Slider</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#widgets">Widgets</a>
+                        <ul class="nav">
+                            <li><a href="#widget-search">Search Widget</a></li>
+                            <li><a href="#widget-posts">Recent Posts Widget</a></li>
+                            <li><a href="#widget-popular-posts">Recent - Popular Posts Widget</a></li>
+                            <li><a href="#widget-login">Login Widget</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#forms">Contact Form</a>
+                    </li>
+                    <li>
+                        <a href="#styling">Styling</a>
+                    </li>
+                    <li>
+                        <a href="#help">Help</a>
+                    </li>
+                </ul>
+                <a class="back-to-top" href="#top">
+                    Back to top
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Footer
+================================================== -->
+<footer class="bs-docs-footer" role="contentinfo">
+    <div class="container">
+        <div class="bs-docs-social">
+            <ul class="bs-docs-social-buttons">
+                <li class="follow-btn">
+                    <a href="https://twitter.com/FlyTemplates" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @FlyTemplates</a>
+                </li>
+            </ul>
+        </div>
+
+        <p>Copyright &copy; <a rel="nofollow" target="_blank" href="http://flytemplates.com/">FlyTemplates</a> | All rights reserved</p>
+
+        <p>Vispa code and images licensed under <a href="http://themeforest.net/licenses" target="_blank">ThemeForest</a>.</p>
+        <ul class="bs-docs-footer-links muted">
+            <li>Vispa. v1.0</li>
+            <li>&middot;</li>
+            <li><a href="http://flytemplates.com/">FlyTemplates</a></li>
+            <li>&middot;</li>
+            <li><a href="http://themeforest.net/user/flytemplates">ThemeForest</a></li>
+            <li>&middot;</li>
+            <li><a href="http://flytemplates.com/blog/">Blog</a> (<a href="http://flytemplates.com/feed/">RSS</a>)</li>
+            <li>&middot;</li>
+            <li><a href="https://twitter.com/FlyTemplates">Twitter</a></li>
+            <li>&middot;</li>
+            <li><a href="https://www.facebook.com/flytemplates/">Facebook</a></li>
+            <li>&middot;</li>
+            <li><a href="https://plus.google.com/104088102961366190029/posts">Google Plus</a></li>
+            <li>&middot;</li>
+            <li><a href="https://www.behance.net/flytemplatb37f">Behance</a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- JavaScript
+================================================== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/docs.min.js"></script>
+<script src="js/documentation.js"></script>
+<script>
+    window.twttr = (function (d, s, id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.async = 1;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = {
+                    _e: [], ready: function (f) {
+                        t._e.push(f)
+                    }
+                });
+    }(document, "script", "twitter-wjs"));
+</script>
+</body>
+</html>

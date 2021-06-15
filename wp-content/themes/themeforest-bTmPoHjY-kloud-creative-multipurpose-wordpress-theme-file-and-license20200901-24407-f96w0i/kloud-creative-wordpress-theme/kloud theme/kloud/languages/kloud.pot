@@ -1,0 +1,1871 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kloud\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-03 07:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: framework/woocommerce-function.php:518
+msgid " results"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:34
+msgid " You will find a lot of interesting products on our \"Shop\" page."
+msgstr ""
+
+#: framework/function_theme.php:691
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: framework/function_theme.php:397
+#, php-format
+msgid "%1$s "
+msgstr ""
+
+#: framework/function_theme.php:392
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: framework/function_theme.php:1037 framework/function_theme.php:1044
+#: framework/function_theme.php:1051
+#, php-format
+msgid "%s %s"
+msgstr ""
+
+#. %s: title of menu item which is invalid
+#: framework/megamenu/mega-menu.php:116
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. %s: title of menu item in draft status
+#: framework/megamenu/mega-menu.php:120
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: framework/function_theme.php:689
+msgid ", "
+msgstr ""
+
+#: framework/widgets/widget_filter_pric_ajax.php:257
+msgid "100|200"
+msgstr ""
+
+#: framework/widgets/widget_filter_pric_ajax.php:257
+msgid "200|300"
+msgstr ""
+
+#: framework/widgets/widget_filter_pric_ajax.php:258
+msgid "300|400"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:118
+msgid "360 product view"
+msgstr ""
+
+#: framework/function_theme.php:1097
+msgid "404"
+msgstr ""
+
+#: framework_option/config/framework.config.php:999
+msgid "404 Page"
+msgstr ""
+
+#: framework/templates/blog/entry-link.php:26
+#: framework/templates/blog/entry-quote.php:35
+#: framework/templates/blog/home/entry-video.php:62
+#: framework/templates/blog/home/entry-link.php:26
+#: framework/templates/blog/home/entry-gallery.php:57
+#: framework/templates/blog/home/entry-quote.php:35
+#: framework/templates/blog/single/entry-link.php:25
+#: framework/templates/blog/single/entry-quote.php:33
+msgid "<i class=\"fa fa-clock-o\"></i> "
+msgstr ""
+
+#: framework/templates/blog/entry-link.php:28
+#: framework/templates/blog/entry-quote.php:37
+#: framework/templates/blog/home/entry-video.php:64
+#: framework/templates/blog/home/entry-link.php:28
+#: framework/templates/blog/home/entry-gallery.php:59
+#: framework/templates/blog/home/entry-quote.php:37
+#: framework/templates/blog/single/entry-link.php:27
+#: framework/templates/blog/single/entry-quote.php:35
+msgid "<i class=\"fa fa-folder-open\"></i> "
+msgstr ""
+
+#: framework/templates/blog/entry-link.php:29
+#: framework/templates/blog/entry-quote.php:38
+#: framework/templates/blog/home/entry-video.php:65
+#: framework/templates/blog/home/entry-link.php:29
+#: framework/templates/blog/home/entry-gallery.php:60
+#: framework/templates/blog/home/entry-quote.php:38
+#: framework/templates/blog/single/entry-link.php:28
+#: framework/templates/blog/single/entry-quote.php:36
+msgid "<i class=\"fa fa-tags\"></i> "
+msgstr ""
+
+#: framework/templates/blog/entry-link.php:24
+#: framework/templates/blog/entry-quote.php:33
+#: framework/templates/blog/home/entry-video.php:60
+#: framework/templates/blog/home/entry-link.php:24
+#: framework/templates/blog/home/entry-gallery.php:55
+#: framework/templates/blog/home/entry-quote.php:33
+#: framework/templates/blog/single/entry-link.php:23
+#: framework/templates/blog/single/entry-quote.php:31
+msgid "<i class=\"fa fa-thumb-tack\"></i> Sticky"
+msgstr ""
+
+#: framework/templates/blog/entry-link.php:27
+#: framework/templates/blog/entry-quote.php:36
+#: framework/templates/blog/home/entry-video.php:63
+#: framework/templates/blog/home/entry-link.php:27
+#: framework/templates/blog/home/entry-gallery.php:58
+#: framework/templates/blog/home/entry-quote.php:36
+#: framework/templates/blog/single/entry-link.php:26
+#: framework/templates/blog/single/entry-quote.php:34
+msgid "<i class=\"fa fa-user\"></i> "
+msgstr ""
+
+#: comments.php:91
+msgid "<span>Leave A Comment</span>"
+msgstr ""
+
+#: framework/widgets/combo-widgets.php:18
+msgid "[btwg_search] [btwg_cart]"
+msgstr ""
+
+#: framework/widgets/catgory.php:16
+msgid "A list of categories, with slightly tweaked output."
+msgstr ""
+
+#: framework_option/config/framework.config.php:813
+msgid "Add Content title Product Related"
+msgstr ""
+
+#: framework_option/fields/gallery/gallery.php:21
+msgid "Add Gallery"
+msgstr ""
+
+#: framework_option/config/framework.config.php:235
+#: framework_option/config/framework.config.php:242
+#: framework_option/config/framework.config.php:249
+#: framework_option/config/framework.config.php:256
+#: framework_option/config/framework.config.php:263
+#: framework_option/config/framework.config.php:270
+#: framework_option/config/framework.config.php:277
+#: framework_option/config/framework.config.php:815
+#: framework_option/config/framework.config.php:1009
+msgid "Add Html Or Shortcode Here"
+msgstr ""
+
+#: framework_option/functions/actions.php:82
+#: framework_option/fields/icon/icon.php:25
+msgid "Add Icon"
+msgstr ""
+
+#: framework_option/fields/image/image.php:22
+msgid "Add Image"
+msgstr ""
+
+#: framework_option/config/framework.config.php:809
+msgid "Add Link banner"
+msgstr ""
+
+#: framework_option/classes/shortcode.class.php:82
+#: framework_option/classes/shortcode.class.php:90
+#: framework_option/fields/textarea/textarea.php:27
+msgid "Add Shortcode"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:208
+msgid "Add Shortcode for mega menu"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:277
+msgid "Add time count down for product  example: 2018/12/12 "
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:240
+msgid "Add Width Mega Menu "
+msgstr ""
+
+#: framework_option/fields/group/group.php:21
+msgid "Adding"
+msgstr ""
+
+#: framework/function_theme.php:179 woocommerce/wc-template-function.php:603
+#: woocommerce/wc-template-function.php:672
+msgid "All"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:56
+msgid "All Products Loaded."
+msgstr ""
+
+#: framework/widgets/widget_filter_atribute.php:93
+msgid "AND"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:402
+msgid "Apply for Product Layout Metro And Portdolio Metro"
+msgstr ""
+
+#: framework_option/config/framework.config.php:860
+#: framework_option/config/framework.config.php:865
+msgid "Archive Setting"
+msgstr ""
+
+#: framework/function_theme.php:886
+msgid "Archives"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:46
+#: framework/widgets/services_list.php:41
+#: framework/widgets/portfolio_list.php:41
+#: framework/widgets/testimonial-slider.php:41
+msgid "ASC"
+msgstr ""
+
+#: framework/widgets/widget_filter_atribute.php:85
+msgid "Attribute"
+msgstr ""
+
+#: framework/function_theme.php:891
+msgid "Author:"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:81
+msgid "Awaiting product image"
+msgstr ""
+
+#: framework_option/config/framework.config.php:108
+msgid "Background"
+msgstr ""
+
+#: framework_option/config/framework.config.php:191
+msgid "Background Header Verticle"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:45
+#: framework_option/config/framework.config.php:450
+msgid "Background Stiky Header"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:257
+#: framework_option/config/framework.config.php:802
+msgid "Banner Product"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:33
+msgid ""
+"Before proceed to checkout you must add some products to your shopping cart."
+msgstr ""
+
+#: framework/function_theme.php:887
+msgid "Blog"
+msgstr ""
+
+#: framework_option/config/framework.config.php:928
+msgid "Blog Single"
+msgstr ""
+
+#: framework_option/config/framework.config.php:332
+msgid "Body"
+msgstr ""
+
+#: framework_option/config/framework.config.php:420
+msgid "Body Background Color"
+msgstr ""
+
+#: framework_option/config/framework.config.php:426
+msgid "Body Color"
+msgstr ""
+
+#: framework_option/config/framework.config.php:305
+msgid "Body Font Family"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:273
+msgid "Browse Icon"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:290
+msgid "Browse Image"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:152
+msgid "By"
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:123
+#: framework/templates/blog/entry.php:31
+#: framework/templates/blog/entry-ar.php:31
+#: framework/templates/blog/entry2.php:39
+#: framework/templates/blog/entry3.php:22
+#: framework/templates/blog/home/entry.php:33
+#: framework/templates/blog/single/entry.php:31
+msgid "By "
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:385
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/wc-template-function.php:599
+#: framework/widgets/post-list-siderbar.php:18
+#: framework/widgets/services_list.php:48
+#: framework/widgets/testimonial-slider.php:48
+msgid "Categories"
+msgstr ""
+
+#: framework/widgets/catgory.php:17 framework/widgets/catgory.php:23
+msgid "Categories Custom"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:306
+msgid ""
+"Change layout for only this post. You can setup global for all post page "
+"layout"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:45
+#: framework_option/fields/gallery/gallery.php:23
+msgid "Clear"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:273
+msgid "Click to browse icon"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:350
+msgid "Client"
+msgstr ""
+
+#: framework/templates/portfolio/single/layout1.php:35
+#: framework/templates/portfolio/single/layout2.php:35
+msgid "Client:"
+msgstr ""
+
+#: framework/function_theme.php:207
+msgid "Close"
+msgstr ""
+
+#: framework/function_theme.php:270
+msgid "close"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:103
+msgid "Color 1"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:110
+msgid "Color 2"
+msgstr ""
+
+#: framework_option/config/framework.config.php:387
+msgid "Color Scheme"
+msgstr ""
+
+#. Base ID
+#: framework/widgets/combo-widgets.php:6 framework/widgets/combo-widgets.php:13
+msgid "Combo Widgets"
+msgstr ""
+
+#. Name of the template
+msgid "Coming Soon Template"
+msgstr ""
+
+#: comments.php:118
+msgid "Comment"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:34
+#: framework/widgets/services_list.php:29
+#: framework/widgets/portfolio_list.php:29
+#: framework/widgets/testimonial-slider.php:29
+msgid "Comment Count"
+msgstr ""
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. %s: post title
+#: comments.php:18
+msgctxt "comments title"
+msgid "1 Comment"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:22
+#, php-format
+msgctxt "comments title"
+msgid "Comments (%s)"
+msgstr ""
+
+#: woocommerce/wc-template-function.php:416
+msgid "Compare"
+msgstr ""
+
+#: framework_option/classes/options.class.php:125
+msgid "CONFIG"
+msgstr ""
+
+#: framework_option/config/framework.config.php:262
+msgid "Content Footer five"
+msgstr ""
+
+#: framework_option/config/framework.config.php:255
+msgid "Content Footer four"
+msgstr ""
+
+#: framework_option/config/framework.config.php:234
+msgid "Content Footer One"
+msgstr ""
+
+#: framework_option/config/framework.config.php:276
+msgid "Content Footer Seven"
+msgstr ""
+
+#: framework_option/config/framework.config.php:269
+msgid "Content Footer six"
+msgstr ""
+
+#: framework_option/config/framework.config.php:248
+msgid "Content Footer Three"
+msgstr ""
+
+#: framework_option/config/framework.config.php:241
+msgid "Content Footer Two"
+msgstr ""
+
+#: framework_option/config/framework.config.php:183
+msgid "Content Shortcode Right Menunu"
+msgstr ""
+
+#: framework/widgets/widget_filter_pric_ajax.php:252
+msgid "Content:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:168
+msgid "CONTINUE SHOPPING "
+msgstr ""
+
+#: framework_option/fields/backup/backup.php:22
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:195
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:390
+msgid "Custom Size For Image Thumbnail"
+msgstr ""
+
+#: framework/function_theme.php:892
+msgid "Daily:"
+msgstr ""
+
+#: woocommerce/wc-template-function.php:336
+msgid "Dashboard"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:36
+#: framework/widgets/services_list.php:31
+#: framework/widgets/portfolio_list.php:31
+#: framework/widgets/testimonial-slider.php:31
+msgid "Date"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:55
+#: framework/widgets/services_list.php:55
+msgid "Default"
+msgstr ""
+
+#: framework_option/classes/framework.class.php:199
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: framework_option/classes/framework.class.php:180
+msgid "Default options restored."
+msgstr ""
+
+#: framework_option/config/framework.config.php:139
+#: framework_option/config/framework.config.php:146
+#: framework_option/config/framework.config.php:160
+msgid "Defined in pixels. Do not add the 'px' unit."
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:47
+#: framework/widgets/services_list.php:42
+#: framework/widgets/portfolio_list.php:42
+#: framework/widgets/testimonial-slider.php:42
+msgid "DESC"
+msgstr ""
+
+#: woocommerce/wc-ajax-cart-quantity.php:156
+msgid "DESCRIPTION"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:16
+msgid "Description "
+msgstr ""
+
+#: framework_option/fields/sorter/sorter.php:25
+msgid "Disabled Modules"
+msgstr ""
+
+#: framework/widgets/instagram.php:10
+msgid "Display a instagram of your on your site."
+msgstr ""
+
+#: framework/widgets/combo-widgets.php:7
+msgid "Display a list icon: Search, Cart, ..."
+msgstr ""
+
+#: framework/widgets/portfolio_list.php:7
+msgid "Display a list of your portfolios on your site."
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:7
+#: framework/widgets/services_list.php:7
+msgid "Display a list of your posts on your site."
+msgstr ""
+
+#: framework_option/config/framework.config.php:877
+msgid "Display number of portfolio per row"
+msgstr ""
+
+#: framework_option/config/framework.config.php:570
+msgid "Display number of product per row"
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:218
+msgid "Display post date?"
+msgstr ""
+
+#: framework_option/config/framework.config.php:545
+msgid "Display product listing as grid or masonry or metro"
+msgstr ""
+
+#: framework/widgets/testimonial-slider.php:7
+msgid "Display testimonial slider ."
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:224
+msgid "Do not show author?"
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:230
+msgid "Do not show button read more?"
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:227
+msgid "Do not show content?"
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:209
+msgid "Do not show hide_thumbnail?"
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:221
+msgid "Do not show title?"
+msgstr ""
+
+#: framework_option/fields/gallery/gallery.php:22
+msgid "Edit Gallery"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:159 framework/megamenu/mega-menu.php:161
+msgid "Edit Menu Item"
+msgstr ""
+
+#: comments.php:79
+msgid "Email"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:401
+msgid "Enable Big Image"
+msgstr ""
+
+#: framework_option/config/framework.config.php:976
+msgid "Enable Blog Author "
+msgstr ""
+
+#: framework_option/config/framework.config.php:958
+msgid "Enable Blog Meta "
+msgstr ""
+
+#: framework_option/config/framework.config.php:982
+msgid "Enable Blog Post Related "
+msgstr ""
+
+#: framework_option/config/framework.config.php:970
+msgid "Enable Blog Social "
+msgstr ""
+
+#: framework_option/config/framework.config.php:964
+msgid "Enable Blog Tags "
+msgstr ""
+
+#: framework_option/config/framework.config.php:946
+msgid "Enable Blog Thumbnail"
+msgstr ""
+
+#: framework_option/config/framework.config.php:952
+msgid "Enable Blog title"
+msgstr ""
+
+#: framework_option/config/framework.config.php:773
+msgid "Enable Full Width"
+msgstr ""
+
+#: framework_option/config/framework.config.php:584
+#: framework_option/config/framework.config.php:870
+msgid "Enable Full-Width"
+msgstr ""
+
+#: framework_option/config/framework.config.php:36
+msgid "Enable Less Disgn"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:143
+#: framework_option/config/framework.config.php:165
+msgid "Enable Mini Cart"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:165
+#: framework_option/config/framework.config.php:42
+#: framework_option/config/framework.config.php:525
+#: framework_option/config/framework.config.php:728
+#: framework_option/config/framework.config.php:845
+msgid "Enable Page Title"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:282
+#: framework_option/config/framework.config.php:703
+msgid "Enable Products Attribute On Product List"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:149
+#: framework_option/config/framework.config.php:171
+msgid "Enable Search"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:155
+#: framework_option/config/framework.config.php:177
+msgid "Enable Shortcode"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:74
+#: framework_option/config/framework.config.php:283
+msgid "Enable Sticky Footer"
+msgstr ""
+
+#: framework_option/fields/sorter/sorter.php:24
+msgid "Enabled Modules"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:235
+#: framework_option/config/framework.config.php:787
+msgid "Enble sidebar"
+msgstr ""
+
+#: framework/widgets/widget_filter_pric_ajax.php:256
+msgid ""
+"Enter the price by format: min_price|max_price. Divide price list with "
+"linebreaks (Enter). Example:"
+msgstr ""
+
+#: framework/function_theme.php:222 framework/widgets/search-jws.php:25
+msgid "Enter your keywords"
+msgstr ""
+
+#: framework_option/functions/actions.php:32
+#: framework_option/fields/typography/typography.php:107
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: framework_option/fields/backup/backup.php:27
+msgid "Export and Download Backup"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:62
+#: framework/widgets/combo-widgets.php:24
+#: framework/widgets/services_list.php:64
+#: framework/widgets/portfolio_list.php:48 framework/widgets/instagram.php:47
+#: framework/widgets/testimonial-slider.php:53
+msgid "Extra Class"
+msgstr ""
+
+#: framework/widgets/socials.php:96
+msgid "Extra Class:"
+msgstr ""
+
+#: framework/function_theme.php:573
+msgid "Facebook"
+msgstr ""
+
+#: framework_option/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: framework_option/config/framework.config.php:131
+msgid "Favicon Icon"
+msgstr ""
+
+#: framework/widgets/widget_filter_atribute.php:79
+msgid "Filter by"
+msgstr ""
+
+#: framework/woocommerce-function.php:457
+msgid "Filters"
+msgstr ""
+
+#: framework_option/config/framework.config.php:691
+msgid "Flip Product Thumbnail"
+msgstr ""
+
+#: framework_option/config/framework.config.php:68
+msgid "Font Size"
+msgstr ""
+
+#: framework_option/config/framework.config.php:209
+msgid "Footer"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:50
+msgid "Footer Setting"
+msgstr ""
+
+#: framework_option/config/framework.config.php:30
+msgid "General Layout"
+msgstr ""
+
+#: framework_option/config/framework.config.php:835
+#: framework_option/config/framework.config.php:840
+msgid "General Setting"
+msgstr ""
+
+#: framework_option/fields/typography/typography.php:79
+msgid "Google Fonts"
+msgstr ""
+
+#: framework/function_theme.php:575
+msgid "Google+"
+msgstr ""
+
+#: framework_option/config/framework.config.php:339
+msgid "H1"
+msgstr ""
+
+#: framework_option/config/framework.config.php:346
+msgid "H2"
+msgstr ""
+
+#: framework_option/config/framework.config.php:353
+msgid "H3"
+msgstr ""
+
+#: framework_option/config/framework.config.php:360
+msgid "H4"
+msgstr ""
+
+#: framework_option/config/framework.config.php:367
+msgid "H5"
+msgstr ""
+
+#: framework_option/config/framework.config.php:374
+msgid "H6"
+msgstr ""
+
+#: framework/widgets/instagram.php:29
+msgid "Hashtag"
+msgstr ""
+
+#: framework_option/config/framework.config.php:88
+msgid "Header"
+msgstr ""
+
+#: framework_option/config/framework.config.php:445
+msgid "Header Background Color"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:26
+msgid "Header Setting"
+msgstr ""
+
+#: framework_option/config/framework.config.php:432
+msgid "Heading Color"
+msgstr ""
+
+#: framework_option/config/framework.config.php:315
+msgid "Heading Font Family"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:345
+msgid "Height Metro"
+msgstr ""
+
+#: woocommerce/wc-ajax-cart-quantity.php:165
+msgid "HELP TEXT1"
+msgstr ""
+
+#: woocommerce/wc-ajax-cart-quantity.php:172
+msgid "HELP TEXT2"
+msgstr ""
+
+#: framework/function_theme.php:885 framework/function_theme.php:1099
+msgid "Home"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:527
+msgid "Hot"
+msgstr ""
+
+#: framework_option/config/framework.config.php:892
+msgid "How much items per page to show (-1 to show all Portfolio)"
+msgstr ""
+
+#: framework_option/config/framework.config.php:678
+msgid "How much items per page to show (-1 to show all products)"
+msgstr ""
+
+#: framework_option/config/framework.config.php:184
+msgid "HTML, shortcode is allowed"
+msgstr ""
+
+#. URI of the theme
+msgid "http://jws.jwsuperthemes.com"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/jwsthemes"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:37
+#: framework/widgets/services_list.php:32
+#: framework/widgets/portfolio_list.php:32
+#: framework/widgets/testimonial-slider.php:32
+#: framework_option/classes/options.class.php:155
+msgid "ID"
+msgstr ""
+
+#: framework_option/fields/backup/backup.php:21
+msgid "Import a Backup"
+msgstr ""
+
+#: framework_option/classes/shortcode.class.php:108
+msgid "Insert Shortcode"
+msgstr ""
+
+#. Base ID
+#: framework/widgets/instagram.php:9
+msgid "Instagram"
+msgstr ""
+
+#: framework/widgets/instagram.php:15
+msgid "Instagram Feed"
+msgstr ""
+
+#. Author of the theme
+msgid "jwsthemes"
+msgstr ""
+
+#. Name of the theme
+msgid "kloud"
+msgstr ""
+
+#: framework/widgets/product-sort-by.php:13
+msgid "kloud - Product Sort By"
+msgstr ""
+
+#: framework/widgets/widget_filter_atribute.php:29
+msgid "kloud Attributes Filter"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"kloud is a clean responsive Wordpress theme. It is especially designed for "
+"charity, NGO, non-profit organization, donation, church or fundraising "
+"website. The system will automatically collect amount of money that sent to "
+"PayPal and convert to percentage bar for each cause."
+msgstr ""
+
+#: framework/widgets/widget_filter_pric_ajax.php:31
+msgid "kloud Price Filter List"
+msgstr ""
+
+#: framework/function_theme.php:337
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:53
+#: framework/widgets/services_list.php:53
+#: framework_option/config/framework.config.php:94
+#: framework_option/config/framework.config.php:544
+msgid "Layout"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:56
+#: framework/widgets/services_list.php:56
+msgid "Layout 2 - has thumbnail"
+msgstr ""
+
+#: framework/widgets/services_list.php:57
+msgid "Layout 3 - has thumbnai footer"
+msgstr ""
+
+#: framework/widgets/services_list.php:58
+msgid "Layout 4 - has thumbnai Click Show Content"
+msgstr ""
+
+#: framework_option/config/framework.config.php:697
+msgid "Layout Content Inner"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:55
+#: framework_option/config/framework.config.php:215
+msgid "Layout Footer"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:31
+msgid "Layout Header"
+msgstr ""
+
+#: comments.php:92
+#, php-format
+msgid "Leave a reply %s"
+msgstr ""
+
+#: framework/widgets/instagram.php:41
+msgid "Limit"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:262
+#: framework_option/config/framework.config.php:806
+msgid "Link Banner"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:201
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:16
+msgid ""
+"List of your site&#8217;s most recent posts, with clickable title and "
+"thumbnails."
+msgstr ""
+
+#: woocommerce/loop/pagination.php:37
+#: framework_option/config/framework.config.php:600
+msgid "Load More"
+msgstr ""
+
+#: framework_option/functions/actions.php:84
+msgid "Loading..."
+msgstr ""
+
+#: framework/widgets/instagram.php:30
+msgid "Location"
+msgstr ""
+
+#: comments.php:108
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: woocommerce/wc-template-function.php:340
+msgid "Login"
+msgstr ""
+
+#: framework_option/config/framework.config.php:120
+msgid "Logo"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:97
+msgid "Logo Color"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:102
+#: framework_option/config/metabox.config.php:109
+msgid "Logo Color 1"
+msgstr ""
+
+#: framework_option/config/framework.config.php:144
+msgid "Logo Line Height"
+msgstr ""
+
+#: framework_option/config/framework.config.php:137
+msgid "Logo Max Width"
+msgstr ""
+
+#: framework_option/config/framework.config.php:126
+msgid "Logo Text"
+msgstr ""
+
+#: woocommerce/wc-template-function.php:338
+msgid "Logout"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:79
+msgid "Main Color"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:85
+#: framework_option/config/framework.config.php:400
+msgid "Main Color Scheme"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:92
+#: framework_option/config/framework.config.php:407
+msgid "Main Color Scheme 2"
+msgstr ""
+
+#: framework/function_theme.php:17
+msgid "Main Navigation"
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:224
+msgid "Make sure you set a default author for posts without a tille."
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:230
+msgid "Make sure you set a default button for posts without a button."
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:227
+msgid "Make sure you set a default content for posts without a content."
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:209
+msgid "Make sure you set a default thumbnail for posts without a tille."
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:221
+msgid "Make sure you set a default title for posts without a tille."
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:227
+msgid "Mega Dropdown"
+msgstr ""
+
+#: framework/function_theme.php:18
+msgid "Mobile Navigation"
+msgstr ""
+
+#: framework/function_theme.php:893
+msgid "Monthly:"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:157
+msgid "Move down"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:144
+msgid "Move up"
+msgstr ""
+
+#: comments.php:76
+msgid "Name"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:177
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:533
+#: woocommerce/single-product/sale-flash.php:42
+msgid "New"
+msgstr ""
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:33
+#: framework/widgets/post-list-siderbar.php:45
+#: framework/widgets/services_list.php:28
+#: framework/widgets/services_list.php:40
+#: framework/widgets/portfolio_list.php:28
+#: framework/widgets/portfolio_list.php:40
+#: framework/widgets/testimonial-slider.php:28
+#: framework/widgets/testimonial-slider.php:40
+msgid "None"
+msgstr ""
+
+#: framework/function_theme.php:889
+msgid "Not Found"
+msgstr ""
+
+#: content-none.php:2 framework/templates/entry-none.php:2
+msgid "Nothing Found"
+msgstr ""
+
+#: framework/woocommerce-function.php:142
+msgid "Nothing found"
+msgstr ""
+
+#: framework_option/config/framework.config.php:599
+msgid "Number"
+msgstr ""
+
+#: framework_option/config/framework.config.php:569
+msgid "Number Column"
+msgstr ""
+
+#: framework_option/config/framework.config.php:876
+msgid "Number Of Column"
+msgstr ""
+
+#: framework/widgets/portfolio_list.php:21
+msgid "Number of portfolios to show"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:26
+#: framework/widgets/services_list.php:21
+#: framework/widgets/testimonial-slider.php:21
+msgid "Number of posts to show"
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:214
+msgid "Number of posts to show:"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:14
+#: framework_option/fields/switcher/switcher.php:20
+msgid "off"
+msgstr ""
+
+#: framework_option/fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: framework_option/config/framework.config.php:607
+msgid "On / Off Filter Columns"
+msgstr ""
+
+#: framework_option/config/framework.config.php:657
+msgid "On / Off Filter Product"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:190
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: woocommerce/wc-ajax-cart-quantity.php:162
+msgid "Option1:"
+msgstr ""
+
+#: woocommerce/wc-ajax-cart-quantity.php:169
+msgid "Option2:"
+msgstr ""
+
+#: framework/widgets/widget_filter_atribute.php:94
+msgid "OR"
+msgstr ""
+
+#: framework_option/fields/backup/backup.php:28
+msgid "or"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:43
+#: framework/widgets/services_list.php:38
+#: framework/widgets/portfolio_list.php:38
+#: framework/widgets/testimonial-slider.php:38
+msgid "Order"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:31
+#: framework/widgets/services_list.php:26
+#: framework/widgets/portfolio_list.php:26
+#: framework/widgets/testimonial-slider.php:26
+msgid "Order by"
+msgstr ""
+
+#: woocommerce/wc-template-function.php:337
+msgid "Order Tracking"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:371
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: framework_option/config/framework.config.php:793
+msgid "Orther Setting"
+msgstr ""
+
+#: framework_option/config/framework.config.php:61
+msgid "Padding Bottom"
+msgstr ""
+
+#: framework_option/config/framework.config.php:54
+msgid "Padding Top"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:16
+msgid "Page Layout Options"
+msgstr ""
+
+#: framework/function_theme.php:837
+msgid "Page Not Found"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:171
+#: framework_option/config/framework.config.php:48
+#: framework_option/config/framework.config.php:531
+#: framework_option/config/framework.config.php:734
+#: framework_option/config/framework.config.php:851
+msgid "Page Title Background"
+msgstr ""
+
+#: framework/templates/blog/single/entry-link.php:36
+#: framework/templates/blog/single/entry-quote.php:44
+msgid "Pages:"
+msgstr ""
+
+#: framework_option/config/framework.config.php:597
+msgid "Pagination Style"
+msgstr ""
+
+#: framework_option/config/framework.config.php:677
+#: framework_option/config/framework.config.php:891
+msgid "Per Page"
+msgstr ""
+
+#: woocommerce/content-product-image.php:41
+msgid "Placeholder"
+msgstr ""
+
+#: framework_option/fields/backup/backup.php:30
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: woocommerce/wc-ajax-cart-quantity.php:92
+#: woocommerce/wc-ajax-cart-quantity.php:93
+msgid "Please enter a number."
+msgstr ""
+
+#: woocommerce/wc-ajax-cart-quantity.php:94
+msgid "Please enter a value greater than or equal to 1."
+msgstr ""
+
+#: framework_option/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: framework_option/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: framework/widgets/instagram.php:21
+msgid ""
+"Please, enter <a href='http://instagram.pixelunion.net/' title'What is it?'>"
+"access token</a> in this element, demo: 2713900256.1677ed0."
+"b25664f30f2c4ebe8af325eec77e9cf0."
+msgstr ""
+
+#: framework/widgets/instagram.php:28
+msgid "Popular"
+msgstr ""
+
+#: framework/function_theme.php:890
+msgid "Portfolio"
+msgstr ""
+
+#: framework_option/config/framework.config.php:828
+msgid "portfolio"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:322
+msgid "Portfolio Detail Layout Options"
+msgstr ""
+
+#. Base ID
+#: framework/widgets/portfolio_list.php:6
+#: framework/widgets/portfolio_list.php:12
+msgid "portfolio List"
+msgstr ""
+
+#. Name of the template
+msgid "Portfolio Page"
+msgstr ""
+
+#: comments.php:94
+msgid "post comment"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:294
+msgid "Post Detail Layout Options"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:305
+#: framework_option/config/framework.config.php:934
+msgid "Post Detail Style"
+msgstr ""
+
+#. Base ID
+#: framework/widgets/post-list-siderbar.php:6
+#: framework/widgets/post-list-siderbar.php:12
+#: framework/widgets/services_list.php:12
+#: framework/widgets/testimonial-slider.php:12
+msgid "Post List"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:84
+#: framework_option/config/framework.config.php:399
+msgid "Primary Color"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:91
+#: framework_option/config/framework.config.php:406
+msgid "Primary Color 2"
+msgstr ""
+
+#: framework_option/config/framework.config.php:747
+msgid "Product Detail Layout"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:200
+msgid "Product Detail Layout Options"
+msgstr ""
+
+#: framework_option/config/framework.config.php:712
+msgid "Product Detail Setting"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:211
+msgid "Product Detail Style"
+msgstr ""
+
+#: framework_option/config/framework.config.php:514
+msgid "Product Listing"
+msgstr ""
+
+#: framework_option/config/framework.config.php:717
+msgid "Product Shop Detail Setting"
+msgstr ""
+
+#: framework_option/config/framework.config.php:509
+msgid "Product Shop Setting"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:360
+msgid "Project Description"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:355
+msgid "Project Type"
+msgstr ""
+
+#: framework/templates/portfolio/single/layout1.php:40
+#: framework/templates/portfolio/single/layout2.php:40
+msgid "Project Type:"
+msgstr ""
+
+#: framework/widgets/widget_filter_atribute.php:91
+msgid "Query type"
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:142
+#: framework/templates/search/entry.php:19
+msgid "Read More"
+msgstr ""
+
+#. Base ID
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:15
+msgid "Recent Posts With Thumbnails"
+msgstr ""
+
+#: woocommerce/single-product/related.php:60
+msgid "Related product"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:384
+#: framework_option/fields/group/group.php:43
+#: framework_option/fields/group/group.php:75
+msgid "Remove"
+msgstr ""
+
+#: framework_option/fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr ""
+
+#: framework_option/classes/framework.class.php:371
+#: framework_option/fields/backup/backup.php:29
+msgid "Reset All Options"
+msgstr ""
+
+#: framework_option/classes/framework.class.php:368
+msgid "Restore"
+msgstr ""
+
+#: framework/woocommerce-function.php:472
+msgid "results"
+msgstr ""
+
+#: framework_option/config/framework.config.php:158
+msgid "Right Header Height"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:530
+msgid "Sale"
+msgstr ""
+
+#: framework_option/classes/framework.class.php:367
+msgid "Save"
+msgstr ""
+
+#: woocommerce/wc-ajax-cart-quantity.php:177
+msgid "Save Changes"
+msgstr ""
+
+#: framework_option/classes/framework.class.php:367
+msgid "Saving..."
+msgstr ""
+
+#: framework/function_theme.php:1101
+msgid "Search"
+msgstr ""
+
+#: framework/function_theme.php:193
+msgid "Search . . ."
+msgstr ""
+
+#: framework_option/functions/actions.php:83
+msgid "Search a Icon..."
+msgstr ""
+
+#. Base ID
+#: framework/widgets/search-jws.php:6
+msgid "Search Ajax"
+msgstr ""
+
+#: framework/function_theme.php:835
+msgid "Search Results"
+msgstr ""
+
+#: framework/function_theme.php:888
+msgid "Search results for"
+msgstr ""
+
+#. Base ID
+#: framework/widgets/search-sidebar.php:6
+msgid "Search Sidebar"
+msgstr ""
+
+#: framework/widgets/search-sidebar.php:7 framework/widgets/search-jws.php:7
+msgid "Search Widget"
+msgstr ""
+
+#: woocommerce/wc-template-function.php:702
+msgid "See"
+msgstr ""
+
+#: framework/woocommerce-function.php:50
+msgid "Select"
+msgstr ""
+
+#: framework_option/classes/shortcode.class.php:92
+msgid "Select a shortcode"
+msgstr ""
+
+#: functions.php:92
+msgid "Select a sidebar"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:243
+#: framework_option/config/framework.config.php:671
+#: framework_option/config/framework.config.php:685
+#: framework_option/config/framework.config.php:989
+msgid "Select Sidebar"
+msgstr ""
+
+#. Base ID
+#: framework/widgets/services_list.php:6
+msgid "Services List"
+msgstr ""
+
+#: woocommerce/wc-ajax-cart-quantity.php:129
+msgid "Settings"
+msgstr ""
+
+#: framework_option/classes/framework.class.php:365
+msgid "Settings saved."
+msgstr ""
+
+#: framework/function_theme.php:583
+msgid "Share:"
+msgstr ""
+
+#: framework/function_theme.php:1093
+msgid "Shop"
+msgstr ""
+
+#: framework/function_theme.php:1095
+msgid "Shop Single"
+msgstr ""
+
+#: framework/widgets/combo-widgets.php:19
+msgid "Shortcode"
+msgstr ""
+
+#: framework_option/classes/framework.class.php:375
+msgid "show all options"
+msgstr ""
+
+#: framework/widgets/instagram.php:26
+msgid "Show Photos From"
+msgstr ""
+
+#: framework/widgets/catgory.php:69
+msgid "Show post counts"
+msgstr ""
+
+#: framework/woocommerce-function.php:472
+msgid "Showing"
+msgstr ""
+
+#: framework/woocommerce-function.php:518
+msgid "Showing "
+msgstr ""
+
+#: framework/widgets/widget_filter_atribute.php:27
+msgid ""
+"Shows a custom attribute in a widget which lets you narrow down the list of "
+"products when viewing product categories."
+msgstr ""
+
+#: framework/widgets/widget_filter_pric_ajax.php:28
+msgid ""
+"Shows a price filter list in a widget which lets you narrow down the list of "
+"shown products when viewing product categories."
+msgstr ""
+
+#: functions.php:52
+msgid "Sidebar Blog"
+msgstr ""
+
+#: functions.php:44
+msgid "Sidebar Filter Shop Left And Right"
+msgstr ""
+
+#: functions.php:36
+msgid "Sidebar Filter Shop Top"
+msgstr ""
+
+#: framework_option/config/framework.config.php:557
+msgid "Sidebar Or Non Sidebar"
+msgstr ""
+
+#: functions.php:60
+msgid "Sidebar Remove Filter"
+msgstr ""
+
+#: functions.php:68
+msgid "Sidebar Shop Detail"
+msgstr ""
+
+#: woocommerce/wc-template-function.php:341
+msgid "Sign up"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:371
+msgid "Single Layout"
+msgstr ""
+
+#: framework_option/config/framework.config.php:900
+#: framework_option/config/framework.config.php:905
+msgid "Single Setting"
+msgstr ""
+
+#: framework_option/config/framework.config.php:797
+msgid "Size Guide Default"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:252
+msgid "Size Guide Image"
+msgstr ""
+
+#: framework/widgets/socials.php:85
+msgid "Social Icon:"
+msgstr ""
+
+#: framework/widgets/socials.php:90
+msgid "Social Link:"
+msgstr ""
+
+#: framework/widgets/socials.php:7
+msgid "Social Widget"
+msgstr ""
+
+#. Base ID
+#: framework/widgets/socials.php:6
+msgid "Socials"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:30
+msgid "Sold Out"
+msgstr ""
+
+#: content-none.php:3 framework/templates/entry-none.php:3
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: framework/widgets/product-sort-by.php:16
+msgid "Sort Product By"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:226
+msgid "Standard Dropdown"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:376
+#: framework_option/config/framework.config.php:910
+msgid "Style"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:131
+#: framework_option/config/metabox.config.php:136
+#: framework_option/config/framework.config.php:478
+#: framework_option/config/framework.config.php:483
+msgid "Sub Menu Color"
+msgstr ""
+
+#: framework/function_theme.php:340
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: framework/function_theme.php:338
+msgctxt "submit button"
+msgid "Search for products"
+msgstr ""
+
+#: framework_option/classes/framework.class.php:175
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: framework/widgets/instagram.php:36
+msgid "TagName/ LocationId/ UserId"
+msgstr ""
+
+#: framework/templates/portfolio/single/layout1.php:46
+#: framework/templates/portfolio/single/layout2.php:46
+msgid "Tags: "
+msgstr ""
+
+#. Base ID
+#: framework/widgets/testimonial-slider.php:6
+msgid "Testimonial "
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:210
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: framework/function_theme.php:841
+msgid "The Latest Posts"
+msgstr ""
+
+#: framework_option/config/framework.config.php:8
+msgid "Theme Options"
+msgstr ""
+
+#: framework_option/functions/helpers.php:48
+msgid "This field class is not available!"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: framework_option/config/framework.config.php:760
+msgid "Thumbnail Gallery Position"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:222
+msgid "Thumbnail Position"
+msgstr ""
+
+#: framework/widgets/post-list-siderbar.php:13
+#: framework/widgets/post-list-siderbar.php:35
+#: framework/widgets/combo-widgets.php:14
+#: framework/widgets/services_list.php:13
+#: framework/widgets/services_list.php:30
+#: framework/widgets/portfolio_list.php:13
+#: framework/widgets/portfolio_list.php:30 framework/widgets/instagram.php:16
+#: framework/widgets/testimonial-slider.php:13
+#: framework/widgets/testimonial-slider.php:30
+#: framework/widgets/product-sort-by.php:71
+#: framework/widgets/widget_filter_atribute.php:80
+msgid "Title"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:183
+msgid "Title Attribute"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:160
+msgid "Title Bar Cutom"
+msgstr ""
+
+#: framework/widgets/recent-posts-widget-with-thumbnails.php:211
+#: framework/widgets/catgory.php:65 framework/widgets/socials.php:78
+#: framework/widgets/widget_filter_pric_ajax.php:248
+msgid "Title:"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:115
+#: framework_option/config/metabox.config.php:120
+#: framework_option/config/framework.config.php:462
+#: framework_option/config/framework.config.php:467
+msgid "Top Menu Color"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:126
+#: framework_option/config/framework.config.php:473
+msgid "Top Menu Hover Color"
+msgstr ""
+
+#: framework_option/config/framework.config.php:619
+msgid "Turn On 2 columns"
+msgstr ""
+
+#: framework_option/config/framework.config.php:626
+msgid "Turn On 3 columns"
+msgstr ""
+
+#: framework_option/config/framework.config.php:633
+msgid "Turn On 4 columns"
+msgstr ""
+
+#: framework_option/config/framework.config.php:640
+msgid "Turn On 5 columns"
+msgstr ""
+
+#: framework_option/config/framework.config.php:647
+msgid "Turn On 6 columns"
+msgstr ""
+
+#: framework/function_theme.php:574
+msgid "Twitter"
+msgstr ""
+
+#: framework_option/config/framework.config.php:293
+msgid "Typography"
+msgstr ""
+
+#: framework_option/config/framework.config.php:121
+#: framework_option/config/framework.config.php:132
+#: framework_option/fields/background/background.php:34
+#: framework_option/fields/background/background.php:35
+#: framework_option/fields/upload/upload.php:23
+#: framework_option/fields/upload/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: framework/megamenu/mega-menu.php:170
+msgid "URL"
+msgstr ""
+
+#: framework_option/classes/options.class.php:131
+#: framework_option/classes/options.class.php:151
+msgid "USAGE"
+msgstr ""
+
+#: framework_option/fields/background/background.php:36
+#: framework_option/fields/upload/upload.php:25
+msgid "Use Image"
+msgstr ""
+
+#: framework/widgets/instagram.php:31
+msgid "User ID"
+msgstr ""
+
+#: framework_option/classes/options.class.php:137
+msgid "VALUE"
+msgstr ""
+
+#: framework_option/config/metabox.config.php:249
+msgid "Video Thumbnail Link"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:98
+msgid "Watch Video"
+msgstr ""
+
+#: framework_option/fields/typography/typography.php:73
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: comments.php:81
+msgid "Website"
+msgstr ""
+
+#: woocommerce/wc-template-function.php:750
+msgid "What my size?"
+msgstr ""
+
+#: framework_option/config/framework.config.php:500
+msgid "WooCommerce"
+msgstr ""
+
+#: framework/function_theme.php:894
+msgid "Yearly:"
+msgstr ""
+
+#: framework_option/classes/options.class.php:227
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: framework/function_theme.php:878
+msgid "You are here: "
+msgstr ""
+
+#: framework_option/config/framework.config.php:1025
+msgid "You can save your current options. Download a Backup and Import."
+msgstr ""
+
+#: comments.php:102
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: framework/headers/header-1.php:103 framework/headers/header-2.php:85
+msgid "YOUR CART"
+msgstr ""
+
+#: framework/function_theme.php:407
+msgid "Your comment is awaiting moderation."
+msgstr ""

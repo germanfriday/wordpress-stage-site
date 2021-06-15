@@ -1,0 +1,436 @@
+@import "mixins";
+
+.admin-bar .navigation.sticky.sticky-moved {
+	top: 32px;
+	@media screen and (max-width: 782px) {top: 46px;}
+}
+
+.container-fluid {overflow-x: hidden;}
+.overflow-visible {overflow: visible;}
+
+.parallax {
+	.transition(~'none !important');
+}
+
+.main-slider-big .item {height: 100vh;}
+
+.content, .sidebar {
+	margin-bottom: 100px;
+	@media @xs {margin-bottom: 60px;}
+}
+
+.section-header .content,
+.section-header-blog .content,
+.section-presentation-page .content {
+	margin-bottom: 0;
+}
+
+@media @xs {
+	.page-template-default .page-wrapper,
+	.error404 .page-wrapper,
+	.search .page-wrapper,
+	.single .page-wrapper {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+}
+
+#swipebox-prev,
+#swipebox-next,
+#swipebox-close {
+	font-family: 'FontAwesome';
+
+	&:before {content: '\f00d';}
+}
+
+#swipebox-prev:before {content: '\f053';}
+#swipebox-next:before {content: '\f054';}
+
+.article.card .content {margin-bottom: 0;}
+
+.card-blog {
+	.circle-black {margin-top: -10px;}
+	.post-slider {margin-bottom: 0;}
+}
+
+a.post-overlay-link {
+	display: block;
+	color: @color-gray;
+	margin: 0 25px;
+	&:hover, &:active {color: @color-base;}
+
+	.inner {position: relative;}
+
+	blockquote {
+		padding: 20px 0 0 30px;
+		margin: 0;
+		font-size: 14px;
+		border-left: none;
+	}
+
+	i {
+		position: absolute;
+		top: 20px;
+		left: 0;
+		font-size: 20px;
+	}
+}
+
+.custom-checkbox,
+.custom-radio {
+	margin-bottom: 20px;
+
+	input[type='checkbox'] {
+		.appearance(checkbox);
+	}
+
+	input[type='radio'] {
+		.appearance(radio);
+	}
+
+	label {
+		font-weight: 400;
+		vertical-align: middle;
+	}
+}
+
+.select-field {
+	display: block;
+	width: 100%;
+	height: 36px;
+	padding: 0 1em;
+	margin-bottom: 30px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #353535;
+	line-height: normal;
+	letter-spacing: 0;
+	background-color: transparent;
+	border: 1px solid #eaeaea;
+	border-radius: 0;
+	.box-shadow(none);
+
+	&:hover, &:active, &:focus {outline: none;}
+}
+
+.card-price {
+	&.card-black {
+		.title-header,
+		.subtitle-header {
+			color: #fff;
+		}
+	}
+}
+
+.thumbnail-slider:before {
+	bottom: 0;
+	height: 5px;
+}
+
+.form-search-header .btn {
+	margin: 0;
+	border-width: 1px;
+}
+
+@media @xs {
+	.space-sm {height: 10px !important;}
+	.space-md {height: 20px !important;}
+	.space-lg {height: 30px !important;}
+
+	.section-height-lg {min-height: 320px;}
+
+	.footer .widget {margin-bottom: 25px;}
+
+	.fw-testimonials div.description p,
+	.fw-service div.description p,
+	.fw-heading div.description p,
+	div.description {
+		font-size: 14px;
+	}
+
+	.section-our-clients-freebie .nav-text,
+	.section-our-clients .nav-text {
+		margin-top: 0;
+	}
+
+	.info-pricing .text-description p,
+	.section-faq .text-description p {
+		font-size: 14px;
+	}
+
+    .footer .row .info .title {
+	    text-align: left !important;
+    }
+
+	footer .row .info ul {
+		text-align: left;
+	}
+
+	.footer-social .btn {margin: 0;}
+	.info-icon {margin-bottom: 30px;}
+	.fly-team-member {margin-bottom: 0;}
+	.info-pricing .icon {margin-top: 4px;}
+	.portfolio-item h3 {margin: 5px 0;}
+	.card-blog .content {padding: 15px 15px 25px;}
+	a.post-overlay-link {margin: 0 15px;}
+	.section-related-articles .container-wrap {padding: 0 15px;}
+}
+
+.postlist-alternate {
+	.card-blog .content {padding: 0 15px;}
+
+	.article {
+		margin-bottom: 80px;
+		@media @xs {margin-bottom: 40px;}
+	}
+}
+
+.fly-team-member .avatar {
+	.size(106px);
+	overflow: hidden;
+}
+
+@media (max-width: 768px) {
+	.custom-space {
+		height: 100px !important;
+	}
+}
+
+a:hover, a:focus, a:active {outline: none;}
+
+.portfolio-items {margin: 0;}
+.container-fluid {overflow: hidden;}
+
+.navigation {padding-bottom: 0;}
+
+.nav-menu {
+	padding: 0;
+	margin: 0 0 -3px;
+}
+
+@media @sm {
+	.navigation .search,
+	.navigation .navigation-link,
+	.navigation .navigation-full-link {
+		line-height: 64px;
+	}
+
+	.navigation .logo {
+		margin-top: 9px;
+	}
+}
+
+@media @xs {
+	.navigation .search,
+	.navigation .navigation-full-link {
+		line-height: 58px;
+	}
+
+	.navigation .logo {
+		margin-top: 8px;
+	}
+}
+
+.widget_calendar {
+	table, th, td {
+		border: none;
+	}
+}
+
+.mc4wp-form-fields {
+	text-align: center;
+
+	p {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 5px;
+	}
+
+	input[type='email'] {
+		display: block;
+		width: 200px;
+		height: 40px;
+		border: 1px solid #ddd;
+		border-radius: 2px;
+		padding: 0 10px;
+		.transition();
+
+		&:focus {border-color: #aaa;}
+		@media @xxs {margin-bottom: 10px;}
+	}
+
+	input[type='submit'] {
+		display: block;
+		height: 40px;
+		outline: none;
+		vertical-align: top;
+		border: none;
+		border-radius: @button-border-radius;
+		background-color: @button-color;
+		font-family: @button-font-family;
+		font-size: @button-font-size;
+		font-weight: @button-font-weight;
+		color: @button-color2;
+		text-transform: uppercase;
+		white-space: nowrap;
+		letter-spacing: @button-letter-spacing;
+		padding: 0 @button-height/2;
+		opacity: 1;
+		.transition();
+
+		&:focus {
+			color: @button-color2;
+			background-color: @button-color;
+		}
+
+		&:hover, &:active {
+			color: @button-color2;
+			background-color: darken(@button-color, 4%);
+		}
+	}
+}
+
+.fly-content {
+	padding: 0 15px;
+}
+
+.search,
+.error404 {
+	.page-wrapper {margin-bottom: 60px;}
+}
+
+.fly-form-contact .fw-row {
+	.clearfix();
+}
+
+.footer-social {margin-top: -2px !important;}
+
+.margin-left-10 {margin-left: 10px;}
+.margin-left-20 {margin-left: 20px;}
+.margin-right-10 {margin-right: 10px;}
+.margin-right-20 {margin-right: 20px;}
+
+.equal-height {
+	@media @md {overflow: hidden;}
+
+	.row {
+		.display-flex();
+		@media @xs {display: block !important;}
+	}
+
+	.full-image {
+		.fly-col-inner {
+			height: 100%;
+			@media @xs {margin-left: 0 !important;}
+		}
+
+		img {
+			max-width: none;
+			height: 100%;
+			position: absolute;
+
+			@media @xs {
+				max-width: 100%;
+				height: auto;
+				position: static;
+			}
+		}
+	}
+}
+
+.background-cover {
+	&, & > * {
+		.background-size();
+	}
+
+	@media @sm {
+		.custom-space {height: 500px !important;}
+	}
+}
+
+.section-our-clients-freebie .tab-content,
+.section-our-clients .tab-content {
+	min-height: 0;
+}
+
+.margin-100 .fly-col-inner {
+	margin: 100px;
+	@media @md {margin: 50px;}
+	@media @sm {margin: 30px;}
+	@media @xs {margin: 15px;}
+}
+
+@media @xs {
+	.fw-special-title {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+/* =========================================================================
+   Ken Burns Effect on Slider Images
+ =========================================================================== */
+
+.main-slider {
+	.zoom_effect {
+		.image {
+			.transition(transform 44s linear);
+			.transform-origin(80% 20%);
+			background-position: center top !important;
+			background-attachment: scroll !important;
+		}
+
+		&.ken-burns .image {
+			.transform(scale(1.4));
+		}
+	}
+}
+
+/* =========================================================================
+   mc4wp Custom Form
+ =========================================================================== */
+
+.form-light {
+	.mc4wp-form-fields {
+		input[type='email'] {
+			color: @color-white;
+			border-color: @color-white;
+			.placeholder(@placeholder-font-color: @color-white);
+		}
+
+		input[type='submit'] {
+			background-color: @color-black;
+			color: @color-white;
+			&:hover, &:active {background-color: lighten(@color-black, 15%);}
+		}
+	}
+}
+
+/* =========================================================================
+   Navigation Menu
+ =========================================================================== */
+
+.fly-nav-menu-message {
+	float: right;
+	max-width: 80%;
+	margin: 39px 0 0;
+	padding-left: 20px;
+	font-size: 14px;
+	color: @color-white;
+	line-height: 1.2;
+	@media @sm {margin-top: 24px;}
+	@media @xs {display: none;}
+
+	.static &,
+	.sticky & {
+		color: @color-dark;
+	}
+
+	a {color: @color-base;}
+}
+
+@media @xs {
+	html #wpadminbar {
+		top: -46px;
+	}
+}

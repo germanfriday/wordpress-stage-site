@@ -1,0 +1,1 @@
+<?php //airtheme_interface_blog_show_meta('tag', 'single'); ?>

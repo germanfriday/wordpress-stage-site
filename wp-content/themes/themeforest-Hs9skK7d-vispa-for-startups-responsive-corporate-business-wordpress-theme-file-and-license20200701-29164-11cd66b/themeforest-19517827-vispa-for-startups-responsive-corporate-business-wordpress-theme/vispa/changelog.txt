@@ -1,0 +1,23 @@
+ ----- Vispa Changelog -----
+
+ 2019.03.27 - version 1.0.3
+ - minor fix for section bg image
+    vispa/framework-customizations/extensions/shortcodes/shortcodes/section/views/view.php
+    vispa/style.css
+ - minor fix for PHP 7.2
+    vispa/theme-includes/init.php
+
+ 2018.02.15 - version 1.0.2
+ - mobile menu fix
+	vispa/assets/js-original/general.js
+	vispa/assets/js/general.js
+ - iPhone5 slider fix
+	vispa/style.css
+ - minor fix for portfolio details page when is created with Visual Page Builder
+	vispa/style.css
+
+ 2017.03.27 - version 1.0.1
+ - minor css fixes
+
+ 2016.12.26 - version 1.0
+ - First release

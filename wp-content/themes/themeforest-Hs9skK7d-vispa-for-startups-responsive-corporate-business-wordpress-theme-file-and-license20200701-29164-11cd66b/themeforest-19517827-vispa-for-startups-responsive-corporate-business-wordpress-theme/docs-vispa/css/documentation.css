@@ -1,0 +1,88 @@
+/*   
+Template Name: documentation
+Version: 1.0
+Author: KL-Webmedia
+*/
+a{
+    color: #0084b4;
+}
+
+
+.navbar > .container .navbar-brand img,
+.navbar > .container-fluid .navbar-brand img {
+    position: relative;
+    top: -13px;
+}
+.bs-docs-nav .navbar-brand, .bs-docs-nav .navbar-nav > li > a {
+    color: #0084b4;
+}
+.back-to-top:hover {
+    color: #0084b4;
+}
+.bs-docs-header img {
+    height: 164px; 
+    width: auto; 
+    position: absolute; 
+    right: 0; 
+    top: -30px; 
+}
+.bs-docs-nav .navbar-nav > li > a:hover,
+.bs-docs-nav .navbar-nav > .active > a,
+.bs-docs-nav .navbar-nav > .active > a:hover {
+    color: #f97307;
+}
+.bs-docs-masthead, 
+.bs-docs-header {
+    background: #0084b4;
+    color: #fff;
+}
+.bs-docs-sidebar .nav > .active > a,
+.bs-docs-sidebar .nav > .active:hover > a,
+.bs-docs-sidebar .nav > .active:focus > a,
+.bs-docs-sidebar .nav > li > a:hover,
+.bs-docs-sidebar .nav > li > a:focus {
+    border-left-color: #f97307;
+    color: #f97307;
+    outline: 0;
+}
+.bs-docs-sidebar .nav > li > a:hover,
+.bs-docs-sidebar .nav > li > a:focus {
+    border-left-color: #0084b4;
+    color: #0084b4;
+}
+
+figure {
+    margin:0 0 10px;
+    text-align: center;
+}
+figure .thumbnail {
+    display: inline-block;
+    margin-bottom: 0;
+}
+figure figcaption {
+    font-size: 13px;
+    color: #999;
+}
+
+h3 .small {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.bs-callout {
+    padding: 10px;
+}
+
+.icon-presentation {
+    margin-bottom: 15px; 
+    text-align: center;
+}
+.icon-presentation div[class^="col-"] {
+    padding-top: 12px; padding-bottom: 10px;
+}
+.icon-presentation i {
+    font-size: 30px;
+}
+.icon-presentation hr {
+    margin: 2px 0 8px;
+}
